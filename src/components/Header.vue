@@ -8,11 +8,11 @@
       <div class="fixed inset-0 translate-x-full motion-safe:transition-transform motion-safe:duration-1000"
     :class="['bg-Noir  text-white', menuOuvert ? 'translate-x-0' : '',]">
     <div class="flex justify-center items-center">
-      <ul class="sm:flex " @click="menuOuvert = !menuOuvert ">
+      <ul class=" " @click="menuOuvert = !menuOuvert ">
   
         <div class="flex justify-center mt-10 gap-8">
           <router-link to="/">
-            <h2 class="font-anton flex content-end text-white text-[79px]">ACCUEIL</h2>
+            <h2 class="font-anton flex content-end text-white text-[79px] lg:text-[86px]">ACCUEIL</h2>
           </router-link>
           <button class="relative flex content-start z-50 mt-5" aria-controls="menu" :aria-expanded="menuOuvert" 
               :class="[menuOuvert ? '' : 'hidden',]">
@@ -25,7 +25,7 @@
           <div class="mt-10  z-30">
             <img class="w-max absolute" src="../../public/TraitBleu.jpg" alt=""/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 font-anton text-white text-[65px]">MES PROJETS</p>
+                <p class="ml-5 mt-10 font-anton text-white text-[65px] lg:text-[86px]">MES PROJETS</p>
           </div> 
         </div>
       </router-link>
@@ -34,7 +34,7 @@
           <div class="mt-10  z-30 flex flex-col items-end">
             <img class="w-max absolute" src="../../public/TraitSaumon.jpg" alt=""/>
             <div class="flex relative">
-                <p class="mr-5 mt-10 font-anton text-white text-[65px]">ME CONNAITRE</p>
+                <p class="mr-5 mt-10 font-anton text-white text-[65px] lg:text-[86px]">ME CONNAITRE</p>
           </div> 
         </div>
       </router-link>
@@ -43,12 +43,10 @@
           <div class="mt-10  z-30 ">
             <img class="w-max absolute" src="../../public/TraitViolet2.jpg" alt=""/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 font-anton text-white text-[65px]">LÉGAL</p>
+                <p class="ml-5 mt-10 font-anton text-white text-[65px] lg:text-[86px]">LÉGAL</p>
           </div> 
         </div>
       </router-link>
-
-
 
       </ul>
     </div>

@@ -1,31 +1,65 @@
 <template>
-      <div class="flex justify-around">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 bg-no-repeat text-rose_pastel font-anton text-[75px] ">Julie Albini</h2>
-        <Header/>
+      <div class="flex justify-between items-center">
+        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton text-[75px] md:text-[100px] 
+        lg:text-[125px] xl:text-[140px]">Julie Albini</h2>
+        <div class="xl:hidden">
+          <Header />
+        </div>
+        <div class="hidden xl:block">
+          <HeaderOrdi/>
+        </div>
+      </div>
+      
+
+
+    <div class="flex justify-center items-center  lg:gap-28 md:gap-10">
+        <div class="md:hidden">
+          <div class="justify center m-5 -gap-36">
+            <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px] ">ME</p>
+            <p class=" font-anton -mb-16  text-Turquoise_pastel text-[120px] ">DÉ</p>
+            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">CO</p>
+            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">UV</p>
+            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[100px] ">RIR</p>
+          </div>
+        </div>
+
+        <div class="hidden md:block">
+          <p class=" font-anton -mb-12 md:mb-10 text-Turquoise_pastel text-[120px] 
+          lg:text-[160px] xl:text-[180px] ">ME</p>
+          <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px]  
+          lg:text-[160px] xl:text-[180px]">DÉCOUVRIR</p>
+        </div>
+        
+        <div class="mt-10">
+        <img class="w-full absolute" src="../../public/fond.jpg" alt=""/>
+        <div class="flex flex-col items-center relative">
+            <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px] ">PROF</p>
+          <p class=" font-anton -mb-14 lg:-mb-16  text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">FESS</p>
+          <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">IONN</p>
+          <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">ELLE</p>
+          <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[80px] md:text-[90px]
+          lg:text-[100px] xl:text-[110px]">MENT</p>
+          </div> 
       </div>
 
-
-    <div class="flex ">
-        
-        <div class="justify center m-5 -gap-36">
-          <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px] ">ME</p>
-          <p class=" font-anton -mb-16  text-Turquoise_pastel text-[120px] ">DÉ</p>
-          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">CO</p>
-          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">UV</p>
-          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[100px] ">RIR</p>
-        </div>
         <!--
-        <div>
-          <p class=" font-anton text-Turquoise_pastel text-[120px] ">MEDÉCOUVRIR</p>
-        </div>
-      -->
         <div class=" flex flex-col items-center justify-center bg-Rose bg-contain bg-no-repeat font-anton ">
-          <p class=" font-anton -mb-14 text-Noir text-[100px] ">PROF</p>
-          <p class=" font-anton -mb-14  text-Noir text-[100px] ">FESS</p>
-          <p class=" font-anton -mb-14 text-Noir text-[100px] ">IONN</p>
-          <p class=" font-anton -mb-14 text-Noir text-[100px] ">ELLE</p>
-          <p class=" font-anton -mb-14 text-Noir text-[80px] ">MENT</p>
+          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px] ">PROF</p>
+          <p class=" font-anton -mb-14  text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">FESS</p>
+          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">IONN</p>
+          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
+          lg:text-[120px] xl:text-[130px]">ELLE</p>
+          <p class=" font-anton -mb-14 text-Noir text-[80px] md:text-[90px]
+          lg:text-[100px] xl:text-[110px]">MENT</p>
         </div>
+        -->
       </div>
 
         <div class="mt-10">
@@ -64,6 +98,7 @@
 
 <script>
 import Header from "../components/Header.vue";
+import HeaderOrdi from "../components/HeaderOrdi.vue";
 
 export default {
   data: function () {
@@ -73,6 +108,7 @@ export default {
   },
   components: {
     Header,
+    HeaderOrdi
   }
 }
 
