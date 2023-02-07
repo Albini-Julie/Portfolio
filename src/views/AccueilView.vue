@@ -47,40 +47,56 @@
       </div>
       </div>
 
-        <div class="mt-52 md:flex justify-center">
-          <div class="flex justify-center">
-            <img class=" w-full absolute  md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
+        <div class="mt-52 md:flex justify-center items-end">
+          <div class="lg:flex">
+            <div class="lg:w-1/2">
+              <img class="hidden lg:block" src="../../public/LigneRose.jpg" alt="ligne de décoration"/>
+            </div >
+            <div class="">
+              <img class=" w-full absolute  md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
+            </div>
           </div>
-        <div class="flex justify-end content-end  md:static relative">
-          <div class="w-3/4 md:w-content p-3  bg-rose_pastel bg-opacity-60">
-            <p class="font-poppins text-white text-[25px]">Bonjour !</p>
-            <p class="font-poppins text-white">Découvrez moi professionnellement a travers les projets que j’ai réalisés !</p>
-            <p class=" flex justify-end font-poppins text-white">Julie Albini</p>
-          </div> 
-        </div>
-      </div>
+          <div class="">
+            <div class="md:flex justify-center">
+              <img class="hidden md:block" src="../../public/LigneVioletGrande.jpg" alt="ligne décorative"/>
+            </div>
+            <div class="lg:flex items-center">
+              <div class="flex justify-end content-end  md:static relative">
+                  <div class="w-3/4 h-max md:w-content p-3  bg-violet_pastel bg-opacity-50">
+                    <p class="font-poppins text-white text-[25px]">Bonjour !</p>
+                    <p class="font-poppins text-white">Découvrez moi professionnellement a travers les projets que j’ai réalisés !</p>
+                    <p class=" flex justify-end font-poppins text-white">Julie Albini</p>
+                  </div> 
+              </div>
+              <div>
+                  <img class="hidden lg:block" src="../../public/LigneVioletPetite.jpg" alt="ligne décorative"/>
+              </div>
+          </div>
+          </div>
+          </div>
+      
 
       <div class="h-[2px] -z-50 line fixed rotate-45 origin-[0] inset-y-10 w-0 bg-red-600"></div>
 
       
-      <div class="mt-96 ">
-        <img class="w-max absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
+      <div class="mt-96 xl:mt-28">
+        <img class="w-max md:w-1/3 xl:w-1/3 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
         <div class="flex relative">
-            <p class="ml-5 mt-10 font-anton text-black text-xl">RIGUEUR</p>
+            <p class="ml-5 mt-10 font-anton text-black text-xl xl:text-[100px] ">RIGUEUR</p>
           </div> 
       </div>
 
       <div class="mt-10 flex flex-col items-end">
-        <img class="w-max absolute" src="../../public/TraitRose.jpg" alt=""/>
+        <img class="w-max xl:w-1/3 absolute" src="../../public/TraitRose.jpg" alt=""/>
         <div class="flex relative">
-            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITÉ</p>
+            <p class="mr-5 mt-10 font-anton xl:text-[100px] text-black text-xl">TENACITÉ</p>
           </div> 
       </div>
 
       <div class="mt-10">
-        <img class="w-max absolute" src="../../public/TraitViolet.jpg" alt=""/>
+        <img class="w-max xl:w-1/3 absolute" src="../../public/TraitViolet.jpg" alt=""/>
         <div class="flex relative">
-            <p class="ml-5 mt-10 font-anton text-black text-xl">CRÉATIVITÉ</p>
+            <p class="ml-5 mt-10 xl:text-[100px] font-anton text-black text-xl">CRÉATIVITÉ</p>
           </div> 
       </div>
 </template>
