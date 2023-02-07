@@ -1,22 +1,20 @@
 <template>
-  <div class="mb-20">
-  <Header/>
-  <div class="flex justify-center">
-  <router-link to="/">
-  <h1 class="font-albert-sans text-Rose_foncé text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] xl:mt-5 font-bold">Sup'analyse</h1>
-  </router-link>
-  </div>
-  <div class="flex justify-center">
-    <h2 class="font-albert-sans text-center text-Bleu_marine font-semibold h2">L’enseignement supérieur en chiffres</h2>
-  </div>
-  </div>
 
-   <Suspense>
-    <router-view class="" />
-  </Suspense>
+      <div class="flex justify-around">
+        <h2
+        class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 bg-no-repeat text-rose_pastel font-anton text-[75px] ">Julie Albini</h2>
+        <Menu class=""/>
+      </div>
+
+     
 </template>
 
-<script setup>
-import Header from "./components/Header.vue"
+<script>
+import Menu from "../src/components/icons/menu.vue";
 
-</script>
+export default {
+  components: {
+    Menu
+  },
+}
+  </script>

@@ -1,32 +1,57 @@
 <template>
-    <div class="lg:mt-20">
-        <div class="lg:flex items-center">
-        <img class="lg:w-2/3 lg:h-2/3 lg:ml-5 my-5 m-auto" src="/bachelier.jpg" alt="image jet de Mortarboard ou chapeau de fin d'étude"/>
-        <p class="lg:w-1/3 lg:text-center texte">Les écoles et l’enseignement supérieur sont les moteurs des régions et l’avenir de notre pays. Que vous cherchiez une école, des statistiques ou voulez ouvrir une école, ce site est fait pour vous !</p><br/>
-        </div>
-
-        <div class="flex items-center">
-            <p class="w-2/3 texte lg:text-center">Sup’analyse vous propose diverses approches de l’enseignements supérieur, notamment sur les questions du genre, du type d’établissement ou encore la répartition des écoles par département !</p>
-            <img class="w-1/3 h-1/3" src="/pomme.png" alt="dessin livre avec une pomme"/>
-        </div>
-
-        <h3 class="h2 my-5 text-Rose_foncé">Recherchez ici les écoles dans votre régions !</h3>
+    <div class="flex ">
         
-        <mapRegion class=""/>
+        <div class="justify center m-5 -gap-36">
+          <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px] ">ME</p>
+          <p class=" font-anton -mb-16  text-Turquoise_pastel text-[120px] ">DÉ</p>
+          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">CO</p>
+          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">UV</p>
+          <p class=" font-anton -mb-16 text-Turquoise_pastel text-[100px] ">RIR</p>
+        </div>
+        <!--
+        <div>
+          <p class=" font-anton text-Turquoise_pastel text-[120px] ">MEDÉCOUVRIR</p>
+        </div>
+      -->
+        <div class=" flex flex-col items-center justify-center bg-Rose bg-contain bg-no-repeat font-anton ">
+          <p class=" font-anton -mb-14 text-Noir text-[100px] ">PROF</p>
+          <p class=" font-anton -mb-14  text-Noir text-[100px] ">FESS</p>
+          <p class=" font-anton -mb-14 text-Noir text-[100px] ">IONN</p>
+          <p class=" font-anton -mb-14 text-Noir text-[100px] ">ELLE</p>
+          <p class=" font-anton -mb-14 text-Noir text-[80px] ">MENT</p>
+        </div>
+      </div>
 
-        <router-link to="/etuaca">
-        <bouton class="my-10 mx-auto">Lire un article</bouton>
-        <span class="sr-only">Lire un article</span>
-        </router-link>
+        <div class="mt-10">
+        <img class="w-full absolute " src="../public/photo.jpg" alt="photo Julie Albini"/>
+        <div class="flex justify-end content-end relative">
+          <div class="w-3/4  p-3  bg-rose_pastel bg-opacity-60">
+            <p class="font-poppins text-white text-[25px]">Bonjour !</p>
+            <p class="font-poppins text-white">Découvrez moi professionnellement a travers les projets que j’ai réalisés !</p>
+            <p class=" flex justify-end font-poppins text-white">Julie Albini</p>
+          </div> 
+        </div>
+      </div>
 
-        <Footer/>
-    </div>
+      <!--<h2 class="mt-96 bg-[url('/public/TraitTurquoise.jpg')] bg-contain bg-no-repeat font-anton text-black text-xl ">RIGUEUR</h2>-->
+      <div class="mt-96">
+        <img class="w-max absolute" src="../public/TraitTurquoise.jpg" alt=""/>
+        <div class="flex relative">
+            <p class="ml-5 mt-10 font-anton text-black text-xl">RIGUEUR</p>
+          </div> 
+      </div>
 
+      <div class="mt-10 flex flex-col items-end">
+        <img class="w-max absolute" src="../public/TraitRose.jpg" alt=""/>
+        <div class="flex relative">
+            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
+          </div> 
+      </div>
+
+      <div class="mt-10 flex flex-col items-end">
+        <img class="w-max absolute" src="../public/TraitRose.jpg" alt=""/>
+        <div class="flex relative">
+            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
+          </div> 
+      </div>
 </template>
-
-<script setup>
-import bouton from "../components/Bouton.vue"
-import Footer from "../components/Footer.vue"
-import mapRegion from "../components/MapRégion.vue"
-
-</script>
