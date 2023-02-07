@@ -30,8 +30,8 @@
           lg:text-[160px] xl:text-[180px]">DÉCOUVRIR</p>
         </div>
         
-        <div class="mt-10">
-        <img class="w-full absolute" src="../../public/fond.jpg" alt=""/>
+        <div class="mt-10 ">
+        <img class="w-1/4 h-3/4 absolute" src="../../public/fond.jpg" alt=""/>
         <div class="flex flex-col items-center relative">
             <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
           lg:text-[120px] xl:text-[130px] ">PROF</p>
@@ -45,27 +45,14 @@
           lg:text-[100px] xl:text-[110px]">MENT</p>
           </div> 
       </div>
-
-        <!--
-        <div class=" flex flex-col items-center justify-center bg-Rose bg-contain bg-no-repeat font-anton ">
-          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
-          lg:text-[120px] xl:text-[130px] ">PROF</p>
-          <p class=" font-anton -mb-14  text-Noir text-[100px] md:text-[110px]
-          lg:text-[120px] xl:text-[130px]">FESS</p>
-          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
-          lg:text-[120px] xl:text-[130px]">IONN</p>
-          <p class=" font-anton -mb-14 text-Noir text-[100px] md:text-[110px]
-          lg:text-[120px] xl:text-[130px]">ELLE</p>
-          <p class=" font-anton -mb-14 text-Noir text-[80px] md:text-[90px]
-          lg:text-[100px] xl:text-[110px]">MENT</p>
-        </div>
-        -->
       </div>
 
-        <div class="mt-10">
-        <img class="w-full absolute " src="../../public/photo.jpg" alt="photo Julie Albini"/>
-        <div class="flex justify-end content-end relative">
-          <div class="w-3/4  p-3  bg-rose_pastel bg-opacity-60">
+        <div class="mt-52 md:flex justify-center">
+          <div class="flex justify-center">
+            <img class=" w-full absolute  md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
+          </div>
+        <div class="flex justify-end content-end  md:static relative">
+          <div class="w-3/4 md:w-content p-3  bg-rose_pastel bg-opacity-60">
             <p class="font-poppins text-white text-[25px]">Bonjour !</p>
             <p class="font-poppins text-white">Découvrez moi professionnellement a travers les projets que j’ai réalisés !</p>
             <p class=" flex justify-end font-poppins text-white">Julie Albini</p>
@@ -73,8 +60,10 @@
         </div>
       </div>
 
-      <!--<h2 class="mt-96 bg-[url('/public/TraitTurquoise.jpg')] bg-contain bg-no-repeat font-anton text-black text-xl ">RIGUEUR</h2>-->
-      <div class="mt-96">
+      <div class="h-[2px] -z-50 line fixed rotate-45 origin-[0] inset-y-10 w-0 bg-red-600"></div>
+
+      
+      <div class="mt-96 ">
         <img class="w-max absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
         <div class="flex relative">
             <p class="ml-5 mt-10 font-anton text-black text-xl">RIGUEUR</p>
