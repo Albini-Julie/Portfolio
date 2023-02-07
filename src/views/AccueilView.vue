@@ -23,7 +23,7 @@
       </div>
 
         <div class="mt-10">
-        <img class="w-full absolute " src="../public/photo.jpg" alt="photo Julie Albini"/>
+        <img class="w-full absolute " src="../../public/photo.jpg" alt="photo Julie Albini"/>
         <div class="flex justify-end content-end relative">
           <div class="w-3/4  p-3  bg-rose_pastel bg-opacity-60">
             <p class="font-poppins text-white text-[25px]">Bonjour !</p>
@@ -35,21 +35,21 @@
 
       <!--<h2 class="mt-96 bg-[url('/public/TraitTurquoise.jpg')] bg-contain bg-no-repeat font-anton text-black text-xl ">RIGUEUR</h2>-->
       <div class="mt-96">
-        <img class="w-max absolute" src="../public/TraitTurquoise.jpg" alt=""/>
+        <img class="w-max absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
         <div class="flex relative">
             <p class="ml-5 mt-10 font-anton text-black text-xl">RIGUEUR</p>
           </div> 
       </div>
 
       <div class="mt-10 flex flex-col items-end">
-        <img class="w-max absolute" src="../public/TraitRose.jpg" alt=""/>
+        <img class="w-max absolute" src="../../public/TraitRose.jpg" alt=""/>
         <div class="flex relative">
             <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
           </div> 
       </div>
 
       <div class="mt-10 flex flex-col items-end">
-        <img class="w-max absolute" src="../public/TraitRose.jpg" alt=""/>
+        <img class="w-max absolute" src="../../public/TraitRose.jpg" alt=""/>
         <div class="flex relative">
             <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
           </div> 
