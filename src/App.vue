@@ -6,6 +6,10 @@
         <Menu class=""/>
       </div>
 
+      <Suspense>
+    <router-view class="" />
+  </Suspense>
+
      
 </template>
 
