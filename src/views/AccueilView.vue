@@ -1,4 +1,10 @@
 <template>
+      <div class="flex justify-around">
+        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 bg-no-repeat text-rose_pastel font-anton text-[75px] ">Julie Albini</h2>
+        <Header/>
+      </div>
+
+
     <div class="flex ">
         
         <div class="justify center m-5 -gap-36">
@@ -44,14 +50,30 @@
       <div class="mt-10 flex flex-col items-end">
         <img class="w-max absolute" src="../../public/TraitRose.jpg" alt=""/>
         <div class="flex relative">
-            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
+            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITÉ</p>
           </div> 
       </div>
 
-      <div class="mt-10 flex flex-col items-end">
-        <img class="w-max absolute" src="../../public/TraitRose.jpg" alt=""/>
+      <div class="mt-10">
+        <img class="w-max absolute" src="../../public/TraitViolet.jpg" alt=""/>
         <div class="flex relative">
-            <p class="mr-5 mt-10 font-anton text-black text-xl">TENACITE</p>
+            <p class="ml-5 mt-10 font-anton text-black text-xl">CRÉATIVITÉ</p>
           </div> 
       </div>
 </template>
+
+<script>
+import Header from "../components/Header.vue";
+
+export default {
+  data: function () {
+    return {
+      menuOuvert: false,
+    };
+  },
+  components: {
+    Header,
+  }
+}
+
+</script>
