@@ -1,5 +1,5 @@
 <template>
-    <div class="bouton w-max py-3 px-5 drop-shadow-lg text-white font-poppins font-semibold rounded-lg ">
+    <div class="bouton w-max h-max py-3 px-5 flex items-center drop-shadow-lg text-white font-poppins font-semibold rounded-lg ">
         <span><slot/></span>
     </div>
 </template>
