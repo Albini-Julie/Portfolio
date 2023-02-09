@@ -19,7 +19,8 @@ module.exports = {
   "Turquoise_pastel": "#00dfed",
   "violet-bleu": "#7879f1",
   "Gris_foncé": "#515151",
-  "violet_pastel": "#7879f1"
+  "violet_pastel": "#7879f1",
+  "Bleu_Ciel": "#70c9f3"
  },
  fontSize: {
    "base": "1rem",
