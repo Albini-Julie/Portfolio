@@ -5,7 +5,7 @@
             <span class="sr-only">Menu</span>
         </button> 
 
-      <div class="fixed inset-0 translate-x-full motion-safe:transition-transform motion-safe:duration-1000"
+      <div class="fixed inset-0 translate-x-full z-50 motion-safe:transition-transform motion-safe:duration-1000"
     :class="['bg-Noir  text-white', menuOuvert ? 'translate-x-0' : '',]">
     <div class="flex justify-center items-center">
       <ul class=" " @click="menuOuvert = !menuOuvert ">
