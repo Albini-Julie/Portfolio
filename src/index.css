@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h1 {
+        @apply text-[75px] md:text-[100px] lg:text-[125px] xl:text-[140px]
+    };
+
+    .h2 {
+        @apply text-xl xl:text-[120px]
+    }
+
+    .h3 {
+        @apply text-[31px] lg:text-[40px] xl:text-[50px]
+    }
+
+    .texte {
+        @apply text-[16px] lg:text-[18px] xl:text-[20px]
+    };
+
+    .bouton {
+        @apply text-[20px] xl:text-[25px]
+    };
+}
