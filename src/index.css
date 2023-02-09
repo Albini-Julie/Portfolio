@@ -8,7 +8,7 @@
     };
 
     .h2 {
-        @apply text-xl xl:text-[120px]
+        @apply text-xl lg:text-[80px] xl:text-[100px]
     }
 
     .h3 {
