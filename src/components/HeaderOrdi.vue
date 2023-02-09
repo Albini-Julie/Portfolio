@@ -35,8 +35,8 @@
 
       <div>
         <router-link to="/legal">
-            <div class="mt-10 mr-10 z-30">
-                <img class="w-max absolute" src="../../public/TraitSaumon.jpg" alt=""/>
+            <div class="mt-10 z-30">
+                <img class="w-[171px] h-[79px] absolute" src="../../public/TraitSaumon.jpg" alt=""/>
                 <div class="flex relative">
                     <p class="ml-5 xl:mt-12 font-anton text-black xl:text-[40px]">LÉGAL</p>
             </div> 
