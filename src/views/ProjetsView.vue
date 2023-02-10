@@ -56,6 +56,7 @@
         </div>
 
 <!--BOX PROJET 3-->
+    <router-link to="/tiktak">
         <ProjetDroit image="../../public/TikTakViolet.jpg" 
         description="Développement d’un site web de personnalisation de montres avec toutes les fonctionnalités utiles."
         type="SAE"
@@ -63,7 +64,8 @@
         trait1="../../public/traits/PetitRose.jpg"
         trait2="../../public/traits/PetitBleu.jpg"
         trait3="../../public/traits/MoyenViolet.jpg"
-        jaime="28" />
+        jaime="28"/>
+    </router-link>
 
         <!--DÉTERMINATION-->
         <div class="mt-28">
