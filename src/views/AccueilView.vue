@@ -92,7 +92,7 @@
       <!--RIGUEUR-->
       <div class="xl:mx-28">
         <div class="mt-96 md:mt-28">
-          <img class="w-max md:w-1/3 xl:w-1/3 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
+          <img class="w-max md:w-1/3 xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
               <p class="ml-5 mt-10 font-anton text-black h2">RIGUEUR</p>
           </div> 
@@ -100,7 +100,7 @@
 
       <!--TENACITE-->
         <div class="mt-10 flex flex-col items-end">
-          <img class="w-max xl:w-1/3 absolute" src="../../public/TraitRose.jpg" alt=""/>
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
           <div class="flex relative">
               <p class="mr-5 mt-10 font-anton h2 text-black">TENACITÉ</p>
             </div> 
@@ -108,7 +108,7 @@
 
       <!--CREATIVITE-->
         <div class="mt-10">
-          <img class="w-max xl:w-1/3 absolute" src="../../public/TraitViolet.jpg" alt=""/>
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
               <p class="ml-5 mt-10 h2 font-anton text-black ">CRÉATIVITÉ</p>
           </div> 
