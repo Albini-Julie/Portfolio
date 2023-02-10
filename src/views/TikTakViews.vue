@@ -35,18 +35,63 @@
         </div>
     </div>
 
+    <img class="my-20 md:hidden w-full" src="../../public/TikTak.jpg"/>
+
     <!--LA DEMANDE-->
-    <div class="flex ">
-        <div class=" mt-28 xl:mt-36">
+    <div class="flex justify-between">
+        <div class="w-3/4 xl:mt-36">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
               <p class="ml-5 mt-10 h2 font-anton text-black ">LA DEMANDE</p>
           </div> 
         </div>
-        <div class="flex justify-end">
+        <div class="hidden md:flex w-1/4 justify-start">
             <img class="rotate-90" src="../../public/traits/MoyenRose.jpg" alt="ligne décorative"/>
         </div>
     </div>
+
+    <!--PHOTO-->
+    <img class="mt-10 hidden md:block" src="../../public/TikTak.jpg"/>
+    <!--TEXTE-->
+    <p class="mt-5 font-poppins texte mx-10">Il nous a été demandé lors d’une SAE de créer un site web d’une 
+        marque de montre avec toute l’identité de cette marque et sa communication. 
+Nous avions juste le nom de l’entreprise qui nous était donnée ainsi que l’ambiance de la marque ("sophistiquée'').
+ Nous devions donc coder l’ensemble du site ainsi que toutes les fonctionnalités nécessaires pour que l’utilisateur 
+puisse personnaliser sa chaussure. Il était également imposé la réalisation d’une base de données pour le site, 
+permettant à l’utilisateur de se connecter et d’avoir accès aux montres qu’il avait créées précédemment.</p>
+    <!--SOPHISTIQUE + PERSONNALISER-->
+    <div class="flex mt-10">
+        <div class="w-1/2 flex flex-col items-center justify-center bg-Rose leading-none bg-opacity-50">
+            <h3 class="text-[120px] xl:text-[160px] font-anton">SOP</h3>
+            <h3 class="text-[120px] xl:text-[160px] font-anton">HIST</h3>
+            <h3 class="text-[120px] xl:text-[160px] font-anton">IQUÉ</h3>
+        </div>
+        <div class="w-1/2">
+            <div class=" flex flex-col items-center justify-center leading-none bg-violet_pastel bg-opacity-50">
+                <h3 class="text-[100px] xl:text-[160px] font-anton">PER</h3>
+                <h3 class="text-[100px] xl:text-[160px] font-anton">SON</h3>
+                <h3 class="text-[100px] xl:text-[160px] font-anton">NAL</h3>
+                <h3 class="text-[100px] xl:text-[160px] font-anton">ISÉ</h3>
+            </div>
+            <div class="flex justify-center">
+                <img class="rotate-90" src="../../public/traits/PetitBleu.jpg"/>
+            </div>
+        </div>
+    </div>
+
+    <!--LA REPONSE-->
+    <div class="flex mt-20 justify-between">
+        <div class="w-3/4 xl:mt-36">
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
+          <div class="flex relative">
+              <p class="ml-5 mt-10 h2 font-anton text-black ">LA RÉPONSE</p>
+          </div> 
+        </div>
+        <div class="hidden md:flex w-1/4 justify-start">
+            <img class="rotate-90" src="../../public/traits/MoyenRose.jpg" alt="ligne décorative"/>
+        </div>
+    </div>
+
 
 </template>
 

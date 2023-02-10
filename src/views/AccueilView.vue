@@ -231,7 +231,7 @@
           <div class="md:flex md:gap-16 lg:gap-28 xl:gap-56 items-center">
               <p class="md:hidden mb-10 font-anton text-white text-[40px] md:text[50px] lg:text-[60px] 
               xl:text-[70px]">MES PROJETS</p>
-              <router-link to="/mesprojets">
+              <router-link to="/projets">
                 <Bouton class="bg-Gris_foncé ">Découvrir</Bouton>
               </router-link>
           <!--TITRE PROJET-->
