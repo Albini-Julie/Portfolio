@@ -40,9 +40,7 @@
                 
     <!--BOUTON-->
             <div class="flex mt-10 justify-center">
-                <router-link to="/mesprojets">
                     <Bouton class="bg-violet_pastel ">Découvrir</Bouton>
-                </router-link>
             </div>
 
     <!--J'AIME-->

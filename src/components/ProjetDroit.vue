@@ -34,9 +34,7 @@
                 
     <!--BOUTON-->
             <div class="flex mt-10 justify-center">
-                <router-link to="/mesprojets">
                     <Bouton class="bg-Rose">Découvrir</Bouton>
-                </router-link>
             </div>
 
     <!--J'AIME-->
@@ -89,7 +87,7 @@ export default {
         jaime: String,
         trait1: String,
         trait2: String,
-        trait3: String
+        trait3: String,
     },
     components:{
         Bouton,
