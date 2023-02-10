@@ -2,35 +2,60 @@
 
     <!--PHOTO PROJET-->
     <div class="mt-10">
-        <img class="md:hidden w-full" :src="image"/>
-        <div class="hidden md:flex justify-center mt-20">
-            <div class="img">
-                <div class="filtre"></div>
+        <div class="md:flex items-end justify-around xl:justify-evenly md:mb-10 gap-5">
+            <img class="md:hidden w-full" :src="image"/>
+            <div class="lg:flex items-center">
+                <div class="hidden md:flex justify-center mt-20">
+                    <div class="img">
+                        <div class="filtre"></div>
+                    </div>
+                </div>
+                <img class="hidden lg:block rotate-90 opacity-30" :src="trait3" alt="Ligne décorative"/>
+            </div>
+        <!--TYPE-->
+            <div class="hidden md:block w-1/2 h-1/2 md:w-max  ">
+                <div class="flex flex-col">
+                    <div class="bg-Rose md:px-3 py-2 bg-opacity-50 flex justify-center">
+                        <p class="font-anton text-white text-[25px] lg:text-[40px] xl:text-[50px]">{{ type }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     <!--DESCRIPTION-->
-        <div class="flex">
-            <div class="w-1/2 h-1/2">
-                <div class="px-3 py-5 bg-violet_pastel bg-opacity-50">
-                    <p class="font-poppins text-white bouton font-semibold">
-                        {{description}}
-                    </p>
+        
+        <div class="flex md:justify-around xl:justify-evenly md:items-center">
+    <!--FILIERE LG-->
+                <div class="hidden md:w-max md:h-max md:flex w-1/2 bg-Turquoise items-center justify-center">
+                    <p class="font-anton text-white text-[50px] xl:text-[80px]">{{filiere}}</p>
                 </div>
-    <!--FILIERE-->
-                <div class="bg-Turquoise flex justify-center">
-                    <p class="font-anton text-white text-[50px] xl:text-[110px]">{{filiere}}</p>
+                
+            <!--<div class="xl:flex xl:items-center">-->
+                <div class="w-1/2 h-1/2 lg:w-1/3 flex justify-center xl:w-1/4 ">
+                    <div class="px-3 py-5 xl:py-10 bg-violet_pastel bg-opacity-50">
+                        <p class="font-poppins text-[20px] xl:text-[22px] text-white font-semibold">
+                            {{description}}
+                        </p>
+                    </div>
                 </div>
-            </div>
+                <!--
+                    <div class="">
+                        <img class="hidden xl:block" src="../../public/traits/PetitViolet.jpg" alt="ligne décorative"/>
+                    </div>
+                -->
+            
+            
     <!--TYPE-->
-            <div class="w-1/2 flex flex-col justify-center gap-2">
+            <div class=" w-1/2 h-1/2 md:w-max flex flex-col ">
                 <div class="flex flex-col">
-                    <div class="bg-Rose py-2 bg-opacity-50 flex justify-center">
+                    <div class="md:hidden bg-Rose md:px-3 py-2 bg-opacity-50 flex justify-center">
                         <p class="font-anton text-white text-[25px] xl:text-[50px]">{{ type }}</p>
                     </div>
     <!--TRAIT ROSE-->
+                    <!--
                     <div class="">
                         <img class="w-1/2 static rotate-90 " :src="trait1" alt="ligne décorative"/>
                     </div>
+                    -->
                 </div>
     <!--BOUTON-->
             <div class="flex mt-10 justify-center">
@@ -40,18 +65,26 @@
             </div>
 
     <!--J'AIME-->
-            <div class="flex justify-center items-center gap-5">
+            <div class="mt-5 flex justify-center items-center gap-5">
                 <p class="text-[30px] xl:text-[50px] font-poppins font-bold">{{ jaime }}</p>
-                <Coeur class="w-[41px] h-[33px] md:w-[51px] md:h-[43px] lg:w-[61px] lg:h-[53px] xl:w-[78px] xl:h-[64px]"/>
-            </div>
-    
-    <!--TRAIT BLEU-->
-            <div class="ml-10 w-max">
-                        <img class=" rotate-90 " :src="trait2" alt="ligne décorative"/>
+                <Coeur class="w-[46px] h-[38px] md:w-[51px] md:h-[43px] xl:w-[61px] xl:h-[53px]"/>
             </div>
             </div>
         </div>
     </div>
+
+    <div class="flex md:hidden">
+    <!--FILIERE-->
+        <div class="w-1/2 bg-Turquoise flex items-center justify-center">
+            <p class="font-anton text-white text-[50px] xl:text-[110px]">{{filiere}}</p>
+        </div>
+
+    <!--TRAIT BLEU-->
+            <div class="ml-10 md-hidden w-max">
+                <img class=" rotate-90 " :src="trait2" alt="ligne décorative"/>
+            </div>
+    </div>    
+
 </template>
 
 <script>
@@ -66,7 +99,8 @@ export default {
         description: String,
         jaime: String,
         trait1: String,
-        trait2: String
+        trait2: String,
+        trait3: String
     },
     components:{
         Bouton,
