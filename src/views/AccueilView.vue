@@ -198,12 +198,14 @@
       </div>
 
 <!--TELECHARGEMENT DU CV-->
+    <a href="https://drive.google.com/file/d/15UdFw9Nvt9nrDmnVbh3b98RyrWPtFdBq/view?usp=sharing">
       <div class="mt-28 bg-Turquoise bg-opacity-40 xl:w-full">
         <div class="flex justify-center items-center gap-5 md:gap-10">
           <FlecheRose class="md:w-[82px] md:h-[49px] lg:w-[102px] lg:h-[69px] xl:w-[150px] xl:h-[85px] "/>
           <p class="text-[50px] lg:text-[60px] xl:text-[80px] font-anton text-Noir">MON CV</p>
         </div>
       </div>
+    </a>
 
 <!--MES PROJETS-->  
 
@@ -241,6 +243,7 @@
         </div>
       </div>
 
+  <!--FOOTER-->
       <Footer class="mt-36 mb-16"/>
       
 </template>
