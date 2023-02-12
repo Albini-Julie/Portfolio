@@ -39,7 +39,7 @@
         </div>
       </router-link>
 
-      <router-link to="/mentionslegales">
+      <router-link to="/legal">
           <div class="mt-10  z-30 ">
             <img class="w-max absolute" src="../../public/TraitViolet2.jpg" alt=""/>
             <div class="flex relative">
