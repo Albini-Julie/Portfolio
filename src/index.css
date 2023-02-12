@@ -15,6 +15,10 @@
         @apply text-[31px] lg:text-[40px] xl:text-[50px]
     }
 
+    .h4 {
+        @apply text-[30px] lg:text-[35px]
+    }
+
     .texte {
         @apply text-[16px] lg:text-[18px] xl:text-[20px]
     };
@@ -22,4 +26,8 @@
     .bouton {
         @apply text-[20px] xl:text-[25px]
     };
+
+    .imageXL {
+        @apply w-[670px] h-[320px]
+    }
 }
