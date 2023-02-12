@@ -1,7 +1,7 @@
 <template>
 <!--Header-->
       <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton h1">Julie Albini</h2>
+        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">Julie Albini</h2>
         <div class="xl:hidden pr-5">
           <Header  />
         </div>
@@ -16,18 +16,18 @@
     <div class="flex justify-center items-center  lg:gap-28 md:gap-10">
         <div class="md:hidden">
           <div class="justify center m-5 -gap-36">
-            <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px] ">ME</p>
-            <p class=" font-anton -mb-16  text-Turquoise_pastel text-[120px] ">DÉ</p>
-            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">CO</p>
-            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[120px] ">UV</p>
-            <p class=" font-anton -mb-16 text-Turquoise_pastel text-[100px] ">RIR</p>
+            <p class=" font-anton MeDecouvrir  -mb-12 text-Turquoise_pastel text-[120px] ">ME</p>
+            <p class=" font-anton MeDecouvrir  -mb-16  text-Turquoise_pastel text-[120px] ">DÉ</p>
+            <p class=" font-anton MeDecouvrir  -mb-16 text-Turquoise_pastel text-[120px] ">CO</p>
+            <p class=" font-anton MeDecouvrir  -mb-16 text-Turquoise_pastel text-[120px] ">UV</p>
+            <p class=" font-anton MeDecouvrir  -mb-16 text-Turquoise_pastel text-[100px] ">RIR</p>
           </div>
         </div>
 
         <div class="hidden md:block">
           <p class=" font-anton -mb-12 md:mb-10 text-Turquoise_pastel text-[120px] 
-          lg:text-[160px] xl:text-[180px] ">ME</p>
-          <p class=" font-anton -mb-12 text-Turquoise_pastel text-[120px]  
+          lg:text-[160px] MeDecouvrir  xl:text-[180px] ">ME</p>
+          <p class="MeDecouvrir  font-anton -mb-12 text-Turquoise_pastel text-[120px]  
           lg:text-[160px] xl:text-[180px]">DÉCOUVRIR</p>
         </div>
         
@@ -35,15 +35,15 @@
         <div class="mt-10 ">
           <img class="w-1/4 h-3/4 absolute" src="../../public/fond.jpg" alt=""/>
           <div class="flex flex-col items-center relative">
-              <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+              <p class="Vague1 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px] ">PROF</p>
-            <p class=" font-anton -mb-14 lg:-mb-16  text-Noir text-[100px] md:text-[110px]
+            <p class="Vague2 font-anton -mb-14 lg:-mb-16  text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">FESS</p>
-            <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+            <p class="Vague3 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">IONN</p>
-            <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+            <p class="Vague4 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">ELLE</p>
-            <p class=" font-anton -mb-14 lg:-mb-16 text-Noir text-[80px] md:text-[90px]
+            <p class="Vague5 font-anton -mb-14 lg:-mb-16 text-Noir text-[80px] md:text-[90px]
             lg:text-[100px] xl:text-[110px]">MENT</p>
             </div> 
           </div>
@@ -58,7 +58,7 @@
         <div class="mt-56 md:flex justify-center items-center">
           <div class="lg:flex">
             <div class="xl:w-1/4">
-              <img class="hidden xl:block" src="../../public/traits/MoyenRose.jpg" alt="ligne de décoration"/>
+              <img class="hidden arrive xl:block" src="../../public/traits/MoyenRose.jpg" alt="ligne de décoration"/>
             </div >
             <div class="">
                 <img class=" xl:hidden object-fill w-full absolute  md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
@@ -94,7 +94,7 @@
         <div class="mt-96 md:mt-28">
           <img class="w-max md:w-1/3 xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 font-anton text-black h2">RIGUEUR</p>
+              <p class="transDroit ml-5 mt-10 font-anton text-black h2">RIGUEUR</p>
           </div> 
         </div>
 
@@ -102,7 +102,7 @@
         <div class="mt-10 flex flex-col items-end">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
           <div class="flex relative">
-              <p class="mr-5 mt-10 font-anton h2 text-black">TENACITÉ</p>
+              <p class="transGauche mr-5 mt-10 font-anton h2 text-black">TENACITÉ</p>
             </div> 
         </div>
 
@@ -110,7 +110,7 @@
         <div class="mt-10">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">CRÉATIVITÉ</p>
+              <p class="transDroit ml-5 mt-10 h2 font-anton text-black ">CRÉATIVITÉ</p>
           </div> 
         </div>
       </div>
@@ -170,18 +170,19 @@
       <div class="">
         <img class="mt-10 w-full md:hidden" src="../../public/photo_coupee_rose.jpg"/>
         <div class="flex md:justify-end lg:ml-10">
-          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 bg-Turquoise_pastel bg-opacity-40">
+          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 hover:bg-Bleu_Ciel bg-Turquoise_pastel bg-opacity-40">
             <h3 class="text-[40px] xl:text-[60px] text-white font-anton">Julie</h3>
           </div>
-          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 bg-Bleu_Ciel">
+          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 hover:bg-opacity-50 hover:bg-Turquoise_pastel bg-Bleu_Ciel">
             <h3 class="h3 text-[40px] xl:text-[60px] text-white font-anton">Albini</h3>
           </div>
         </div>
 
         <!--PARAGRAPHE GRIS-->
         <div class="flex xl:justify-center justify-around xl:gap-28 md:items-center">
-          <div class="w-1/2 h-full md:flex items-center md:w-[300px] md:h-[200px] lg:h-[300px] bg-Gris_foncé p-5">
-            <p class="text-white font-poppins texte">Je suis actuellement étudiante en deuxième 
+          <div class="w-1/2 h-full md:flex items-center md:w-[300px] md:h-[200px] lg:h-[300px] 
+          hover:bg-white hover:border-4 hover:border-Gris_foncé  bg-Gris_foncé p-5">
+            <p class="text-white font-poppins hover:text-Gris_foncé hover:font-semibold texte">Je suis actuellement étudiante en deuxième 
               année de BUT Métiers du Multimédia et de l’Internet et ai choisi de me spécialiser 
               en développement...</p>
           </div>
@@ -189,7 +190,7 @@
           <div class="w-1/2 h-1/2 md:flex items-center justify-center">
             <div class=" py-16 md:w-max px-5 flex justify-center items-center bg-violet_pastel bg-opacity-50">
                 <router-link to="/meconnaitre">
-                  <Bouton class=" bg-Rose ">Me connaître</Bouton>
+                  <Bouton class=" BoutonRose bg-Rose ">Me connaître</Bouton>
                 </router-link>
             </div>
             <img class="hidden md:block" src="../../public/traits/PetitViolet.jpg" alt="ligne décorative"/>
@@ -232,7 +233,7 @@
               <p class="md:hidden mb-10 font-anton text-white text-[40px] md:text[50px] lg:text-[60px] 
               xl:text-[70px]">MES PROJETS</p>
               <router-link to="/projets">
-                <Bouton class="bg-Gris_foncé ">Découvrir</Bouton>
+                <Bouton class="BoutonGris bg-Gris_foncé ">Découvrir</Bouton>
               </router-link>
           <!--TITRE PROJET-->
               <div class="hidden md:block">
@@ -304,4 +305,144 @@ export default {
   background-repeat: no-repeat;
   
 }
+
+.BoutonRose:hover {
+    transition: 0.8s;
+    background-color: white;
+    border-color: #FF8FA3;
+    color: #FF8FA3;
+    box-shadow: 12px 12px 2px 1px rgba(255, 143, 163);
+}
+
+.BoutonGris:hover {
+    transition: 0.8s;
+    background-color: white;
+    border-color: #515151;
+    color: #515151;
+    box-shadow: 12px 12px 2px 1px rgba(81, 81, 81);
+}
+
+.transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
+
+.transGauche:hover {
+  transition: 1s;
+  transform: translateX(-100px);
+}
+
+.transGauche {
+  transition: 1s;
+  transform: translateX(0px);
+}
+
+
+.Vague1 {
+  animation: vague 2s infinite 0.2s;
+}
+
+.Vague2 {
+  animation: vague 2s infinite 0.4s;
+}
+
+.Vague3 {
+  animation: vague 2s infinite 0.6s;
+}
+
+.Vague4 {
+  animation: vague 2s infinite 0.8s;
+}
+
+.Vague5 {
+  animation: vague 2s infinite 1s;
+}
+
+.MeDecouvrir:hover {
+  animation: MeDecouvrir 1s;
+  transition: 5s;
+}
+
+.neon {  
+      animation:neon infinite 4s;
+      transition: 5s;
+ }
+
+@keyframes neon{
+	
+0%{
+	text-shadow:  0 0 7px #fff, 
+               0 0 2.5px #fff, 
+               0 0 10.5px rgb(255, 143, 163),   
+               0 0 19.25px rgb(255, 143, 163), 
+               0 0 25px rgb(255, 143, 163)
+	}
+
+  50%{
+    text-shadow:  0 0 7px #fff, 
+               0 0 8px #fff, 
+               0 0 33.6px rgb(255, 143, 163),   
+               0 0 61.6px rgb(255, 143, 163), 
+               0 0 80px rgb(255, 143, 163) 
+  }
+
+  100% {
+    text-shadow:  0 0 7px #fff, 
+               0 0 2.5px #fff, 
+               0 0 10.5px rgb(255, 143, 163),   
+               0 0 19.25px rgb(255, 143, 163), 
+               0 0 25px rgb(255, 143, 163)
+  }
+	}	
+
+.arrive {
+  animation: arrive 2s;
+  
+}
+
+@keyframes arrive {
+  from {
+    margin-left: 100%;
+   
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
+@keyframes MeDecouvrir {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes vague {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+    color: white;
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
 </style>
+
+
+
