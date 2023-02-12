@@ -2,7 +2,7 @@
 
 <!--HEADER-->
     <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton h1">MES PROJETS</h2>
+        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">MES PROJETS</h2>
         <div class="xl:hidden pr-5">
           <Header  />
         </div>
@@ -113,3 +113,39 @@ export default {
 }
 
 </script>
+
+<style>
+
+.neon {  
+      animation:neon infinite 4s;
+      transition: 5s;
+ }
+
+@keyframes neon{
+	
+0%{
+	text-shadow:  0 0 7px #fff, 
+               0 0 2.5px #fff, 
+               0 0 10.5px rgb(255, 143, 163),   
+               0 0 19.25px rgb(255, 143, 163), 
+               0 0 25px rgb(255, 143, 163)
+	}
+
+  50%{
+    text-shadow:  0 0 7px #fff, 
+               0 0 8px #fff, 
+               0 0 33.6px rgb(255, 143, 163),   
+               0 0 61.6px rgb(255, 143, 163), 
+               0 0 80px rgb(255, 143, 163) 
+  }
+
+  100% {
+    text-shadow:  0 0 7px #fff, 
+               0 0 2.5px #fff, 
+               0 0 10.5px rgb(255, 143, 163),   
+               0 0 19.25px rgb(255, 143, 163), 
+               0 0 25px rgb(255, 143, 163)
+  }
+	}	
+
+</style>
