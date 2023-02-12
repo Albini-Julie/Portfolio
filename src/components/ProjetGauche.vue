@@ -40,7 +40,7 @@
                 
     <!--BOUTON-->
             <div class="flex mt-10 justify-center">
-                    <Bouton class="bg-violet_pastel ">Découvrir</Bouton>
+                    <Bouton class="BoutonViolet bg-violet_pastel ">Découvrir</Bouton>
             </div>
 
     <!--J'AIME-->
@@ -111,5 +111,13 @@ export default {
   height:300px;
   background:url("../../public/MaquetteThe100.jpg") center;
   background-repeat: no-repeat;
+}
+
+.BoutonViolet:hover {
+    transition: 0.8s;
+    background-color: white;
+    border-color: #7879F1;
+    color: #7879F1;
+    box-shadow: 12px 12px 2px 1px rgba(120, 121, 241);
 }
 </style>

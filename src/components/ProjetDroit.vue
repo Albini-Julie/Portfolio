@@ -34,7 +34,7 @@
                 
     <!--BOUTON-->
             <div class="flex mt-10 justify-center">
-                    <Bouton class="bg-Rose">Découvrir</Bouton>
+                    <Bouton class="BoutonRose bg-Rose">Découvrir</Bouton>
             </div>
 
     <!--J'AIME-->
@@ -108,5 +108,13 @@ export default {
   height:300px;
   background:url("../../public/MaquetteThe100.jpg") center;
   background-repeat: no-repeat;
+}
+
+.BoutonRose:hover {
+    transition: 0.8s;
+    background-color: white;
+    border-color: #FF8FA3;
+    color: #FF8FA3;
+    box-shadow: 12px 12px 2px 1px rgba(255, 143, 163);
 }
 </style>
