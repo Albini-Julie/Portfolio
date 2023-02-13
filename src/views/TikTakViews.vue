@@ -115,17 +115,17 @@
             <img class="w-full mx-auto xl:imageXL relative" src="../../public/TIkTak/TikTak.jpg" alt="image du site Tik Tak"/>
         </div>
         <div class="lg:w-1/2 mt-10 mx-10 lg:mt-0">
-            <img class="absolute ml-40" src="../../public/FondRose.jpg" alt="décor"/>
-            <h4 class="relative mx-10 lg:mx-10 md:mx-20 h4 font-anton">La page d'accueil</h4>
-            <p class="relative mx-10 lg:mx-10 md:mx-20 font-poppins texte">Elle présente la marque, ses valeurs, et donne des avis 
+            <img class="absolute ml-40 w-1/2 md:w-max" src="../../public/FondRose.jpg" alt="décor"/>
+            <h4 class="relative lg:mx-10 md:mx-20 h4 font-anton">La page d'accueil</h4>
+            <p class="relative lg:mx-10 md:mx-20 font-poppins texte">Elle présente la marque, ses valeurs, et donne des avis 
                 de clients à propos des services proposées par l’entreprise. L’objectif de cette page 
                 d’accueil est de donné confiance à l’utilisateur en la marque, et lui donner envie de 
                 continuer sur le site jusqu’à la commande de ses chaussures personnalisées.</p>
         </div>
     </div>
     <div class="lg:flex items-center mt-32">
-        <div class="lg:w-1/2 mt-10 lg:mt-0">
-            <img class="absolute md:hidden lg:block ml-20 rotate-90" src="../../public/FondBleu.jpg" alt="décor"/>
+        <div class="lg:w-1/2 md:mt-10 lg:mt-0">
+            <img class="absolute hidden lg:block ml-20 rotate-90" src="../../public/FondBleu.jpg" alt="décor"/>
             <p class="mx-10 lg:mx-10 md:mx-20 xl:mx-40 relative font-poppins texte">L’utilisateur a également la possibilité d’accéder 
                 sur cette page d’accueil aux montres qu’il a déjà créées et peut également les modifier 
                 lorsqu’il est connecté.</p>
@@ -166,7 +166,7 @@
             </div>
         </div>
         <div class="lg:w-1/2  mt-10 lg:mt-0">
-            <img class="absolute ml-40 lg:hidden rotate-90" src="../../public/FondRose.jpg" alt="décor"/>
+            <img class="absolute ml-40 lg:hidden w-1/2 md:w-max rotate-90" src="../../public/FondRose.jpg" alt="décor"/>
             <h4 class="mx-10 lg:mx-10 md:mx-20 relative h4 font-anton">La page personnalisation</h4>
             <p class="mx-10 lg:mx-10 md:mx-20 relative font-poppins texte">Enfin, l’utilisateur peut personnaliser sa montre 
                 Tik Tak sur la page Personnalisation. Pour cela, il doit choisir la couleur et le matériaux de 3 pièces 
