@@ -90,7 +90,7 @@
 <!--COMPETENCES-->
 
       <!--RIGUEUR-->
-      <div class="xl:mx-28">
+      <div class="xl:mx-64 lg:mx-48">
         <div class="mt-96 md:mt-28">
           <img class="w-max md:w-1/3 xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
