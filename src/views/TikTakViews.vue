@@ -272,10 +272,15 @@
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉFLÉXION</p>
     </div>
 
-    <!--BOUTON-->
-    <div class="mt-20 w-full flex justify-center">
+    <div class="mt-20 w-full gap-10 md:flex justify-center">
+    
+    <!--BOUTON JAIME-->
+            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonViolet bg-Rose">J'aime ce projet</Bouton>
+
+    <!--BOUTON AUTRE PROJET-->
+    
         <router-link to="/fatum">
-            <Bouton class="py-5 BoutonViolet bg-violet_pastel">Voir un autre projet</Bouton>
+            <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
         </router-link>
     </div>
 
@@ -287,6 +292,8 @@
 
 
 <script>
+
+
 import Header from "../components/Header.vue";
 import HeaderOrdi from "../components/HeaderOrdi.vue";
 import Footer from "../components/Footer.vue"
@@ -299,6 +306,7 @@ export default {
   data: function () {
     return {
       menuOuvert: false,
+      listeProjets: [],
     };
   },
   components: {
@@ -310,6 +318,7 @@ export default {
     Mail,
     Bouton,
   }
+  
 }
 
 </script>
