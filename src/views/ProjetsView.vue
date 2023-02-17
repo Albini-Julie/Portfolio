@@ -9,7 +9,7 @@
         <div class="hidden pr-16 xl:block">
           <HeaderOrdi/>
         </div>
-      </div>
+    </div>
 
 <!--INTRODUCTION-->
       <div class="flex justify-center mt-20 ">
@@ -91,6 +91,16 @@
 </template>
 
 <script>
+
+//import {
+ //getFirestore, // Obtenir le Firestore
+//collection, // Utiliser une collection de documents
+//onSnapshot, // Demander une liste de documents d'une collection, en les synchronisant
+//query, // Permet d'effectuer des requêtes sur Firestore
+//} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+
+
+
 import Header from "../components/Header.vue";
 import HeaderOrdi from "../components/HeaderOrdi.vue";
 import ProjetDroit from "../components/ProjetDroit.vue"
@@ -101,7 +111,34 @@ export default {
   data: function () {
     return {
       menuOuvert: false,
+      idprojet: null,
+      filiere: null,
+      jaime: null,
+      nom : null,
+      type: null,
     };
+  },
+  mounted() {
+    const projet = this;
+    this.getProjet(projet);
+  },
+  methods: {
+    async getProjet(projet) {
+      // Rechercher les informations complémentaires de l'utilisateur
+      // Obtenir Firestore
+      const firestore = getFirestore();
+      // Base de données (collection)  document participant
+      const dbProjets = collection(firestore, "Projets");
+      // Recherche du user par son uid
+      const q = query(dbProjets, where("idprojet", "==", projet.uid));
+      await onSnapshot(q, (snapshot) => {
+        this.projetInfo = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        console.log("projet Info", this.projetInfo);
+      });
+    },
   },
   components: {
     Header,
