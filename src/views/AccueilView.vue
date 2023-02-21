@@ -119,7 +119,7 @@
 
       <!--PHOTO-->
       <div class="hidden md:flex justify-center mt-20">
-        <div class="img">
+        <div class="imgDessus">
           <div class="filtre"></div>
         </div>
       </div>
@@ -199,7 +199,7 @@
       </div>
 
 <!--TELECHARGEMENT DU CV-->
-    <a href="https://drive.google.com/file/d/15UdFw9Nvt9nrDmnVbh3b98RyrWPtFdBq/view?usp=sharing">
+    <a href="../../public/CV_JulieAlbini.pdf" download>
       <div class="mt-28 bg-Turquoise bg-opacity-40 xl:w-full">
         <div class="flex justify-center items-center gap-5 md:gap-10">
           <FlecheRose class="md:w-[82px] md:h-[49px] lg:w-[102px] lg:h-[69px] xl:w-[150px] xl:h-[85px] "/>
@@ -290,10 +290,10 @@ export default {
   background:rgba(255, 143, 163, 0.4)
 }
 
-.img {
-  width:600px;
-  height:200px;
-  background:url("../../public/photo_coupee.jpg") center;
+.imgDessus {
+  width:375px;
+  height:100px;
+  background:url("../../public/photo_coupee_bleu.jpg") center;
   background-repeat: no-repeat;
   
 }
