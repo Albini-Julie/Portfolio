@@ -84,9 +84,9 @@
     </div>
     <!--ICONES-->
     <div class="w-1/3 flex flex-col gap-10 items-center mr-5 md:mr-20 lg:mr-28 xl:mr-40 ">
-      <Statistiques class="md:w-[150px] md:h-[150px] w-[90px] h-[90px]"/>
-      <Html class="md:w-[150px] md:h-[150px] w-[90px] h-[90px]"/>
-      <Italie class="mt-8 md:w-[127px] md:h-[156px] w-[97px] h-[136px]"/>
+      <Statistiques class=""/>
+      <Html class="md:w-[150px] md:h-[150px] w-[100px] h-[90px]"/>
+      <Italie class="mt-8 w-[67px] h-[96px] md:w-[107px] md:h-[146px]"/>
     </div>
   </div>
   <!--MMI-->
@@ -121,26 +121,162 @@
 
   <!--TABLEAU DE LOGOS-->
   <div class="flex justify-center items-center md:justify-start mx-2 md:mx-6 lg:mx-10 xl:mx-28 gap-10 md:gap-16 lg:gap-20 flex-wrap">
-    <Figma class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <htmlLogo class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Css class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <ChartJs class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Sql class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Js class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Vue class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Figma class=""/>
+    <htmlLogo class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Css class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <ChartJs class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Sql class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Js class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Vue class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <div class="flex flex-col items-center">
-      <Tailwind class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+      <Tailwind class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
       <p class="font-anton text-violet_pastel bouton">Tailwind</p>
     </div>
-    <Photoshop class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Illustrator class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Wordpress class="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Photoshop class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Illustrator class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Wordpress class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <div class="flex flex-col justify-center gap-5">
       <p class="font-anton text-violet_pastel text-[25px] xl:text-[35px]">Supabase</p>
       <p class="font-anton text-violet_pastel text-[25px] xl:text-[35px]">Firebase</p>
     </div>
       <img class="hidden md:block lg:ml-80 md:ml-40 xl:ml-80 -mt-20 rotate-90" src="../../public/traits/MoyenRose.jpg" alt="ligne décorative"/>
   </div>
+
+  <!--AUTRES COMPETENCES-->
+  <div class="lg:flex mt-20 items-center justify-around">
+      <div class="bg-Turquoise bg-opacity-50 xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] justify-center flex items-center ">
+          <p class="font-anton text-[30px] md:text-[35px] text-white">STRATÉGIE DE COMMUNICATION</p>
+      </div>
+    <div class="lg:block lg:mt-0 mt-10 flex justify-end">
+      <div class="bg-Rose flex items-center justify-center xl:w-[460px] xl:h-[116px] w-[420px] h-[100px]">
+          <p class="font-anton text-[30px] md:text-[35px] text-white">TRAVAIL COLLECTIF</p>
+      </div>
+    </div>
+  </div>
+  <div class="lg:flex mt-10 items-center lg:mt-20 justify-around">
+    <div class="bg-violet_pastel bg-opacity-50 justify-center xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] flex items-center ">
+        <p class="font-anton text-[30px] md:text-[35px] text-white">GESTION DE BASE DE DONNÉES</p>
+    </div>
+    <div class=" mt-10 lg:mt-0 lg:block flex justify-end">
+      <div class="bg-Rose bg-opacity-50 xl:w-[460px] xl:h-[116px] w-[420px] h-[100px] flex justify-center items-center ">
+          <p class="font-anton text-[30px] md:text-[35px] text-white">RÉALISATION DE MAQUETTES</p>
+      </div>
+    </div>
+  </div>
+
+  <!--CE QUE J'AIME-->
+  <div class="mt-36 md:mt-28 xl:mt-40  md:flex justify-between items-center">
+    <div class="">
+      <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
+      <div class="flex relative">
+          <p class="ml-5 mt-10 h2 font-anton text-black ">CE QUE J'AIME</p>
+      </div> 
+    </div>
+    <div class="hidden md:flex w-1/2 justify-center">
+      <coeurRouge class="xl:w-[110px] xl:h-[90px] lg:w-[90px] lg:h-[75px]"/>
+    </div>
+  </div>
+
+  <!--PHOTO CHATS SM-->
+  <div class="flex mt-20 md:hidden justify-between items-center">
+      <coeurRouge class="mx-auto"/>
+    <img class="w-1/2" src="../../public/ChatsRose.jpg" alt="image chats"/>
+  </div>
+  <div class="md:hidden bg-violet_pastel bg-opacity-50 mx-20 my-10 p-5 flex items-center justify-center">
+    <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
+  </div>
+
+  <!--PHOTO MANGA SM-->
+  <div>
+    <img class="md:hidden" src="../../public/Mangas.jpg" alt="image manga"/>
+  </div>
+  <div class="md:hidden bg-Turquoise bg-opacity-40 w-2/3 my-10 p-5 flex items-center justify-center">
+    <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
+  </div>
+
+  <!--PHOTO CHATS MD-->
+  <div class="hidden md:mx-10 xl:mx-20 md:block lg:flex">
+    <div class="flex gap-10 lg:items-start md:items-center lg:gap-0 mt-20">
+      <img class="xl:absolute xl:w-max xl:h-max w-2/5 h-1/3 lg:w-2/3 lg:h-2/3" src="../../public/Chats.jpg" alt="image chats"/>
+      <div class="">
+        <div class="ml-10 xl:ml-64 mt-10 lg:relative hidden md:block h-max bg-violet_pastel bg-opacity-50  p-5">
+          <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
+        </div> 
+        <img class="mt-10 hidden md:block lg:hidden " src="../../public/Mangas.jpg" alt="image mangas"/>
+        <div class=" mx-20 mt-20 hidden lg:hidden md:block  bg-Rose bg-opacity-50  p-5">
+          <p class=" text-white font-semibold font-poppins">J’apprécie également la lecture, et particulièrement les mangas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-end">
+      <img class="lg:-ml-56 lg:w-2/3 xl:-ml-32 xl:w-2/3 md:hidden lg:block" src="../../public/Mangas.jpg" alt="image mangas"/>
+      <div class="mb-10 lg:mb-20">
+        <div class="flex items-center">
+           <img class="hidden lg:block" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+          <img class="hidden lg:block" src="../../public/traits/GrandRosePastel.jpg" alt="ligne décorative"/>
+        </div>
+        <div class=" ml-20 hidden lg:block  bg-Rose bg-opacity-50  p-5">
+          <p class=" text-white font-semibold font-poppins">J’apprécie également la lecture, et particulièrement les mangas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--TENNIS ET SYNTHE-->
+  <div class="flex mt-28 xl:mt-40  justify-center">
+    <div class="lg:flex justify-start items-end">
+      <img class="hidden lg:block" src="../../public/traits/MoyenViolet.jpg" alt="ligne décorative"/>
+      <div class="lg:flex items-start">
+        <img class="hidden lg:block mt-20" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+        <div class="flex flex-col justify-center md:w-max">
+          <img class="" src="../../public/Tennis.jpg" alt="Image balles de tennis"/>
+          <div class="bg-Rose py-5 flex justify-center items-center">
+            <p class="text-white text-center texte font-poppins font-semibold">J’ai fait 8 années de tennis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:flex items-start">
+      <div class=" flex flex-col justify-center md:w-max">
+        <img class="" src="../../public/Synthe.jpg" alt="Image synthé"/>
+        <div class="bg-violet_pastel py-5 flex justify-center items-center">
+          <p class="text-white font-poppins font-semibold texte text-center">J’ai joué du synthé pendant 4 ans</p>
+        </div>
+      </div>
+      <div class="lg:flex flex-col  items-center xl:items-end">
+        <img class="hidden xl:block mt-56" src="../../public/traits/HoriVioletFonce.jpg" alt="ligne décorative"/>
+        <div class="flex items-center">
+          <img class="hidden xl:block" src="../../public/traits/MoyenViolet.jpg" alt="ligne décorative"/>
+          <img class="hidden xl:block" src="../../public/traits/PetitVioletFonce.jpg" alt="ligne décorative"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--AUJOURD'HUI-->
+    <div class="md:flex items-center md:justify-around mt-28 xl:mt-40">
+      <div class="md:w-1/2 flex flex-col items-center justify-center">
+        <div class="w-max bg-Turquoise px-1 bg-opacity-40">
+          <p class="font-anton text-[68px] xl:[100px] text-white">AUJOURD'HUI</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <img class="rotate-90" src="../../public/traits/PetitBleu.jpg" alt="ligne décorative"/>
+        </div>
+      </div>
+      <div class="md:w-1/2 md:flex flex-col items-start">
+        <div class="flex items-center">
+          <img class="mx-auto" src="../../public/Italie.jpg" alt="image Italie"/>
+          <img class="hidden xl:block rotate-90" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+        </div>
+        <div class="w-2/3 md:w-3/4 mx-auto md:mx-0 xl:w-2/3  mt-10 bg-violet_pastel ">
+          <p class="font-poppins text-center font-semibold texte text-white flex justify-center items-center p-3">Aujourd’hui je pratique de manière hebdomadaire 
+            des cours d’italien. En effet, j’aime spécialement cette langue et ce pays.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <Footer class="mt-36 mb-16"/>
 </template>
 
 <script>
@@ -160,6 +296,8 @@ import Sql from "../components/icons/connaissances/sql.vue"
 import Tailwind from "../components/icons/connaissances/tailwind.vue"
 import Vue from "../components/icons/connaissances/vue.vue"
 import Wordpress from "../components/icons/connaissances/wordpress.vue"
+import coeurRouge from "../components/icons/coeurRouge.vue"
+import Footer from "../components/Footer.vue"
 
 export default {
   data: function () {
@@ -183,7 +321,9 @@ export default {
     Sql,
     Tailwind,
     Vue,
-    Wordpress
+    Wordpress,
+    coeurRouge,
+    Footer
   }
 }
 
