@@ -6,9 +6,9 @@
         <a href="https://www.linkedin.com/in/juliealbini/">
             <Linkedin class="lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
         </a>
-        <a HREF="mailto:julie-albini@orange.fr">
+        <router-link to="/contact">
             <Mail class="lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
-        </a>
+        </router-link>
     </div>
 
 
