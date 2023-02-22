@@ -275,7 +275,7 @@
     <div class="mt-20 w-full gap-10 md:flex justify-center">
     
     <!--BOUTON JAIME-->
-            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonViolet bg-Rose">J'aime ce projet</Bouton>
+            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
 
     <!--BOUTON AUTRE PROJET-->
     
@@ -331,6 +331,14 @@ export default {
     border-color: #7879F1;
     color: #7879F1;
     box-shadow: 12px 12px 2px 1px rgba(120, 121, 241);
+}
+
+.BoutonRose:hover {
+    transition: 0.8s;
+    background-color: white;
+    border-color: #FF8FA3;
+    color: #FF8FA3;
+    box-shadow: 12px 12px 2px 1px rgba(255, 143, 163);
 }
 
 .neon {  
