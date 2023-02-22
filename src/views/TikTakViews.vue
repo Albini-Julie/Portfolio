@@ -42,7 +42,7 @@
         <div class="w-3/4 h-3/4 xl:mt-36">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">LA DEMANDE</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">LA DEMANDE</p>
           </div> 
         </div>
         <div class="hidden md:h-1/2 xl:h-max md:flex w-1/4 h-1/4 justify-start">
@@ -88,7 +88,7 @@
         <div class="w-3/4 xl:mb-10 xl:mt-36">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">LA RÉPONSE</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">LA RÉPONSE</p>
           </div> 
         </div>
         <div class="hidden md:flex w-1/4 justify-start">
@@ -239,7 +239,7 @@
         <div class="w-3/4 xl:mb-10 xl:mt-36">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">COMPÉTENCES</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">COMPÉTENCES</p>
           </div> 
         </div>
         <div class="hidden md:flex w-1/4 justify-start">
@@ -345,6 +345,16 @@ export default {
       animation:neon infinite 4s;
       transition: 5s;
  }
+
+ .transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
 
 @keyframes neon{
 	

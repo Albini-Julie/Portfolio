@@ -42,7 +42,7 @@
             <div class="lg:mt-56 mt-28">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitRose.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton text-black ">NOM</p>
+                <p class="ml-5 mt-10 transDroit formulaire font-anton text-black ">NOM</p>
             </div> 
             </div>
             <input class="ml-20 mt-20 border-b-4 focus:outline-none formulaireOmbreRose h4 border-Rose border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" 
@@ -54,7 +54,7 @@
             <div class="lg:mt-56 mt-28">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton text-black ">PRÉNOM</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">PRÉNOM</p>
             </div> 
             </div>
             <input class="ml-20 mt-20 border-b-4 focus:outline-none formulaireOmbreBleu h4 border-Turquoise border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" type="text" placeholder="Prénom" 
@@ -68,7 +68,7 @@
             <div class="lg:mt-36 mt-14">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton text-black ">ADRESSE MAIL</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">ADRESSE MAIL</p>
             </div> 
             </div>
             <input class="ml-20 my-20 border-b-4 focus:outline-none formulaireOmbreViolet h4 border-violet_pastel border-opacity-50 w-2/3 
@@ -80,7 +80,7 @@
             <div class="lg:mt-36 mt-14">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitSaumon.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton text-black ">MESSAGE</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">MESSAGE</p>
             </div> 
             </div>
             <textarea class="ml-20 my-20 border-4 focus:outline-none formulaireOmbreSaumon h4 border-Rose w-2/3 lg:w-3/4 xl:w-5/6" 
@@ -165,6 +165,26 @@ export default {
       animation:neon infinite 4s;
       transition: 5s;
  }
+
+ .transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
+
+.transGauche:hover {
+  transition: 1s;
+  transform: translateX(-100px);
+}
+
+.transGauche {
+  transition: 1s;
+  transform: translateX(0px);
+}
 
 @keyframes neon{
 	

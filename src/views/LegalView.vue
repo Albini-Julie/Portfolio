@@ -21,7 +21,7 @@
         <div class="my-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">MENTIONS LÉGALES</p>
+              <p class="ml-5 mt-10 h2 font-anton transDroit text-black ">MENTIONS LÉGALES</p>
           </div> 
         </div>
 
@@ -47,7 +47,7 @@
         <div class="my-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">CONDITION D'UTILISATION</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">CONDITION D'UTILISATION</p>
           </div> 
         </div>
   
@@ -100,6 +100,16 @@ export default {
       animation:neon infinite 4s;
       transition: 5s;
  }
+
+ .transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
 
 @keyframes neon{
 	

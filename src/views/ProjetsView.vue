@@ -33,7 +33,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">COLLABORATION</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">COLLABORATION</p>
           </div> 
         </div>
 
@@ -51,7 +51,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">RÉFLÉXION</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">RÉFLÉXION</p>
           </div> 
         </div>
 
@@ -71,7 +71,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black ">DÉTERMINATION</p>
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">DÉTERMINATION</p>
           </div> 
         </div>
 
@@ -157,6 +157,16 @@ export default {
       animation:neon infinite 4s;
       transition: 5s;
  }
+
+ .transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
 
 @keyframes neon{
 	

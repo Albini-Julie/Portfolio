@@ -115,7 +115,7 @@
   <div class="mt-36 md:my-28 mb-28">
     <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
     <div class="flex relative">
-        <p class="ml-5 mt-10 h2 font-anton text-black ">CONNAISSANCES</p>
+        <p class="ml-5 mt-10 h2 font-anton text-black transDroit">CONNAISSANCES</p>
     </div> 
   </div>
 
@@ -169,7 +169,7 @@
     <div class="">
       <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
       <div class="flex relative">
-          <p class="ml-5 mt-10 h2 font-anton text-black ">CE QUE J'AIME</p>
+          <p class="ml-5 mt-10 h2 font-anton text-black transDroit">CE QUE J'AIME</p>
       </div> 
     </div>
     <div class="hidden md:flex w-1/2 justify-center">
@@ -256,8 +256,8 @@
   <!--AUJOURD'HUI-->
     <div class="md:flex items-center md:justify-around mt-28 xl:mt-40">
       <div class="md:w-1/2 flex flex-col items-center justify-center">
-        <div class="w-max bg-Turquoise px-1 bg-opacity-40">
-          <p class="font-anton text-[68px] xl:[100px] text-white">AUJOURD'HUI</p>
+        <div class="w-max transDroit bg-Turquoise px-1 bg-opacity-40">
+          <p class="font-anton text-[68px] xl:[100px]  text-white">AUJOURD'HUI</p>
         </div>
         <div class="flex justify-center items-center">
           <img class="rotate-90" src="../../public/traits/PetitBleu.jpg" alt="ligne décorative"/>
@@ -335,6 +335,16 @@ export default {
       animation:neon infinite 4s;
       transition: 5s;
  }
+
+ .transDroit:hover {
+  transition: 1s;
+  transform: translateX(100px);
+}
+
+.transDroit {
+  transition: 1s;
+  transform: translateX(0px);
+}
 
 @keyframes neon{
 	
