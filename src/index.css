@@ -19,6 +19,10 @@
         @apply text-[30px] lg:text-[35px]
     }
 
+    .formulaire {
+        @apply text-[45px] md:text-[55px] lg:text-[60px] xl:text-[80px]
+    }
+
     .texte {
         @apply text-[16px] lg:text-[18px] xl:text-[20px]
     };
