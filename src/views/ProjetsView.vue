@@ -19,16 +19,6 @@
         </div>
       </div>
 
-<!--BOX PROJET 1-->
-      <ProjetDroit image="../../public/MaquetteBleu.jpg" 
-        description="Création d’une maquette de site web sur le thème de la série The 100 sur le logiciel Figma."
-        type="Projet personnel"
-        filiere="DESIGN"
-        trait1="../../public/traits/PetitRose.jpg"
-        trait2="../../public/traits/PetitBleu.jpg"
-        trait3="../../public/traits/MoyenBleu.jpg"
-        jaime="28" />
-
         <!--COLLABORATION-->
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
@@ -38,6 +28,7 @@
         </div>
 
 <!--BOX PROJET 2-->
+      <router-link to="/unifiedchampions">
         <ProjetGauche image="../../public/UCRose.jpg" 
         description="Rédaction d’un dossier de com et création d’une identité graphique pour une équipe de esport."
         type="Projet étudiant"
@@ -46,6 +37,7 @@
         trait2="../../public/traits/PetitRoseFonce.jpg"
         trait3="../../public/traits/MoyenRose.jpg"
         jaime="19" />
+        </router-link>
 
         <!--RELEFLEXION-->
         <div class="mt-28">
