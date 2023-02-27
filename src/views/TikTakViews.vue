@@ -26,11 +26,15 @@
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
             <div class="bg-violet_pastel  flex justify-center xl:justify-center bg-opacity-50 w-full ">
-                <p class="font-anton text-[110px] xl:text-[80px] text-white">NOTE 18</p>
+                <p class="font-anton text-[90px] xl:text-[80px] text-white">NOTE 18</p>
             </div>
             <div class="bg-Rose py-5">
+                <a href="http://sae301.albini.fr/">
                     <p class="font-anton text-center text-white bouton underline">Le site</p>
+                </a>
+                <a href="https://docs.google.com/document/d/1-wqaw1iETTG0XxBBQax5mo8JWRJz134sx23MrL-WOsI/edit?usp=sharing">
                     <p class="font-anton text-center text-white bouton underline">Les objectifs de communication</p>
+                </a>
             </div>
         </div>
     </div>
