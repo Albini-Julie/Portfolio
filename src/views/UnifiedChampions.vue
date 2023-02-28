@@ -339,6 +339,256 @@
         </div>
     </div>
 
+    <!--EXPLICATION 9-->
+    <img class="absolute h-1/2 md:h-1/2 w-2/3 md:w-1/2 lg:w-1/3 mt-40" src="../../public/FondViolet.jpg" alt="fond décoratif"/>
+    <div class="mt-28 ">
+        <img class="lg:hidden mx-auto relative" src="../../public/Economie.jpg" alt="image de la page modèle économique du dossier de communication"/>
+        <div class="lg:flex mx-6 md:mx-20 lg:mx-10 justify-around lg:gap-10 xl:gap-0 items-center">
+            <div class="lg:w-1/2 xl:w-1/3 mt-10 lg:mt-0">
+                <p class="relative font-poppins texte">L’équipe Unified Champions étant une équipe universitaire, il était impossible pour nous de 
+                    vendre des produits dans notre boutique. Ainsi, nous avons émis l’idée de la création d’une association pour mettre en 
+                    place la boutique et vendre nos produits en toute légalité. </p>
+                <p class="relative font-poppins texte">Dans un second temps, pour la viabilité de notre équipe, nous avons pensé à des sponsoring et 
+                    des partenariats, qui nous permettraient d’avoir accès à des revenus stables et sûrs pour l’association tous les mois ou 
+                    encore du matériels gratuits pour nos joueurs par exemple. En échange nous metterions en avant les marques sur nos produits, 
+                    notre site web, ou encore dans nos lives. </p>
+            </div>
+            <img class="lg:hidden mt-5" src="../../public/traits/PetitRoseFonce.jpg" alt="trait décoratif"/>
+            <div class="lg:w-1/2 xl:w-1/3">
+                <img class="border-2 hidden lg:block" src="../../public/Economie.jpg" alt="image de la page modèle économique du dossier de communication"/>
+                <p class="relative font-poppins texte mt-5 lg:m-5">Enfin, une fois notre chaîne Twitch développée, elle pourra être l’origine d’un 
+                    autre revenu grâce au sub. (p 43)</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="lg:hidden mt-20 mx-6 md:mx-20 lg:mx-auto font-poppins texte mb-5">Pour la communication de notre projet, nous avons pensé à 4 réseaux sociaux qui se déploieront 
+            en 2 temps. Ainsi nous avons également réalisé un calendrier de prévision, avec notamment à quelle période il faudra publier 
+            des contenus sur les réseaux.</p>
+    <!--BLOCK RESEAUX SOCIAUX-->
+    <div class="flex justify-center my-20 lg:my-28">
+        <div class="bg-violet_pastel flex gap-5 justify-around items-center px-8 py-5 w-full md:w-2/3 lg:w-1/2">
+            <Instagram class=" lg:w-[93px] lg:h-[93px] md:w-[83px] md:h-[83px] w-[73px] h-[73px]"/>
+            <Twitch class=" lg:w-[100px] lg:h-[100px] md:w-[90px] md:h-[90px] w-[80px] h-[80px]"/>
+            <Tiktok class=" lg:w-[120px] lg:h-[120px] md:w-[110px] md:h-[110px] w-[90px] h-[90px]"/>
+            <Discord class=" lg:w-[120px] lg:h-[92] md:w-[110px] md:h-[82px] w-[100px] h-[72px]"/>
+        </div>
+    </div>
+
+    <!--EXPLICATION 10-->
+    <div class="flex justify-end mr-20 md:justify-center">
+        <img class="absolute w-2/3 h-1/4 md:w-1/2 lg:w-1/3 lg:h-1/3 md:mt-0 mt-20" src="../../public/FondBleu.jpg" alt="fond décoratif"/>
+    </div>
+    <div class="lg:w-1/2 mx-6 md:mx-auto md:w-2/3">
+        <p class="relative hidden lg:block font-poppins texte mb-5">Pour la communication de notre projet, nous avons pensé à 4 réseaux sociaux qui se déploieront 
+            en 2 temps. Ainsi nous avons également réalisé un calendrier de prévision, avec notamment à quelle période il faudra publier 
+            des contenus sur les réseaux.</p>
+        <p class="relative font-poppins texte">Dans un premier temps, nous avons pensé à un compte Instagram pour donner toutes les informations 
+            utiles pour suivre l’équipe facilement, d’autant plus qu’il s’agit d’un réseau très utilisé par nos cibles.
+        Ensuite, nous avons pensé à un serveur Discord, pour également donner les informations, mais aussi avoir des contacts avec les fans et 
+        pouvoir créer un lien avec eux.</p>
+        <p class="relative font-poppins texte">Enfin, dans un second temps, une fois l’équipe et l’association mises en place, nous pourrons créer un 
+            compte Tik Tok et ue chaîne Youtube pour toucher une population jeune qui est intéressée par les jeux vidéos et qui pourraient donc 
+            s’intéresser à notre projet. On pourra par exemple mettre en avant nos joueurs.</p>
+    </div>
+
+    <!--EXPLICATION 11-->
+    <div class="lg:flex lg:justify-around justify-center items-center mt-20">
+        <div class="lg:w-1/2 xl:w-1/3">
+            <img class="relative mx-auto" src="../../public/Lives.jpg" alt="image page Lives de la maquette Figma"/>
+        </div>
+        <div class="lg:w-1/2 mt-10 lg:mt-0 xl:w-1/3 md:mx-20 mx-6">
+            <p class="font-poppins texte">Aussi, la création d’une chaîne Twitch pour diffuser nos matchs, mettre en avant 
+                nos joueurs et notre projet via des lives pourrait permettre de rendre plus concret le projet et de créer des 
+                liens avec les fans.</p>
+            <p class="font-poppins mt-5 texte">Nous comptons également beaucoup sur le bouche à oreille au sein de l’Université.</p>
+        </div>
+    </div>
+
+    <!--LA PARTIE DESIGN-->
+    <img class=" absolute mt-10 w-1/2 h-1/2 lg:w-1/3 lg:h-1/3" src="../../public/FondRose.jpg" alt="fond décoratif"/>
+    <div class="lg:flex justify-evenly mt-20 items-center">
+        <div class="lg:w-1/2 xl:w-1/3 mx-6 md:mx-20 ">
+            <p class="relative font-anton h4 font-bold text-center md:text-left">La partie design du projet</p>
+            <p class="relative ml-0 font-poppins texte mt-10">Nous avons imaginé pour notre équipe universitaire un logo : ce dernier devait faire 
+                passer notre identité et reprendre les idées de nos noms pour les mettre en valeur.</p>
+            <p class="relative ml-0 font-poppins texte">Ainsi, nous avons opté pour une logo textuel, qui est plus parlant lorsqu’on ne connaît pas 
+                l’équipe. Pour la font et les couleurs, nous avons choisi de reprendre la charte graphique de l’Université de Franche-Comté 
+                afin de marquer notre appartenance. Dans la même idée, nous avons mis en avant avec un changement de couleur les trois 
+                lettres UFC. (p 9)</p>
+        </div>
+        <div class="md:w-1/3 w-1/2 mx-auto flex justify-center">
+            <img class="relative mt-10 lg:mt-0" src="../../public/Logo.jpg" alt="Image logo Unified Champions"/>
+        </div>
+    </div>
+
+    <!--EXPLICATION 12-->
+    <div class="lg:flex mt-20 lg:mt-28 justify-center items-center">
+        <div class="flex md:hidden justify-center">
+            <img class=" absolute md:w-2/3 w-full h-2/3" src="../../public/fond.jpg" alt="fond décoratif"/>
+        </div>
+        <div class="mx-auto lg:mx-0 md:w-1/2 xl:w-1/3">
+            <img class="relative mx-auto" src="../../public/MoodboardUC.jpg" alt="Image Moodboard du projet Unified Champions"/>
+        </div>
+        <div class="lg:w-1/2 md:w-1/2 md:mx-auto lg:mx-0 xl:w-1/3 justify-center flex flex-col">
+            <img class="hidden lg:block absolute h-1/3 w-1/2" src="../../public/fond.jpg" alt="fond décoratif"/>
+            <p class="relative lg:block hidden lg:ml-14 xl:ml-40 font-poppins text-[20px] lg:text-[20px] xl:text-[25px] ">Pour nous inspirer pour la création du site web, nous avons créer un moodboard 
+            sur le thème de E-sport.</p>
+        </div>
+        <div class="lg:hidden bg-Rose py-5">
+            <div class=" md:w-1/2 mx-auto">
+                <p class="mx-6 mt-10 relative lg:ml-20 xl:ml-40 font-poppins text-[20px] lg:text-[20px] xl:text-[25px] ">Pour nous inspirer pour la création du site web, nous avons créer un moodboard 
+                sur le thème de E-sport.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--EXPLICATION 13-->
+    <p class="relative mx-6 md:w-2/3 md:mx-auto lg:hidden texte font-poppins mt-40 mb-10 md:my-20 ">Pour la charte, nous avons choisi un total de 4 typographies 
+        différentes selon les types de 
+        textes. Nous avons veiller à choisir ces typographies pour qu’elles s’adaptent et fassent naturellement penser à un site de E-sport. Par exemple, 
+        nous avons choisi Lexend Deca pour les titres car elle est simple, sans empattement qui pourrait faire trop sophistiqué, mais est marque de 
+        modernité, une caractéristique du E-sport. </p>
+    <div class="flex justify-evenly items-center lg:mt-28">
+        <div class="md:w-2/3 xl:w-max w-max">
+            <img class="relative" src="../../public/CharteGraphique.jpg" alt="image charte graphique Unified Champions"/>
+        </div>
+        <img class="hidden lg:block" src="../../public/traits/MoyenBleu.jpg" alt="trait décoratif"/>
+    </div>
+
+    <!--TEXTES-->
+    <div class="flex justify-center lg:justify-around items-center mx-6 md:mx-10 mt-20">
+        <img class="absolute w-1/2 h-1/3" src="../../public/FondViolet.jpg" alt="fond décoratif"/>
+        <div class="lg:w-1/3 ">
+            <p class="relative font-poppins hidden lg:block texte ">Pour la charte, nous avons choisi un total de 4 typographies 
+            différentes selon les types de textes. Nous avons veiller à choisir ces typographies pour qu’elles s’adaptent et 
+            fassent naturellement penser à un site de E-sport. Par exemple, nous avons choisi Lexend Deca pour les titres car 
+            elle est simple, sans empattement qui pourrait faire trop sophistiqué, mais est marque de modernité, une caractéristique du 
+            E-sport.</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 xl:w-1/3">
+            <p class="relative font-poppins texte">
+                Au niveau des couleurs, après avoir fait des recherches sur Internet ainsi qu’un sondage au sein de l’Université de 
+                Franche-Comté, le rouge et le bleu sont les couleurs qui faisaient le plus penser au thème du E-sport. Ainsi, nous 
+                avons choisi de garder ses couleurs pour le design de notre site, en ajoutant la couleur primaire du jaune pour plus 
+                de dynamisme. Pour les fonds et les couleurs, nous avons opté pour de la sobriété avec du blanc et du noir.
+            </p>
+        </div>
+    </div>
+
+    <div class="lg:hidden flex justify-center items-center">
+        <img class="my-24 md:my-28" src="../../public/traits/PetitRoseFonce.jpg" alt="trait décoratif"/>
+    </div>
+
+    <!--EXPLICATION 14-->
+    <img class="lg:hidden mx-auto" src="../../public/MaquetteUC.jpg" alt="image maquette Unified Champions"/>
+    <div class="flex justify-end mt-20 xl:mt-40">
+        <img class="xl:h-1/2 lg:h-1/3 lg:w-1/3 w-1/2 md:w-2/3 md:h-1/4 h-1/3 absolute" src="../../public/FondBleu.jpg"/>
+    </div>
+    <div class="lg:flex justify-evenly items-center mt-5">
+        <div class="lg:w-1/2 xl:w-1/3 mx-6 md:mx-20">
+            <p class="relative font-poppins texte">Sur la maquette de notre site web, nous avons voulu mettre en avant la modernité en jouant 
+                sur l’alternance du noir et du blanc. De plus, pour marquer l’aspect jeu vidéo, nous avons parsemé tout le long de nos 
+                pages des néons avec les couleurs que nous avons évoqué plus haut. Nous avons également veillé à rappeler notre 
+                appartenance à l’université de Franche -Comté en mettant leur logo souvent.</p>
+        </div>
+        <div class="lg:w-1/2 flex justify-center">
+            <img class="relative lg:block hidden" src="../../public/MaquetteUC.jpg" alt="image maquette Unified Champions"/>
+        </div>
+    </div>
+
+    <!--LA PARTIE DEVELOPPEMENT DU PROJET-->
+    <div class="lg:flex gap-10 justify-around items-center mt-20 relative">
+        <div class="lg:w-1/2">
+            <p class="mx-6 md:mx-20  relative font-anton h4 font-bold text-center md:text-left mb-10">La partie développement du projet</p>
+            <p class="mx-6 md:mx-20  font-poppins texte">Pour ce projet, il nous a été commandé une landing page pour annoncer le projet, ses 
+                objectifs et l’arrivée prochaine de l’équipe sur le jeu League of Legends. </p>
+            <p class="mx-6 md:mx-20  font-poppins mt-5 texte">Pour créer cette landing page, nous avons fait quelques recherches sur comment bien 
+                réaliser une landing page, puis nous l’avons créer, en respectant la charte graphique que nous metterons en place 
+                pour le site officiel du projet, afin de déjà créer une identité visuel pour le projet et un lien avec les fans.</p>
+
+            <img class="mx-auto mt-10 w-2/3 md:w-1/2 lg:hidden" src="../../public/SitePromo.jpg" alt="image site promotionnel Unufued Champions0/"/>
+            
+            <div class="">
+                <img class="w-1/2 h-1/4 md:h-1/6 lg:h-1/3 mt-5 lg:w-1/3 absolute" src="../../public/FondRose.jpg" alt="fond décoratif"/>
+            </div>
+            <p class="mx-6 md:mx-20  relative font-poppins mt-10 texte">Nous avons réaliser ce site promotionnel et le site officiel du projet de manière responsive. 
+                Comme nous l’avait demandé le commanditaire, tous les sites web du projet ont été réalisés sur Wordpress à l’aide du thème Avada.</p>
+            <p class="mx-6 md:mx-20  relative font-poppins mt-5 texte">Au cours du projet, les consignes de notre commanditaire ont été amenées à changer, ainsi, plusieurs 
+                des pages que nous avions prévu initialement comme la boutique ou la page actu ont été amenées à être supprimées. </p>
+            <p class="mx-6 md:mx-20  relative font-poppins mt-5 texte">Après avoir bien servie l’équipe Unified Champions, notre site web a été amené à évoluer et à subir des 
+                refontes pour répondre aux attentes du moment pour le projet. Il n’est donc plus actuellement en ligne sous la forme que nous 
+                avions réalisé lors de ce projet de S2.</p>
+        </div>
+        <div class="lg:w-1/2">
+            <img class="hidden mx-auto lg:block" src="../../public/SitePromo.jpg" alt="image site promotionnel Unufued Champions0/"/>
+        </div>
+    </div>
+
+    <!--IMAGES DU SITE-->
+    <div class="flex justify-center items-center mt-20">
+        <div class="md:w-2/3 lg:w-max xl:w-1/4 flex flex-col justify-center items-center">
+                <img class="w-1/2" src="../../public/Accueil.jpg" alt="image page d'accueil site Unified Champions"/>
+                <p class="font-poppins italic texte mt-3">Page accueil</p>
+        </div>
+        <div class="hidden lg:flex w-1/3 xl:w-1/4 flex-col items-center justify-center">
+            <img class="w-1/2" src="../../public/LOL.jpg" alt="Image page LOL du site Unified Champions"/>
+            <p class="font-poppins italic texte mt-3">Page League of Legends</p>
+        </div>
+        <div class="hidden lg:flex w-1/3 xl:w-1/4 flex-col items-center justify-center">
+            <img class="w-1/2" src="../../public/Twitch.jpg" alt="Image page Lives du site Unified Champions"/>
+            <p class="font-poppins italic texte mt-3">Page Lives</p>
+        </div>
+    </div>
+
+    <!--COMPETENCES-->
+    <div class="w-3/4 h-3/4 mt-20 xl:mt-36">
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
+          <div class="flex relative">
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">COMPÉTENCES</p>
+          </div> 
+    </div>
+
+    <!--REDACTION WEB-->
+    <div class="bg-violet_pastel w-full mt-10 md:mt-0 xl:mt-14">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉDACTION WEB</p>
+    </div>
+    <!--DEVELOPPEMENT WORDPRESS-->
+    <div class="bg-Rose mt-5 bg-opacity-50 w-full ">
+        <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">DÉVELOPPEMENT WORDPRESS</p>
+    </div>
+    <!--TRAVAIL D'ÉQUIPE-->
+    <div class="bg-violet_pastel bg-opacity-50 mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">TRAVAIL D'ÉQUIPE</p>
+    </div>
+    <!--PROFESSIONNALISME-->
+    <div class="bg-Turquoise mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">PROFESSIONNALISME</p>
+    </div>
+    <!--CREATIVITE-->
+    <div class="bg-Rose mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CRÉATIVITÉ</p>
+    </div>
+    <!--ADAPTATION-->
+    <div class="bg-Turquoise bg-opacity-40 mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ADAPTATION</p>
+    </div>
+
+    <div class="mt-20 w-full gap-10 md:flex justify-center">
+    
+    <!--BOUTON JAIME-->
+            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+
+    <!--BOUTON AUTRE PROJET-->
+    
+        <router-link to="/fatum">
+            <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
+        </router-link>
+    </div>
+
+    <!--FOOTER-->
+    <Footer class="mt-36 mb-16"/>
+
 </template>
 
 <script>
@@ -350,6 +600,11 @@ import Actualite from "../components/icons/fonctionnalites/Megaphone.vue"
 import Agenda from "../components/icons/fonctionnalites/Agenda.vue"
 import Lives from "../components/icons/fonctionnalites/Twitch.vue"
 import Boutique from "../components/icons/fonctionnalites/Boutique.vue"
+import Instagram from "../components/icons/Block_ReseauxSociaux/instagram.vue"
+import Twitch from "../components/icons/Block_ReseauxSociaux/twitch.vue"
+import Tiktok from "../components/icons/Block_ReseauxSociaux/tiktok.vue"
+import Discord from "../components/icons/Block_ReseauxSociaux/discord.vue"
+import Bouton from "../components/bouton.vue"
 
 export default {
   data: function () {
@@ -365,6 +620,11 @@ export default {
     Agenda,
     Lives,
     Boutique,
+    Instagram,
+    Twitch,
+    Tiktok,
+    Discord,
+    Bouton
   }
 }
 
