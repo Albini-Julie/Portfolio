@@ -27,7 +27,7 @@
           </div> 
         </div>
 
-<!--BOX PROJET 2-->
+<!--BOX PROJET 1-->
       <router-link to="/unifiedchampions">
         <ProjetGauche image="../../public/UCRose.jpg" 
         description="Rédaction d’un dossier de com et création d’une identité graphique pour une équipe de esport."
@@ -47,7 +47,7 @@
           </div> 
         </div>
 
-<!--BOX PROJET 3-->
+<!--BOX PROJET 2-->
     <router-link to="/tiktak">
         <ProjetDroit image="../../public/TikTakViolet.jpg" 
         description="Développement d’un site web de personnalisation de montres avec toutes les fonctionnalités utiles."
@@ -67,8 +67,8 @@
           </div> 
         </div>
 
-<!--BOX PROJET 4-->
-        <ProjetGauche image="../../public/FatumBleu.jpg" 
+<!--BOX PROJET 3-->
+        <ProjetGauche image="../../public/SupanalyseBleu.jpg" 
         description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
         type="SAE"
         filiere="DESIGN"
