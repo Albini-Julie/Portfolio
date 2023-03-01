@@ -68,14 +68,16 @@
         </div>
 
 <!--BOX PROJET 3-->
-        <ProjetGauche image="../../public/SupanalyseBleu.jpg" 
-        description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
-        type="SAE"
-        filiere="DESIGN"
-        trait1="../../public/traits/PetitRose.jpg"
-        trait2="../../public/traits/PetitRoseFonce.jpg"
-        trait3="../../public/traits/MoyenBleu.jpg"
-        jaime="19" />
+        <router-link to="/supanalyse">
+          <ProjetGauche image="../../public/SupanalyseBleu.jpg" 
+          description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
+          type="SAE"
+          filiere="DESIGN"
+          trait1="../../public/traits/PetitRose.jpg"
+          trait2="../../public/traits/PetitRoseFonce.jpg"
+          trait3="../../public/traits/MoyenBleu.jpg"
+          jaime="19" />
+        </router-link>
 
 <!--FOOTER-->
         <Footer class="mt-36 mb-16"/>
