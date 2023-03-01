@@ -5,7 +5,8 @@ import MeConnaitreView from "../views/MeConnaitreView.vue"
 import LegalView from "../views/LegalView.vue"
 import TikTakView from "../views/TikTakViews.vue"
 import ContactView from "../views/ContactView.vue"
-import UnifiedChampionsView from "../views/UnifiedChampions.vue"
+import UnifiedChampionsView from "../views/UnifiedChampionsView.vue"
+import SupanalyseView from "../views/SupanalyseView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,7 @@ const router = createRouter({
     {path: '/tiktak', name: 'tiktak', component: TikTakView},
     {path: '/contact', name: 'contact', component: ContactView},
     {path: '/unifiedchampions', name: 'unifiedchampions', component: UnifiedChampionsView},
+    {path: '/supanalyse', name: 'supanalyse', component: SupanalyseView},
   ]
 })
 
