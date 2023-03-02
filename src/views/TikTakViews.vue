@@ -33,7 +33,7 @@
                     <p class="font-anton text-center text-white bouton underline">Le site</p>
                 </a>
                 <a href="https://docs.google.com/document/d/1-wqaw1iETTG0XxBBQax5mo8JWRJz134sx23MrL-WOsI/edit?usp=sharing">
-                    <p class="font-anton text-center text-white bouton underline">Les objectifs de communication</p>
+                    <p class="mt-5 font-anton text-center text-white bouton underline">Les objectifs de communication</p>
                 </a>
             </div>
         </div>
