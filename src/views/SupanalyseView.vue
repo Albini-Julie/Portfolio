@@ -215,11 +215,175 @@
         <img class="mx-auto" src="../../public/MapSupanalysePing.jpg" alt="Image map Supanalyse avec ping"/>
     </div>
 
-    <div class="flex justify-around items-center">
-        <div class="">
-            <img src="../../public/Statistiques1.jpg" alt="image graphique site Supanalyse"/>
+    <!--EXPLICATION 5-->
+    <div class="lg:flex justify-around items-center mt-20 lg:mt-28">
+        <div class="xl:w-1/3 lg:w-1/2">
+            <img class="border-2 mb-10 lg:mt-0 mx-auto" src="../../public/Statistiques1.jpg" alt="image graphique site Supanalyse"/>
+        </div>
+        <div class="lg:w-1/3 xl:w-1/2">
+            <div class="flex justify-center">
+                <img class="absolute w-1/2 h-1/3 md:h-1/4 lg:w-1/5 lg:h-1/3" src="../../public/FondRose.jpg" alt="fond décoratif"/>
+            </div>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">Le premier article concerne les académies en France.</p>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte mt-5">Il introduit le sujet des infrastructures et efforts faits par les 
+                villes, ou que les villes devraient faire pour attirer les étudiants, grâce à un diagramme en bâton.</p>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte mt-5">J’ai choisi ce dernier pour illustrer la répartition des bacheliers  
+                par académies car il permet de représenter clairement les données lorsqu’on a beaucoup de types de 
+                données. Ainsi, la lisibilité n’est pas impactée par le nombre de données.</p>
         </div>
     </div>
+
+    <!--DEUXIEME ARTICLE-->
+    <div class="mt-20 relative lg:hidden">
+        <div class="flex justify-start ml-20 md:ml-56">
+            <p class="text-[60px] font-anton text-Turquoise">DEUXIÈME</p>
+        </div>
+        <div class="flex justify-end mr-20 md:mr-56">
+            <p class="text-[60px] font-anton text-Turquoise opacity-40">ARTICLE</p>
+        </div>
+    </div>
+
+    <!--EXPLICATION 6-->
+    <div class="flex ">
+        <img class="hidden lg:block absolute mt-40 h-1/3 w-1/3 ml-80" src="../../public/FondViolet.jpg" alt="fond décoratif"/>
+    </div>
+    <div class="lg:flex justify-around items-center mt-10 lg:mt-28">
+        <div class="lg:hidden xl:w-1/3 lg:w-1/2">
+            <img class="border-2 mb-10 lg:mt-0 mx-auto relative" src="../../public/GraphiquesGenre.jpg" alt="image graphique site Supanalyse"/>
+        </div>
+        <div class="lg:w-1/3 xl:w-1/2">
+            <div class="flex justify-end">
+                <img class="lg:hidden absolute w-2/3 h-1/3 md:h-1/5 md:w-2/3 " src="../../public/FondViolet.jpg" alt="fond décoratif"/>
+            </div>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">Le deuxième article aborde le sujet des genres dans l’Ecole française.</p>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte mt-5">Les deux graphiques circulaires montrent la répartition des 
+                filles et des garçons selon le type de bac. </p>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">J’ai choisi ce type de graphique car étant donné qu’il y avait peu de données à représenter, 
+                ce type de graphique était parfait et ne gênait en rien la lisibilité, même au contraitre.</p>
+        </div>
+        <div class="hidden lg:block xl:w-1/3 lg:w-1/2">
+            <img class="border-2 mb-10 lg:mt-0 mx-auto relative" src="../../public/GraphiquesGenre.jpg" alt="image graphique site Supanalyse"/>
+        </div>
+    </div>
+
+    <!--EXPLICATION 7-->
+    <div class="lg:flex justify-center hidden">
+        <img class="absolute w-2/3 h-1/4 mt-40" src="../../public/FondBleu.jpg" alt="fond décoratif"/>
+    </div>
+    <div class="lg:flex justify-around xl:justify-evenly items-center mt-20 lg:mt-28">
+        <div class="xl:w-1/2 lg:w-1/2">
+            <img class="relative border-2 lg:mt-0 mx-auto" src="../../public/ArticleGenre.jpg" alt="image article sur les genres site Supanalyse"/>
+        </div>
+        <div class="lg:w-1/3 xl:w-1/3 mt-10 lg:mt-0">
+            <div class="lg:hidden justify-center ">
+                <img class="absolute md:ml-40 w-1/3 h-1/4" src="../../public/FondBleu.jpg" alt="fond décoratif"/>
+            </div>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">Grâce à ces deux graphiques, et en utilisant les connaissances 
+                apprises en cours de SES, j’ai expliqué dans cet article les différences que l’on peut clairement observer entre la 
+                scolarité des filles et celles des garçons, en mettant notamment en avant le processus de socialisation.</p>
+        </div>
+    </div>
+
+    <!--EXPLICATION 8-->
+    <div class="lg:flex justify-evenly items-center mt-20 lg:mt-28">
+        <div class="lg:w-1/3">
+            <img class="lg:hidden relative border-2 mt-10 mb-10 lg:mt-0 mx-auto" src="../../public/Tableau.jpg" alt="image tableau-graphique du site Supanalyse"/>
+            <div class="flex md:justify-start justify-center">
+                <img class="lg:hidden absolute w-1/2 h-1/4 mt-20 lg:mt-0 lg:w-1/4 lg:h-1/3 xl:w-1/4 xl:h-1/2" src="../../public/FondRose.jpg" alt="fond décoratif"/>
+            </div>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">La troisième n’est pas vraiment un article : il s’agit 
+                d’une page sur laquelle l’utilisateur va pouvoir avoir accès à toutes les écoles de France, et les triées par nom, 
+                secteur, nom de commune/département/région/académie. </p>
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins texte">Ce tableau est relié un à graphique qui s’adapte automatiquement 
+                lorsqu’on entre un filtrage. Ce graphique trie les types d’établissement parmi ceux présents dans le tableau pendant le 
+                filtrage.</p>
+        </div>
+        <div class="hidden lg:block">
+                <img class="absolute mt-20 lg:mt-0 lg:w-1/3 lg:h-1/4 xl:w-1/4 xl:h-1/4 " src="../../public/FondRose.jpg" alt="fond décoratif"/>
+            </div>
+        <div class="lg:w-1/2 wl:w-1/3 hidden lg:block">
+            <img class="relative border-2 mt-10 mb-10 lg:mt-0 mx-auto" src="../../public/Tableau.jpg" alt="image tableau-graphique du site Supanalyse"/>
+        </div>
+    </div>    
+
+    <!--DERNIER ARTICLE-->
+    <div class="mt-20 relative lg:hidden">
+        <div class="flex justify-start ml-20 md:ml-56">
+            <p class="text-[60px] font-anton text-violet_pastel">DERNIER</p>
+        </div>
+        <div class="flex justify-end mr-20 md:mr-56">
+            <p class="text-[60px] font-anton text-violet_pastel opacity-50">ARTICLE</p>
+        </div>
+    </div>
+
+    <!--EXPLICATION 9-->
+    <div class="flex justify-center">
+        <img class="absolute h-1/2 md:w-3/4 xl:w-1/3 xl:h-1/3 mt-80" src="../../public/FondViolet.jpg" alt="Fond décoratif"/>
+    </div>
+    <div class="relative xl:flex mt-10 xl:mt-28 justify-around items-center">
+        <div class="flex flex-col justify-center mx-auto lg:w-2/3 xl:w-1/3">
+            <img class=" border-2 lg:mt-10 xl:mt-0" src="../../public/CartePing2.jpg" alt="Image carte des écoles par département sur site Supanalyse"/>
+            <p class="mx-6 md:mx-20 lg:mx-0 font-poppins texte mt-10">Enfin, sur la page Histoire, nous avons accès à deux éléments. Le premier est une 
+                carte intéractive permettant de sélectionner un département et d’avoir accès aux écoles dans ce département 
+                avec leurs localisations et leurs noms.</p>
+        </div>
+        <div class="relative flex flex-col mx-auto justify-center lg:w-2/3 xl:w-1/3">
+            <img class="border-2 mt-10 xl:mt-0" src="../../public/GraphiquePoints.jpg" alt="Image graphique points du site Supanalyse"/>
+            <p class="mx-6 md:mx-20 lg:mx-0 font-poppins texte mt-10">Le deuxième graphique est un graphique à points montrant le nombre de création d’écoles 
+                par année. Il permet de mettre en avant facilement les années où l’enseignement s’est particulièrement développé 
+                via des créations d’écoles.</p>
+            <p class="mx-6 md:mx-20 lg:mx-0 font-poppins texte mt-10">J’ai choisi ce type de graphique car il permet de bien discerner les évolutions 
+                et les pics d’une courbe. </p>
+        </div>
+    </div>
+
+    <!--COMPETENCES-->
+    <div class="w-3/4 h-3/4 mt-20 xl:mt-36">
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
+          <div class="flex relative">
+              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">COMPÉTENCES</p>
+          </div> 
+    </div>
+
+    <!--RCONNAISSANCE CHARTJS-->
+    <div class="bg-Rose bg-opacity-50 w-full mt-10 md:mt-0 xl:mt-14">
+        <p class="text-[50px] text-center tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CONNAISSANCES CHARTJS</p>
+    </div>
+    <!--RÉDACTION WEB-->
+    <div class="bg-Turquoise mt-5 w-full ">
+        <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉDACTION WEB</p>
+    </div>
+    <!--ANALYSE-->
+    <div class="bg-Rose mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ANALYSE</p>
+    </div>
+    <!--CRÉATIVITÉ-->
+    <div class="bg-violet_pastel bg-opacity-50 mt-5 w-full ">
+        <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CRÉATIVITÉ</p>
+    </div>
+    <!--CULTURE GÉNÉRALE-->
+    <div class="bg-Turquoise bg-opacity-50 mt-5 w-full ">
+        <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CULTURE GÉNÉRALE</p>
+    </div>
+    <!--INTÉGRATION VUEJS-->
+    <div class="bg-violet_pastel mt-5 w-full ">
+        <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">INTÉGRATION VUEJS</p>
+    </div>
+
+    <div class="mt-20 w-full gap-10 md:flex justify-center">
+    
+    <!--BOUTON JAIME-->
+            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+
+    <!--BOUTON AUTRE PROJET-->
+    
+        <router-link to="/the100">
+            <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
+        </router-link>
+    </div>
+
+    <!--FOOTER-->
+    <Footer class="mt-36 mb-16"/>
 
 </template>
 
@@ -231,6 +395,7 @@ import Footer from "../components/Footer.vue"
 import TailwindRose from "../components/icons/Icons_Supanalyse/TailwindRose.vue"
 import ChartjsRose from "../components/icons/Icons_Supanalyse/ChartjsRose.vue"
 import VueRose from "../components/icons/Icons_Supanalyse/VueRose.vue"
+import Bouton from "../components/bouton.vue"
 
 export default {
   data: function () {
@@ -244,6 +409,7 @@ export default {
     TailwindRose,
     ChartjsRose,
     VueRose,
+    Bouton
   }
   
 }
