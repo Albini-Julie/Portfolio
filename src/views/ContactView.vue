@@ -1,7 +1,8 @@
 <template>
+<div class="dark:bg-black">
     <!--Header-->
       <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon 
+        <h2 class="dark:bg-none bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon 
         text-[50px] md:text-[100px] lg:text-[125px] xl:text-[110px]">ME CONTACTER</h2>
         <div class="xl:hidden pr-5">
           <Header  />
@@ -42,10 +43,10 @@
             <div class="lg:mt-56 mt-28">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitRose.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 transDroit formulaire font-anton text-black ">NOM</p>
+                <p class="ml-5 mt-10 transDroit formulaire font-anton dark:text-white text-black ">NOM</p>
             </div> 
             </div>
-            <input class="ml-20 mt-20 border-b-4 focus:outline-none formulaireOmbreRose h4 border-Rose border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" 
+            <input class="ml-20 mt-20 border-b-4 focus:outline-none dark:bg-black formulaireOmbreRose h4 border-Rose border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" 
             type="text" placeholder="Nom" name="nom" required>
         </div>
 
@@ -54,10 +55,10 @@
             <div class="lg:mt-56 mt-28">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">PRÉNOM</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit dark:text-white text-black ">PRÉNOM</p>
             </div> 
             </div>
-            <input class="ml-20 mt-20 border-b-4 focus:outline-none formulaireOmbreBleu h4 border-Turquoise border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" type="text" placeholder="Prénom" 
+            <input class="ml-20 mt-20 border-b-4 dark:bg-black focus:outline-none formulaireOmbreBleu h4 border-Turquoise border-opacity-50 w-2/3 lg:w-3/4 xl:w-w-5/6" type="text" placeholder="Prénom" 
             name="prénom" required>
             </div>
     </div>
@@ -68,10 +69,10 @@
             <div class="lg:mt-36 mt-14">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">ADRESSE MAIL</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit dark:text-white text-black ">ADRESSE MAIL</p>
             </div> 
             </div>
-            <input class="ml-20 my-20 border-b-4 focus:outline-none formulaireOmbreViolet h4 border-violet_pastel border-opacity-50 w-2/3 
+            <input class="ml-20 my-20 border-b-4 dark:bg-black focus:outline-none formulaireOmbreViolet h4 border-violet_pastel border-opacity-50 w-2/3 
             lg:w-3/4 xl:w-w-5/6" type="text" placeholder="Adresse mail" name="adresse_mail" required>
         </div>
 
@@ -80,10 +81,10 @@
             <div class="lg:mt-36 mt-14">
             <img class="w-max md:w-1/3 lg:w-1/4 absolute" src="../../public/TraitSaumon.jpg" alt="Trait décoratif"/>
             <div class="flex relative">
-                <p class="ml-5 mt-10 formulaire font-anton transDroit text-black ">MESSAGE</p>
+                <p class="ml-5 mt-10 formulaire font-anton transDroit dark:text-white text-black ">MESSAGE</p>
             </div> 
             </div>
-            <textarea class="ml-20 my-20 border-4 focus:outline-none formulaireOmbreSaumon h4 border-Rose w-2/3 lg:w-3/4 xl:w-5/6" 
+            <textarea class="ml-20 my-20 dark:bg-black border-4 focus:outline-none formulaireOmbreSaumon h4 border-Rose w-2/3 lg:w-3/4 xl:w-5/6" 
             type="text" placeholder="Message" name="message" required />
             </div>
     </div>
@@ -98,6 +99,7 @@
 
     <!--FOOTER-->
     <Footer class="mt-36 mb-16"/>
+</div>
       
 </template>
 
