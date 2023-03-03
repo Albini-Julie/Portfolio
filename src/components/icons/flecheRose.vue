@@ -5,7 +5,7 @@
   viewBox="0 0 70 36"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
-  class="w-[62.35px] h-[29.64px]"
+  class="w-[62.35px] h-[29.64px] validation"
   preserveAspectRatio="none"
 >
   <path
@@ -34,3 +34,6 @@
   ></path>
 </svg>
 </template>
+
+<style>
+</style>
