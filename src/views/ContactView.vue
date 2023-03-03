@@ -98,7 +98,7 @@
     </form>
 
     <!--FOOTER-->
-    <Footer class="mt-36 mb-16"/>
+    <Footer class="mt-36 mb-16 dark:mb-0"/>
 </div>
       
 </template>
