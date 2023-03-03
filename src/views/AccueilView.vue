@@ -136,7 +136,7 @@
               <img class= "hidden xl:block" src="../../public/traits/PetitBleu.jpg" alt="ligne décorative"/>
             </div>
           </div>
-          <img class="hidden xl:block" src="../../public/traits/MoyenBleu.jpg" alt="ligne décorative"/>
+          <img class="hidden xl:block arrive" src="../../public/traits/MoyenBleu.jpg" alt="ligne décorative"/>
         </div>
         <div class="flex justify-center md:gap-0 gap-14 items-center">
           <div class="md:w-1/2">
@@ -151,7 +151,7 @@
                 de vous permettre de me découvrir professionnellement, et de me donner l’opportunité 
                 de mettre en avant les compétences que j’ai pu acquérir grâce aux projets que j’ai menés.</p>
             </div>
-            <img class="hidden md:block" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+            <img class="hidden hauteur md:block" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
           </div>
         </div>
       </div>
@@ -170,10 +170,10 @@
       <div class="">
         <img class="mt-10 w-full md:hidden" src="../../public/photo_coupee_rose.jpg"/>
         <div class="flex md:justify-end lg:ml-10">
-          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 hover:bg-Bleu_Ciel bg-Turquoise_pastel bg-opacity-40">
+          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 CouleurT-C bg-Turquoise_pastel bg-opacity-40">
             <h3 class="text-[40px] xl:text-[60px] text-white font-anton">Julie</h3>
           </div>
-          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 hover:bg-opacity-50 hover:bg-Turquoise_pastel bg-Bleu_Ciel">
+          <div class="flex md:w-max md:py-3 md:px-20 justify-center w-1/2 hover:bg-opacity-50 CouleurC-T  bg-Bleu_Ciel">
             <h3 class="h3 text-[40px] xl:text-[60px] text-white font-anton">Albini</h3>
           </div>
         </div>
@@ -200,10 +200,10 @@
 
 <!--TELECHARGEMENT DU CV-->
     <a href="../../public/CV_JulieAlbini.pdf" download>
-      <div class="mt-28 bg-Turquoise bg-opacity-40 xl:w-full">
+      <div class="mt-28  bg-Turquoise AnimCV border-t-4 border-b-4 border-Turquoise border-opacity-10 bg-opacity-40 xl:w-full">
         <div class="flex justify-center items-center gap-5 md:gap-10">
           <FlecheRose class="md:w-[82px] md:h-[49px] lg:w-[102px] lg:h-[69px] xl:w-[150px] xl:h-[85px] "/>
-          <p class="text-[50px] lg:text-[60px] xl:text-[80px] font-anton text-Noir">MON CV</p>
+          <p class="text-[50px] lg:text-[60px] xl:text-[80px] font-anton text-Noir hover:text-violet_pastel">MON CV</p>
         </div>
       </div>
     </a>
@@ -219,7 +219,7 @@
       <div class="relative mt-10 md:flex justify-center items-center">
         <div class=" flex items-center justify-end">
           <img class="hidden xl:block" src="../../public/traits/GrandRose.jpg" alt="Ligne décorative"/>
-          <img class="hidden md:block rotate-90 " src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
+          <img class="hidden md:block rotate-90 arrivePetit" src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
         </div>
 
         <!--IMAGE PROJET-->
@@ -284,6 +284,7 @@ export default {
   background:rgba(0, 223, 237, 0.4)
 }
 
+
 .filtreRose {
   width:100%;
   height:100%;
@@ -342,6 +343,43 @@ export default {
   transform: translateX(0px);
 }
 
+.AnimCV:hover {
+    transition: 0.5s;
+    background-color: white;
+    border-color: rgb(0, 223, 237, 0.4);
+}
+
+.CouleurT-C {
+  animation : CouleurT-C infinite 5s
+}
+
+.CouleurC-T {
+  animation : CouleurC-T infinite 8s
+}
+
+@keyframes CouleurC-T{
+  0% {
+    background-color: rgb(112, 201, 243);
+  }
+  50%{
+    background-color: rgb(0, 223, 237, 0.4);
+  }
+  100% {
+    background-color: rgb(112, 201, 243);
+}
+}
+
+@keyframes CouleurT-C{
+  0% {
+    background-color: rgb(0, 223, 237, 0.4);
+  }
+  50%{
+    background-color: rgb(112, 201, 243);
+  }
+  100% {
+    background-color: rgb(0, 223, 237, 0.4);
+}
+}
 
 .Vague1 {
   animation: vague 2s infinite 0.2s;
@@ -400,21 +438,103 @@ export default {
   }
 	}	
 
-.arrive {
-  animation: arrive 2s;
-  
+.hauteurPetit {
+  animation: hauteurPetit infinite 8s;
 }
 
-@keyframes arrive {
-  from {
-    margin-left: 100%;
-   
+@keyframes hauteurPetit {
+  0% {
+    margin-left: 50%;
   }
-
-  to {
+  25% {
     margin-left: 0%;
     
   }
+  50% {
+    margin-left: 0%;
+    
+  }
+  75% {
+    margin-left: 0%;
+    
+  }
+  100% {
+    margin-left: 50%
+  }
+}
+
+.arrivePetit {
+  animation: arrivePetit infinite 8s;
+}
+
+@keyframes arrivePetit {
+  0% {
+    margin-left: 50%;
+  }
+  25% {
+    margin-left: 0%;
+    
+  }
+  50% {
+    margin-left: 0%;
+    
+  }
+  75% {
+    margin-left: 0%;
+    
+  }
+  100% {
+    margin-left: 50%
+  }
+}
+
+.arrive {
+  animation: arrive infinite 8s;
+ 
+}
+
+@keyframes arrive {
+  0% {
+    margin-left: 100%;
+  }
+  25% {
+    margin-left: 0%;
+    
+  }
+  50% {
+    margin-left: 0%;
+    
+  }
+  75% {
+    margin-left: 0%;
+    
+  }
+  100% {
+    margin-left: 100%
+  }
+}
+
+.hauteur {
+  animation: hauteur infinite 10s;
+}
+
+@keyframes hauteur {
+  0%{
+    margin-top : 100%
+  }
+  25%{
+    margin-top: 0%;
+  }
+  50%{
+    margin-top: 100%;
+  }
+  75%{
+    margin-top: 0%;
+  }
+  100%{
+    margin-top: 100%
+  }
+
 }
 
 @keyframes MeDecouvrir {
