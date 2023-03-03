@@ -1,7 +1,8 @@
 <template>
+<div class="dark:bg-black">
     <!--HEADER-->
     <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">Julie Albini</h2>
+        <h2 class="dark:bg-none bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">Julie Albini</h2>
         <div class="xl:hidden pr-5">
           <Header  />
         </div>
@@ -77,14 +78,15 @@
         <img class="hidden lg:block relative" src="../../public/traits/MoyenNoir.jpg" alt="barre décoratrice"/>
       </div>
     <!--TEXTE-->
-      <p class="relative md:w-1/2 xl:w-1/3 font-poppins texte">Au lycée, pour faciliter mon entrée en MMI et mettre toutes mes chances de côté, 
+      <p class="relative md:w-1/2 xl:w-1/3 dark:text-white font-poppins texte">Au lycée, pour faciliter mon entrée en MMI et mettre toutes mes chances de côté, 
         j’ai choisi trois spécialités : Sciences Economiques et Sociales pour le côté communication de MMI, Numériques 
         et Sciences de l’Informatique pour le côté numérique, et Langue, littérature et culture étrangère italien car 
         j’aime beaucoup les langues étrangères et particulièrement l’italien.</p>
     </div>
     <!--ICONES-->
     <div class="w-1/3 flex flex-col gap-10 items-center mr-5 md:mr-20 lg:mr-28 xl:mr-40 ">
-      <Statistiques class=""/>
+      <Statistiques  class="dark:hidden"/>
+      <StatistiquesNoir  class="hidden dark:block"/>
       <Html class="md:w-[150px] md:h-[150px] w-[100px] h-[90px]"/>
       <Italie class="mt-8 w-[67px] h-[96px] md:w-[107px] md:h-[146px]"/>
     </div>
@@ -99,7 +101,7 @@
       <div class=" flex justify-end">
         <img class="absolute w-2/3 md:w-1/2 lg:w-1/4  -mt-20" src="../../public/FondBleu.jpg" alt="fond décoratif"/>
       </div>
-      <p class="mx-10 md:mx-5 relative font-poppins texte">Une fois acceptée en MMI et ma première année réalisée, je me suis finalement rendue 
+      <p class="dark:text-white mx-10 md:mx-5 relative font-poppins texte">Une fois acceptée en MMI et ma première année réalisée, je me suis finalement rendue 
         compte que je préférais le développement et que j’aimais vraiment coder. C’est alors que j’ai choisi la spécialité 
         développement et que j’ai modifié mon projet professionnel pour finalement me diriger vers le métier de intégratrice 
         / développeuse web.</p>
@@ -115,7 +117,7 @@
   <div class="mt-36 md:my-28 mb-28">
     <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
     <div class="flex relative">
-        <p class="ml-5 mt-10 h2 font-anton text-black transDroit">CONNAISSANCES</p>
+        <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">CONNAISSANCES</p>
     </div> 
   </div>
 
@@ -169,7 +171,7 @@
     <div class="">
       <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
       <div class="flex relative">
-          <p class="ml-5 mt-10 h2 font-anton text-black transDroit">CE QUE J'AIME</p>
+          <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">CE QUE J'AIME</p>
       </div> 
     </div>
     <div class="hidden md:flex w-1/2 justify-center">
@@ -277,6 +279,7 @@
 
     <!--FOOTER-->
     <Footer class="mt-36 mb-16"/>
+</div>
 </template>
 
 <script>
@@ -298,6 +301,7 @@ import Vue from "../components/icons/connaissances/vue.vue"
 import Wordpress from "../components/icons/connaissances/wordpress.vue"
 import coeurRouge from "../components/icons/coeurRouge.vue"
 import Footer from "../components/Footer.vue"
+import StatistiquesNoir from "../components/icons/statistiquesNoir.vue"
 
 export default {
   data: function () {
@@ -323,7 +327,8 @@ export default {
     Vue,
     Wordpress,
     coeurRouge,
-    Footer
+    Footer,
+    StatistiquesNoir
   }
 }
 
