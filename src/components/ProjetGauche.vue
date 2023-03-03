@@ -45,7 +45,7 @@
 
     <!--J'AIME-->
             <div class="mt-5 flex justify-center items-center gap-5">
-                <p class="text-[30px] xl:text-[50px] font-poppins font-bold">{{ jaime }}</p>
+                <p class="text-[30px] dark:text-white xl:text-[50px] font-poppins font-bold">{{ jaime }}</p>
                 <Coeur class="w-[46px] h-[38px] md:w-[51px] md:h-[43px] xl:w-[61px] xl:h-[53px]"/>
             </div>
             </div>
