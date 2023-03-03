@@ -377,7 +377,7 @@
 
     <!--BOUTON AUTRE PROJET-->
     
-        <router-link to="/the100">
+        <router-link to="/unifiedchampions">
             <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
         </router-link>
     </div>
