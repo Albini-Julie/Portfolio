@@ -1,13 +1,13 @@
 <template>
     <div class="flex justify-evenly gap-10">
         <a href="https://www.instagram.com/juliiie_19/">
-            <Instagram class="lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Instagram class="RS lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
         </a>
         <a href="https://www.linkedin.com/in/juliealbini/">
-            <Linkedin class="lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Linkedin class="RS lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
         </a>
         <router-link to="/contact">
-            <Mail class="lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Mail class="RS lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
         </router-link>
     </div>
 
@@ -28,3 +28,11 @@ export default {
 }
 
 </script>
+
+<style>
+.RS:hover {
+    transition: 0.5s;
+    scale: 1.2;
+}
+
+</style>
