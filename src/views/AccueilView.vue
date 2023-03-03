@@ -1,7 +1,8 @@
 <template>
+  <div class="dark:bg-black">
 <!--Header-->
       <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">Julie Albini</h2>
+        <h2 class=" bg-[url('/RondNoir.jpg')] dark:bg-none  bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">Julie Albini</h2>
         <div class="xl:hidden pr-5">
           <Header  />
         </div>
@@ -94,7 +95,7 @@
         <div class="mt-96 md:mt-28">
           <img class="w-max md:w-1/3 xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="transDroit ml-5 mt-10 font-anton text-black h2">RIGUEUR</p>
+              <p class="transDroit ml-5 mt-10 font-anton dark:text-white text-black h2">RIGUEUR</p>
           </div> 
         </div>
 
@@ -102,7 +103,7 @@
         <div class="mt-10 flex flex-col items-end">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
           <div class="flex relative">
-              <p class="transGauche mr-5 mt-10 font-anton h2 text-black">TENACITÉ</p>
+              <p class="transGauche mr-5 mt-10 font-anton h2 dark:text-white text-black">TENACITÉ</p>
             </div> 
         </div>
 
@@ -110,7 +111,7 @@
         <div class="mt-10">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
-              <p class="transDroit ml-5 mt-10 h2 font-anton text-black ">CRÉATIVITÉ</p>
+              <p class="transDroit ml-5 mt-10 h2 font-anton dark:text-white text-black ">CRÉATIVITÉ</p>
           </div> 
         </div>
       </div>
@@ -147,7 +148,7 @@
           <div class="flex w-1/2 md:justify-start lg:justify-end items-center ">
             <div class="w-[320px] p-5 h-[520px] flex flex-col justify-center  bg-rose_pastel bg-opacity-50 ">
               <h4 class="font-bold font-poppins  text-white h3">Le concept</h4>
-              <p class="pb-3 leading-relaxed xl:leading-normal font-semibold texte font-poppins text-Gris_foncé">Ce site web a été créé dans le but 
+              <p class="pb-3 leading-relaxed xl:leading-normal font-semibold texte font-poppins dark:text-white text-Gris_foncé">Ce site web a été créé dans le but 
                 de vous permettre de me découvrir professionnellement, et de me donner l’opportunité 
                 de mettre en avant les compétences que j’ai pu acquérir grâce aux projets que j’ai menés.</p>
             </div>
@@ -203,7 +204,7 @@
       <div class="mt-28  bg-Turquoise AnimCV border-t-4 border-b-4 border-Turquoise border-opacity-10 bg-opacity-40 xl:w-full">
         <div class="flex justify-center items-center gap-5 md:gap-10">
           <FlecheRose class="md:w-[82px] md:h-[49px] lg:w-[102px] lg:h-[69px] xl:w-[150px] xl:h-[85px] "/>
-          <p class="text-[50px] lg:text-[60px] xl:text-[80px] font-anton text-Noir hover:text-violet_pastel">MON CV</p>
+          <p class="text-[50px] lg:text-[60px] xl:text-[80px] font-anton dark:text-white text-Noir hover:text-violet_pastel">MON CV</p>
         </div>
       </div>
     </a>
@@ -245,8 +246,8 @@
       </div>
 
   <!--FOOTER-->
-      <Footer class="mt-36 mb-16"/>
-      
+      <Footer class=" mt-36 mb-16"/>
+</div>
 </template>
 
 <script>
