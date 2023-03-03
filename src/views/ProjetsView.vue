@@ -1,8 +1,8 @@
 <template>
-
+<div class="dark:bg-black">
 <!--HEADER-->
     <div class="flex justify-between items-center">
-        <h2 class="bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">MES PROJETS</h2>
+        <h2 class="dark:bg-none bg-[url('/RondNoir.jpg')] bg-contain pl-16 md:26 bg-no-repeat text-rose_pastel font-anton neon h1">MES PROJETS</h2>
         <div class="xl:hidden pr-5">
           <Header  />
         </div>
@@ -23,7 +23,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">COLLABORATION</p>
+              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">COLLABORATION</p>
           </div> 
         </div>
 
@@ -43,7 +43,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">RÉFLÉXION</p>
+              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">RÉFLÉXION</p>
           </div> 
         </div>
 
@@ -63,7 +63,7 @@
         <div class="mt-28">
           <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton text-black transDroit">DÉTERMINATION</p>
+              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">DÉTERMINATION</p>
           </div> 
         </div>
 
@@ -81,6 +81,7 @@
 
 <!--FOOTER-->
         <Footer class="mt-36 mb-16"/>
+</div>
         
 </template>
 
