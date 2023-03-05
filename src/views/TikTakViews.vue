@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <img class="my-20 md:hidden w-full" src="../../public/TikTak/TikTak.jpg"/>
+    <img class="my-20 md:hidden w-full" src="../../public/TIkTak/TikTak.jpg"/>
 
     <!--LA DEMANDE-->
     <div class="flex mt-28  xl:mt-10 justify-between">
