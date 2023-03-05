@@ -58,7 +58,7 @@
     <div class="md:flex md:gap-5 xl:gap-20 items-center xl:ml-32 ">
         <div class="md:flex flex-col items-center">
             <!--PHOTO-->
-            <img class="xl:mt-10 hidden md:block" src="../../public/TikTak/TikTak.jpg"/>
+            <img class="xl:mt-10 hidden md:block" src="../../public/TIkTak/TikTak.jpg"/>
             <!--TEXTE-->
             <p class="dark:text-white mt-5 font-poppins texte xl:mt-10 mx-10 lg:mx-10 md:mx-20">Il nous a été demandé lors d’une SAE de créer un site web d’une 
                 marque de montre avec toute l’identité de cette marque et sa communication. 
