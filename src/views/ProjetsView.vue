@@ -33,9 +33,9 @@
         description="Rédaction d’un dossier de com et création d’une identité graphique pour une équipe de esport."
         type="Projet étudiant"
         filiere="COMMUNICATION"
-        trait1="@/traits/PetitRose.jpg"
-        trait2="@/traits/PetitRoseFonce.jpg"
-        trait3="@/traits/MoyenRose.jpg"
+        trait1="../../public/traits/PetitRose.jpg"
+        trait2="../..public/traits/PetitRoseFonce.jpg"
+        trait3="../../public/traits/MoyenRose.jpg"
         jaime="19" />
         </router-link>
 
