@@ -19,13 +19,7 @@
         </div>
       </div>
 
-        <!--COLLABORATION-->
-        <div class="mt-28">
-          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
-          <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">COLLABORATION</p>
-          </div> 
-        </div>
+        
 
 <!--BOX PROJET 1-->
       <router-link to="/unifiedchampions">
