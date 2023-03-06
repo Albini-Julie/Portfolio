@@ -28,8 +28,9 @@
         </div>
 
 <!--BOX PROJET 1-->
+<!--
       <router-link to="/unifiedchampions">
-        <ProjetGauche image="../../public/UCRose.jpg" v-for="projet in listeProjets where"  key= projet.ID=='2'
+        <ProjetGauche image="../../public/UCRose.jpg" 
         :description= projet.Description
         type="Projet étudiant"
         filiere="COMMUNICATION"
@@ -37,7 +38,7 @@
         trait2="../..public/traits/PetitRoseFonce.jpg"
         trait3="../../public/traits/MoyenRose.jpg"
         jaime="19" />
-        </router-link>
+        </router-link>-->
 
         <!--RELEFLEXION-->
         <div class="mt-28">
