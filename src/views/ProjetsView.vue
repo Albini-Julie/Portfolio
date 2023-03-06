@@ -29,8 +29,8 @@
 
 <!--BOX PROJET 1-->
       <router-link to="/unifiedchampions">
-        <ProjetGauche image="../../public/UCRose.jpg" 
-        description="Rédaction d’un dossier de com et création d’une identité graphique pour une équipe de esport."
+        <ProjetGauche image="../../public/UCRose.jpg" v-for="projet in listeProjets where"  key= projet.ID=='2'
+        :description= projet.Description
         type="Projet étudiant"
         filiere="COMMUNICATION"
         trait1="../../public/traits/PetitRose.jpg"
@@ -94,6 +94,7 @@
 //query, // Permet d'effectuer des requêtes sur Firestore
 //} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
 
+import {where, query, collection, getFirestore, getDocs, doc, getDoc, onSnapshot} from "firebase/firestore"
 
 
 import Header from "../components/Header.vue";
@@ -111,6 +112,7 @@ export default {
       jaime: null,
       nom : null,
       type: null,
+      listeProjets: []
     };
   },
   mounted() {
@@ -122,16 +124,18 @@ export default {
       // Rechercher les informations complémentaires de l'utilisateur
       // Obtenir Firestore
       const firestore = getFirestore();
+      console.log("firestore", firestore)
       // Base de données (collection)  document participant
       const dbProjets = collection(firestore, "Projets");
+      console.log("Projets", dbProjets)
       // Recherche du user par son uid
-      const q = query(dbProjets, where("idprojet", "==", projet.uid));
+      const q = query(dbProjets, "idprojet");
       await onSnapshot(q, (snapshot) => {
-        this.projetInfo = snapshot.docs.map((doc) => ({
+        projet.listeProjets = snapshot.docs.map((doc) => ({
           id: doc.id,
           ...doc.data(),
         }));
-        console.log("projet Info", this.projetInfo);
+        console.log("listeProjets", projet.listeProjets);
       });
     },
   },
@@ -143,7 +147,6 @@ export default {
     Footer
   }
 }
-
 </script>
 
 <style>

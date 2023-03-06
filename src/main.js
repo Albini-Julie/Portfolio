@@ -6,7 +6,8 @@ import './assets/main.css'
 import '@/index.css'
 
 
- import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+ //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+import { initializeApp } from "firebase/app"
 
  const firebaseConfig = {
     apiKey: "AIzaSyC8LV12TNNKia0_QSOmzawaIx4fFhE_ptQ",
