@@ -52,6 +52,4 @@ export default {
     Valide
   },
 }
-
-
 </script>

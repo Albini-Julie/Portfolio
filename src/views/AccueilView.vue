@@ -407,37 +407,7 @@ export default {
   transition: 5s;
 }
 
-.neon {  
-      animation:neon infinite 4s;
-      transition: 5s;
- }
 
-@keyframes neon{
-	
-0%{
-	text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-	}
-
-  50%{
-    text-shadow:  0 0 7px #fff, 
-               0 0 8px #fff, 
-               0 0 33.6px rgb(255, 143, 163),   
-               0 0 61.6px rgb(255, 143, 163), 
-               0 0 80px rgb(255, 143, 163) 
-  }
-
-  100% {
-    text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-  }
-	}	
 
 .hauteurPetit {
   animation: hauteurPetit infinite 8s;

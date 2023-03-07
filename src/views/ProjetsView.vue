@@ -147,12 +147,6 @@ export default {
 </script>
 
 <style>
-
-.neon {  
-      animation:neon infinite 4s;
-      transition: 5s;
- }
-
  .transDroit:hover {
   transition: 1s;
   transform: translateX(100px);
@@ -162,32 +156,5 @@ export default {
   transition: 1s;
   transform: translateX(0px);
 }
-
-@keyframes neon{
-	
-0%{
-	text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-	}
-
-  50%{
-    text-shadow:  0 0 7px #fff, 
-               0 0 8px #fff, 
-               0 0 33.6px rgb(255, 143, 163),   
-               0 0 61.6px rgb(255, 143, 163), 
-               0 0 80px rgb(255, 143, 163) 
-  }
-
-  100% {
-    text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-  }
-	}	
 
 </style>
