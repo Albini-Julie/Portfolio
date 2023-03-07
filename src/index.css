@@ -4,7 +4,7 @@
 
 @layer components {
     .h1 {
-        @apply text-[75px] md:text-[100px] lg:text-[125px] xl:text-[140px]
+        @apply text-[75px] md:text-[100px] lg:text-[125px] xl:text-[120px]
     };
 
     .h2 {

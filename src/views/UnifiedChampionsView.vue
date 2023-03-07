@@ -577,7 +577,9 @@
     <div class="mt-20 w-full gap-10 md:flex justify-center">
     
     <!--BOUTON JAIME-->
-            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+        <button @submit.prevent="VoteForProjet()">
+            <Bouton class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+        </button>
 
     <!--BOUTON AUTRE PROJET-->
     
@@ -593,6 +595,9 @@
 </template>
 
 <script>
+
+import { query, where, collection, getFirestore, getDocs, doc, getDoc, onSnapshot} from "firebase/firestore"
+
 import Header from "../components/Header.vue"
 import HeaderOrdi from "../components/HeaderOrdi.vue"
 import Footer from "../components/Footer.vue"
@@ -610,6 +615,9 @@ import Bouton from "../components/bouton.vue"
 export default {
   data: function () {
     return {
+        ProjetId : "2",
+        ProjetInfo : null,
+        Jaime : null
     };
   },
   components: {
@@ -626,6 +634,41 @@ export default {
     Tiktok,
     Discord,
     Bouton
-  }
+  },
+  mounted() {
+    //const projet = this;
+    //this.getProjetInfo(projet);
+  },
+  methods: {
+//    async getProjetInfo(projet) {
+      // Rechercher les informations complémentaires du projet
+      // Obtenir Firestore
+//      const firestore = getFirestore();
+//      // Base de données (collection)  document participant
+//      const dbProjets = collection(firestore, "Projets");
+//      // Recherche du user par son uid
+//      const q = query(dbProjets, where("ProjetId", "==", projet.ID));
+//      await onSnapshot(q, (snapshot) => {
+//        this.ProjetInfo = snapshot.docs.map((doc) => ({
+//          id: doc.id,
+//          ...doc.data(),
+//       }));
+//        console.log("ProjetInfo", this.ProjetInfo);
+        // userInfo étant un tableau, onn récupère
+        // ses informations dans la 1° cellule du tableau : 0
+//        this.ProjetId = this.ProjetInfo[0].ProjetId;
+//        this.Jaime = this.ProjetInfo[0].Jaime;
+ //     });
+ //   },
+    VoteForProjet() {
+      const firestore = getFirestore();
+      const dbProjets = collection(firestore, "Projets");
+      const increment = firebase.firestore.FieldValue.increment(1);
+      const ProjetRef = dbProjets.collection('Projets').doc('yJgezD90tkw5mxXUr8gs')
+      ProjetRef.update({Jaime: increment});
+      console.log("JaimeUC", this.Jaime)
+      
+    },
+  },
 }
 </script>

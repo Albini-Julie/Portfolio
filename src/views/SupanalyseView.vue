@@ -413,6 +413,5 @@ export default {
     VueRose,
     Bouton
   }
-  
 }
 </script>

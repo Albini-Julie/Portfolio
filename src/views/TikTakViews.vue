@@ -324,11 +324,5 @@ export default {
     Mail,
     Bouton,
   }
-  
 }
-
 </script>
-
-<style>
-
-</style>
