@@ -4,14 +4,14 @@
     <div class="mt-10">
         <div class="md:flex items-end justify-around xl:justify-evenly md:mb-10 gap-5">
             <div class="lg:flex items-center">
-                <img class="md:flex justify-center md:w-[566px] md:h-[312px] mt-20 w-full" :src="image"/>
+                <img class="md:flex justify-center md:w-[566px] md:h-[312px] mt-20 w-full" :src="Image"/>
                 <img class="hidden lg:block rotate-90 opacity-30" :src="trait3" alt="Ligne décorative"/>
             </div>
         <!--TYPE-->
             <div class="hidden md:block w-1/2 h-1/2 md:w-max  ">
                 <div class="flex flex-col">
                     <div class="bg-Rose md:px-3 py-2 bg-opacity-50 flex justify-center">
-                        <p class="font-anton text-white text-[25px] lg:text-[40px] xl:text-[50px]">{{ type }}</p>
+                        <p class="font-anton text-white text-[25px] lg:text-[40px] xl:text-[50px]">{{ Type }}</p>
                     </div>
                 </div>
             </div>
@@ -21,14 +21,14 @@
         <div class="flex md:justify-around xl:justify-evenly md:items-center">
     <!--FILIERE LG-->
                 <div class="hidden md:w-max md:h-max md:flex w-1/2 bg-Turquoise items-center justify-center">
-                    <p class="font-anton text-white text-[31px] xl:text-[50px]">{{filiere}}</p>
+                    <p class="font-anton text-white text-[31px] xl:text-[50px]">{{Filiere}}</p>
                 </div>
 
                 <!--TYPE-->
             <div class=" w-1/2 h-1/2 md:w-max flex flex-col ">
                 <div class="flex flex-col">
                     <div class="md:hidden bg-Rose md:px-3 py-2 bg-opacity-50 flex justify-center">
-                        <p class="font-anton text-white text-[25px] xl:text-[50px]">{{ type }}</p>
+                        <p class="font-anton text-white text-[25px] xl:text-[50px]">{{ Type }}</p>
                     </div>
                 </div>
                 
@@ -39,7 +39,7 @@
 
     <!--J'AIME-->
             <div class="mt-5 flex  justify-center items-center gap-5">
-                <p class="text-[30px] dark:text-white xl:text-[50px] font-poppins font-bold">{{ jaime }}</p>
+                <p class="text-[30px] dark:text-white xl:text-[50px] font-poppins font-bold">{{ Jaime }}</p>
                 <Coeur class="w-[46px] h-[38px] md:w-[51px] md:h-[43px] xl:w-[61px] xl:h-[53px]"/>
             </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="w-1/2 h-1/2 lg:w-1/3 flex justify-center xl:w-1/4 ">
                     <div class="px-3 py-5 xl:py-10 bg-violet_pastel bg-opacity-50">
                         <p class="font-poppins text-[20px] xl:text-[22px] text-white font-semibold">
-                            {{description}}
+                            {{Description}}
                         </p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
             </div>
     <!--FILIERE-->
         <div class="w-1/2 bg-Turquoise flex items-center justify-center">
-            <p class="font-anton text-white text-[31px] xl:text-[50px]">{{filiere}}</p>
+            <p class="font-anton text-white text-[31px] xl:text-[50px]">{{Filiere}}</p>
         </div>
     </div>    
 
@@ -80,11 +80,11 @@ import Coeur from "../components/icons/coeur.vue"
 
 export default {
     props:{
-        type: String,
-        image: String,
-        filiere: String,
-        description: String,
-        jaime: String,
+        Type: String,
+        Image: String,
+        Filiere: String,
+        Description: String,
+        Jaime: String,
         trait1: String,
         trait2: String,
         trait3: String,

@@ -13,71 +13,36 @@
 
 <!--INTRODUCTION-->
       <div class="flex justify-center mt-20 ">
-        <div class="bg-violet_pastel w-1/2 xl:w-1/3 text-center p-5 bg-opacity-50 ">
+        <div class="bg-violet_pastel intro w-1/2 xl:w-1/3 text-center p-5 bg-opacity-50 ">
           <p class="texte text-white font-poppins font-semibold">Voici les quelques projets que j’ai pu réaliser dans les différents domaines de la communication, 
             du design et du développement web.</p>
         </div>
       </div>
 
-        <!--COLLABORATION-->
-        <div class="mt-28">
-          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitViolet.jpg" alt=""/>
+
+<!--BOX PROJET 1-->
+    <div v-for="(projet, index) in listeProjets " :key="projet.ID" >
+      <!--COLLABORATION-->
+   <div class="mt-28">
+          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
           <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">COLLABORATION</p>
+              <p class="ml-5 mt-10 h2 font-anton dark:text-white uppercase text-black transDroit">{{ projet.Thème }}</p>
           </div> 
         </div>
 
-<!--BOX PROJET 1-->
-    <div v-for="projet in listeProjets" :key="projet.ID" >
-      <router-link to="/unifiedchampions">
-        <ProjetGauche v-model="projet.ID"  image="/UCRose.jpg" 
-        :description= projet.Description
-        type="Projet étudiant"
-        filiere="COMMUNICATION"
+          <router-link :to="projet.Lien">
+          <ProjetGauche v-if="index%2 === 0" v-bind="projet"  image="/UCRose.jpg" 
         trait1="/traits/PetitRose.jpg"
         trait2="/traits/PetitRoseFonce.jpg"
         trait3="/traits/MoyenRose.jpg"
-        jaime="19" />
-        </router-link>
-
-        <!--RELEFLEXION-->
-        <div class="mt-28">
-          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitTurquoise.jpg" alt=""/>
-          <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">RÉFLÉXION</p>
-          </div> 
-        </div>
-
-<!--BOX PROJET 2-->
-    <router-link to="/tiktak">
-        <ProjetDroit image="/TikTakViolet.jpg" 
-        description="Développement d’un site web de personnalisation de montres avec toutes les fonctionnalités utiles."
-        type="SAE"
-        filiere="DÉVELOPPEMENT"
+        
+         />
+        
+        <ProjetDroit v-else v-bind="projet" image="/TikTakViolet.jpg" 
         trait1="/traits/PetitRose.jpg"
         trait2="/traits/PetitBleu.jpg"
         trait3="/traits/MoyenViolet.jpg"
-        jaime="28"/>
-    </router-link>
-
-        <!--DÉTERMINATION-->
-        <div class="mt-28">
-          <img class="w-max xl:w-1/4 absolute" src="../../public/TraitRose.jpg" alt=""/>
-          <div class="flex relative">
-              <p class="ml-5 mt-10 h2 font-anton dark:text-white text-black transDroit">DÉTERMINATION</p>
-          </div> 
-        </div>
-
-<!--BOX PROJET 3-->
-        <router-link to="/supanalyse">
-          <ProjetGauche image="/SupanalyseBleu.jpg" 
-          description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
-          type="SAE"
-          filiere="DESIGN"
-          trait1="/traits/PetitRose.jpg"
-          trait2="/traits/PetitRoseFonce.jpg"
-          trait3="/traits/MoyenBleu.jpg"
-          jaime="19" />
+ /> 
         </router-link>
       </div>
 
@@ -134,6 +99,22 @@ export default {
         }));
         console.log("listeProjets", projet.listeProjets);
       });
+      this.listeProjets.forEach(function (projet) {
+          // Obtenir le Cloud Storage
+          const storage = getStorage();
+          // Récupération de l'image par son nom de fichier
+          const spaceRef = ref(storage, "ImgProjet/" + projet.Image);
+          // Récupération de l'url complète de l'image
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              // On remplace le nom du fichier
+              // Par l'url complète de la photo
+              projet.Image = url;
+            })
+            .catch((error) => {
+              console.log("erreur downloadUrl", error);
+            });
+        });
     },
   },
   components: {
