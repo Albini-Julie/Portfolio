@@ -53,10 +53,6 @@
             <Fleche/>
       </div>
 
-      <router-link to="/validation">
-        <Bouton>Validation</Bouton>
-      </router-link>
-
 <!--INTRODUCTION-->
 
       <!--PHOTO-->
