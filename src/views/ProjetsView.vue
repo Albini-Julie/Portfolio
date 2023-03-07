@@ -70,7 +70,7 @@
 
 <!--BOX PROJET 3-->
         <router-link to="/supanalyse">
-          <ProjetGauche image="../../public/SupanalyseBleu.jpg" 
+          <ProjetGauche image="/SupanalyseBleu.jpg" 
           description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
           type="SAE"
           filiere="DESIGN"
