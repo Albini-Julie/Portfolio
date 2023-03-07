@@ -15,22 +15,22 @@
     <div class="lg:flex items-start mt-20 lg:mt-40">
     <!--CONTACT lg + xl-->
         <div class="hidden lg:flex lg:w-2/3 leading-none mt-20 lg:ml-20 xl:ml-0 flex-col items-center">
-            <p class="relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
-            <p class="relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
-            <p class="relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague1 relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague2 relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague3 relative font-anton text-[65px] md:text-[120px] text-Turquoise">CONTACT</p>
         </div>
     <!--INTRODUCTION-->
         <div class="flex justify-center xl:justify-start">
-            <div class="bg-violet_pastel w-1/2 xl:w-2/3 text-center p-5 bg-opacity-50 ">
+            <div class="bg-violet_pastel intro w-1/2 xl:w-2/3 text-center p-5 bg-opacity-50 ">
                 <p class="texte text-white font-poppins font-semibold">Si vous avez un commentaire sur le site ou que vous cherchez 
                     à me contacter, c’est sur cette page vous pourrez m’écrire !</p>
             </div>
         </div>
     <!--CONTACT md + sm-->
         <div class="flex lg:hidden lg:w-2/3 leading-none mt-20 flex-col items-end mr-5 md:mr-20">
-            <p class="relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
-            <p class="relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
-            <p class="relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague1 relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague2 relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
+            <p class="Vague3 relative font-anton text-[70px] md:text-[100px] lg:text-[110px] xl:text-[120px] text-Turquoise">CONTACT</p>
         </div>
     </div>
 
@@ -135,6 +135,31 @@ export default {
 
 <style>
 
+.Vague1 {
+  animation: vague 2s infinite 0.2s;
+}
+
+.Vague2 {
+  animation: vague 2s infinite 0.4s;
+}
+
+.Vague3 {
+  animation: vague 2s infinite 0.6s;
+}
+
+@keyframes vague {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
 .BoutonViolet:hover {
     transition: 0.8s;
     background-color: white;
@@ -144,29 +169,24 @@ export default {
 }
 
 .formulaireOmbreRose:hover {
-    transition: 0.8;
+    transition: 1s;
     box-shadow: 10px 7px 7px rgb(255, 143, 163, 0.6);
 }
 
 .formulaireOmbreBleu:hover {
-    transition: 0.8;
+    transition: 1s;
     box-shadow: 10px 7px 7px rgb(0, 223, 247, 0.6);
 }
 
 .formulaireOmbreViolet:hover {
-    transition: 0.8;
+    transition: 1s;
     box-shadow: 10px 7px 7px rgb(120, 121, 241, 0.6);
 }
 
 .formulaireOmbreSaumon:hover {
-    transition: 0.8;
+    transition: 1s;
     box-shadow: 10px 7px 7px rgb(255, 143, 163);
 }
-
-.neon {  
-      animation:neon infinite 4s;
-      transition: 5s;
- }
 
  .transDroit:hover {
   transition: 1s;
@@ -187,32 +207,5 @@ export default {
   transition: 1s;
   transform: translateX(0px);
 }
-
-@keyframes neon{
-	
-0%{
-	text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-	}
-
-  50%{
-    text-shadow:  0 0 7px #fff, 
-               0 0 8px #fff, 
-               0 0 33.6px rgb(255, 143, 163),   
-               0 0 61.6px rgb(255, 143, 163), 
-               0 0 80px rgb(255, 143, 163) 
-  }
-
-  100% {
-    text-shadow:  0 0 7px #fff, 
-               0 0 2.5px #fff, 
-               0 0 10.5px rgb(255, 143, 163),   
-               0 0 19.25px rgb(255, 143, 163), 
-               0 0 25px rgb(255, 143, 163)
-  }
-	}	
 
 </style>
