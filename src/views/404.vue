@@ -17,7 +17,7 @@
     <!--TEXTE-->
     <div class="mt-28 xl:mt-40">
         <div class="flex">
-            <img class="ml-10 md:ml-28 lg:ml-56 xl:ml-80 mt-10 absolute md:w-1/5 lg:h-1/4 md:h-1/5 w-1/2 h-1/4" src="../../public/TraitBleu.jpg" alt="trait décoratif"/>
+            <img class="AllerGauche ml-10 md:ml-28 lg:ml-56 xl:ml-80 mt-10 absolute md:w-1/5 lg:h-1/4 md:h-1/5 w-1/2 h-1/4" src="../../public/TraitBleu.jpg" alt="trait décoratif"/>
         </div>
         <div class="flex justify-end">
             <img class="hidden md:block absolute w-1/3 h-1/4" src="../../public/TraitRose.jpg" alt="trait décoratif"/>
@@ -26,8 +26,9 @@
         <p class="relative mx-6 md:mx-0 text-center mt-10 xl:h4 font-poppins text-[25px] dark:text-white">Vous pouvez vous aider du menu pour naviguer !</p>
     </div>
     <!--BONNE VISITE-->
-    <div class="w-full bg-violet_pastel bg-opacity-50 mt-40">
-        <p class="mx-2 md:mx-0 font-anton dark:text-white h1 text-center">BONNE VISITE</p>
+    <div class="w-full bg-violet_pastel justify-center gap-8 bg-opacity-50 mt-40 flex">
+        <p class="Bond mx-2 md:mx-0 font-anton dark:text-white h1 text-center ">BONNE</p>
+        <p class="Bond mx-2 md:mx-0 font-anton dark:text-white h1 text-center ">VISITE</p>
     </div>
 
     <!--FOOTER-->
@@ -53,4 +54,46 @@ export default {
   },
 }
 </script>
+
+<style>
+
+.Bond:hover {
+  animation : Bond 1.5s
+}
+
+@keyframes Bond {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.08);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.AllerGauche {
+  animation : AllerGauche 5s infinite
+}
+
+@keyframes AllerDroit{
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes AllerGauche{
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
+</style>
 

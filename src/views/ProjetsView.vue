@@ -28,9 +28,9 @@
         </div>
 
 <!--BOX PROJET 1-->
-<!--
+    <div v-for="projet in listeProjets" :key="projet.ID" >
       <router-link to="/unifiedchampions">
-        <ProjetGauche image="/UCRose.jpg" 
+        <ProjetGauche v-model="projet.ID"  image="/UCRose.jpg" 
         :description= projet.Description
         type="Projet étudiant"
         filiere="COMMUNICATION"
@@ -38,7 +38,7 @@
         trait2="/traits/PetitRoseFonce.jpg"
         trait3="/traits/MoyenRose.jpg"
         jaime="19" />
-        </router-link>-->
+        </router-link>
 
         <!--RELEFLEXION-->
         <div class="mt-28">
@@ -79,6 +79,7 @@
           trait3="/traits/MoyenBleu.jpg"
           jaime="19" />
         </router-link>
+      </div>
 
 <!--FOOTER-->
         <Footer class="mt-36 mb-16 dark:mb-0"/>
@@ -108,11 +109,6 @@ export default {
   data: function () {
     return {
       menuOuvert: false,
-      idprojet: null,
-      filiere: null,
-      jaime: null,
-      nom : null,
-      type: null,
       listeProjets: []
     };
   },
