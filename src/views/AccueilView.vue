@@ -49,9 +49,7 @@
             </div> 
           </div>
       </div>
-      <div class="hidden md:flex justify-center">
-            <Fleche/>
-      </div>
+      
 
 <!--INTRODUCTION-->
 
