@@ -50,13 +50,13 @@
 
 <!--BOX PROJET 2-->
     <router-link to="/tiktak">
-        <ProjetDroit image="../../public/TikTakViolet.jpg" 
+        <ProjetDroit image="/TikTakViolet.jpg" 
         description="Développement d’un site web de personnalisation de montres avec toutes les fonctionnalités utiles."
         type="SAE"
         filiere="DÉVELOPPEMENT"
-        trait1="../../public/traits/PetitRose.jpg"
-        trait2="../../public/traits/PetitBleu.jpg"
-        trait3="../../public/traits/MoyenViolet.jpg"
+        trait1="/traits/PetitRose.jpg"
+        trait2="/traits/PetitBleu.jpg"
+        trait3="/traits/MoyenViolet.jpg"
         jaime="28"/>
     </router-link>
 
