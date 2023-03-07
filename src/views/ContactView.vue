@@ -159,15 +159,6 @@ export default {
   }
 }
 
-
-.BoutonViolet:hover {
-    transition: 0.8s;
-    background-color: white;
-    border-color: #7879F1;
-    color: #7879F1;
-    box-shadow: 12px 12px 2px 1px rgba(120, 121, 241);
-}
-
 .formulaireOmbreRose:hover {
     transition: 1s;
     box-shadow: 10px 7px 7px rgb(255, 143, 163, 0.6);
@@ -187,25 +178,4 @@ export default {
     transition: 1s;
     box-shadow: 10px 7px 7px rgb(255, 143, 163);
 }
-
- .transDroit:hover {
-  transition: 1s;
-  transform: translateX(100px);
-}
-
-.transDroit {
-  transition: 1s;
-  transform: translateX(0px);
-}
-
-.transGauche:hover {
-  transition: 1s;
-  transform: translateX(-100px);
-}
-
-.transGauche {
-  transition: 1s;
-  transform: translateX(0px);
-}
-
 </style>

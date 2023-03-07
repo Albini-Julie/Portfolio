@@ -308,42 +308,6 @@ export default {
   
 }
 
-.BoutonRose:hover {
-    transition: 0.8s;
-    background-color: white;
-    border-color: #FF8FA3;
-    color: #FF8FA3;
-    box-shadow: 12px 12px 2px 1px rgba(255, 143, 163);
-}
-
-.BoutonGris:hover {
-    transition: 0.8s;
-    background-color: white;
-    border-color: #515151;
-    color: #515151;
-    box-shadow: 12px 12px 2px 1px rgba(81, 81, 81);
-}
-
-.transDroit:hover {
-  transition: 1s;
-  transform: translateX(100px);
-}
-
-.transDroit {
-  transition: 1s;
-  transform: translateX(0px);
-}
-
-.transGauche:hover {
-  transition: 1s;
-  transform: translateX(-100px);
-}
-
-.transGauche {
-  transition: 1s;
-  transform: translateX(0px);
-}
-
 .AnimCV:hover {
     transition: 0.5s;
     background-color: white;

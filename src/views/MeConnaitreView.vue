@@ -335,14 +335,5 @@ export default {
 </script>
 
 <style>
- .transDroit:hover {
-  transition: 1s;
-  transform: translateX(100px);
-}
-
-.transDroit {
-  transition: 1s;
-  transform: translateX(0px);
-}
 
 </style>

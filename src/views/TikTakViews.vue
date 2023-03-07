@@ -331,29 +331,4 @@ export default {
 
 <style>
 
-.BoutonViolet:hover {
-    transition: 0.8s;
-    background-color: white;
-    border-color: #7879F1;
-    color: #7879F1;
-    box-shadow: 12px 12px 2px 1px rgba(120, 121, 241);
-}
-
-.BoutonRose:hover {
-    transition: 0.8s;
-    background-color: white;
-    border-color: #FF8FA3;
-    color: #FF8FA3;
-    box-shadow: 12px 12px 2px 1px rgba(255, 143, 163);
-}
-
- .transDroit:hover {
-  transition: 1s;
-  transform: translateX(100px);
-}
-
-.transDroit {
-  transition: 1s;
-  transform: translateX(0px);
-}
 </style>
