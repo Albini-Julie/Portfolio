@@ -30,13 +30,13 @@
 <!--BOX PROJET 1-->
 <!--
       <router-link to="/unifiedchampions">
-        <ProjetGauche image="../../public/UCRose.jpg" 
+        <ProjetGauche image="/UCRose.jpg" 
         :description= projet.Description
         type="Projet étudiant"
         filiere="COMMUNICATION"
-        trait1="../../public/traits/PetitRose.jpg"
-        trait2="../..public/traits/PetitRoseFonce.jpg"
-        trait3="../../public/traits/MoyenRose.jpg"
+        trait1="/traits/PetitRose.jpg"
+        trait2="/traits/PetitRoseFonce.jpg"
+        trait3="/traits/MoyenRose.jpg"
         jaime="19" />
         </router-link>-->
 
@@ -74,9 +74,9 @@
           description="Création d’un scénario de film et de ses visuels de promotion sur le logiciel Photoshop."
           type="SAE"
           filiere="DESIGN"
-          trait1="../../public/traits/PetitRose.jpg"
-          trait2="../../public/traits/PetitRoseFonce.jpg"
-          trait3="../../public/traits/MoyenBleu.jpg"
+          trait1="/traits/PetitRose.jpg"
+          trait2="/traits/PetitRoseFonce.jpg"
+          trait3="/traits/MoyenBleu.jpg"
           jaime="19" />
         </router-link>
 
