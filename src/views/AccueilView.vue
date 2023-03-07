@@ -371,8 +371,6 @@ export default {
   transition: 5s;
 }
 
-
-
 .hauteurPetit {
   animation: hauteurPetit infinite 8s;
 }
@@ -398,30 +396,6 @@ export default {
   }
 }
 
-.arrivePetit {
-  animation: arrivePetit infinite 8s;
-}
-
-@keyframes arrivePetit {
-  0% {
-    margin-left: 50%;
-  }
-  25% {
-    margin-left: 0%;
-    
-  }
-  50% {
-    margin-left: 0%;
-    
-  }
-  75% {
-    margin-left: 0%;
-    
-  }
-  100% {
-    margin-left: 50%
-  }
-}
 
 .arrive {
   animation: arrive infinite 8s;
@@ -496,6 +470,35 @@ export default {
     transform: scale(1);
   }
 }
+
+.arrivePetit {
+            animation: arrivePetit infinite 8s;
+        }
+
+        @keyframes arrivePetit {
+            0% {
+                margin-left: 50%;
+            }
+
+            25% {
+                margin-left: 0%;
+
+            }
+
+            50% {
+                margin-left: 0%;
+
+            }
+
+            75% {
+                margin-left: 0%;
+
+            }
+
+            100% {
+                margin-left: 50%
+            }
+        }
 
 </style>
 
