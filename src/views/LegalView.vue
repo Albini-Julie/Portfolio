@@ -13,7 +13,7 @@
 
   <!--INTRODUCTION-->
       <div class="flex justify-center mt-20 ">
-        <div class="bg-violet_pastel w-1/2 xl:w-1/3 text-center p-5 bg-opacity-50 ">
+        <div class="bg-violet_pastel intro w-1/2 xl:w-1/3 text-center p-5 bg-opacity-50 ">
           <p class="texte text-white font-poppins font-semibold">Vous trouverez sur cette page les mentions légales liées à ce site web. Merci d’en prendre connaissance.</p>
         </div>
       </div>
