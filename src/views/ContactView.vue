@@ -88,7 +88,7 @@
             type="text" placeholder="Message" name="message" required />
             </div>
     </div>
-     <input type="hidden" name="redirect" value="http://juliealbini.albini.fr/">
+     <input type="hidden" name="redirect" value="http://juliealbini.albini.fr/validation">
 
     <div class="flex justify-center">
         <button class="" type="submit">

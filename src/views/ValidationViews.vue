@@ -12,25 +12,25 @@
           <HeaderOrdi/>
         </div>
     </div>
-    </div>
 
     <!--FOND ROSE-->
     <div class="flex ">
-            <img class="absolute w-2/3 h-1/3 mt-20 lg:mt-40" src="../../public/TraitRose.jpg" alt="trait décoratif"/>
+            <img class="absolute w-2/3 h-1/2 lg:w-2/3 lg:h-1/3 mt-20 lg:mt-40" src="../../public/TraitRose.jpg" alt="trait décoratif"/>
     </div>
     <!--ICONE ET TEXTE-->
-    <div class="md:flex justify-center mt-20 lg:mt-56 items-center">
-        <div class="md:w-1/3">
-            <Valide class="mx-auto"/>
+    <div class="lg:flex justify-evenly xl:justify-center mt-20 lg:mt-56 items-center">
+        <div class="lg:w-1/3">
+            <Valide class="mb-10 lg:mb-0 mx-auto w-[250px] h-[250px] md:w-[300px] md:h-[300px] xl:w-[300px] xl:h-[300px]"/>
         </div>
-        <div class="md:w-1/3 flex flex-col items-center">
-            <p class="relative font-poppins h3 dark:text-white text-center">Votre message à bien été envoyé.</p>
-            <h4 class="relative text-[100px] md:[text-120px] lg:text-[150px] xl:text-[180px] text-Turquoise font-anton">MERCI !</h4>
+        <div class="lg:w-1/3 flex flex-col justify-center items-center">
+            <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins h4 dark:text-white text-center">Votre message à bien été envoyé.</p>
+            <h4 class=" lg:mt-0 mx-6 md:mx-20 lg:mx-0 relative text-[120px] md:text-[140px] xl:text-[160px] text-Turquoise font-anton">MERCI !</h4>
         </div>
     </div>
 
     <!--FOOTER-->
     <Footer class="mt-36 mb-16 dark:mb-0"/>
+</div>
 </template>
 
 <script>
