@@ -56,7 +56,7 @@
               MÉTIERS DU MULTIMÉDIA
               et de l’internet </p>
           </div>
-          <img class="hidden xl:block" src="../../public/traits/PetitBleu.jpg" alt="ligne décoratrice"/>
+          <img class="hidden XDroit xl:block" src="../../public/traits/PetitBleu.jpg" alt="ligne décoratrice"/>
         </div>
         <div class="bg-Rose hidden md:block bg-opacity-50 p-3">
           <p class="font-bold font-poppins text-white texte">Après mon stage d’observation de 3ème, j’ai su que c’était le métier d’infographiste que je 
@@ -335,5 +335,16 @@ export default {
 </script>
 
 <style>
+.XDroit {
+  animation: XDroit 8s infinite
+}
 
+@keyframes XDroit{
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(150px);
+  }
+}
 </style>
