@@ -8,6 +8,7 @@ import ContactView from "../views/ContactView.vue"
 import UnifiedChampionsView from "../views/UnifiedChampionsView.vue"
 import SupanalyseView from "../views/SupanalyseView.vue"
 import ValidationView from "../views/ValidationViews.vue"
+import Page404 from "../views/404.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +22,7 @@ const router = createRouter({
     {path: '/unifiedchampions', name: 'unifiedchampions', component: UnifiedChampionsView},
     {path: '/supanalyse', name: 'supanalyse', component: SupanalyseView},
     {path: '/validation', name: 'validation', component: ValidationView},
+    { path: '/:catchAll(.*)', name: 'Page404', component: Page404 },
   ]
 })
 
