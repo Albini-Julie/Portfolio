@@ -617,7 +617,7 @@ export default {
     return {
         ProjetId : "2",
         ProjetInfo : null,
-        Jaime : null
+        Jaime : null,
     };
   },
   components: {
@@ -640,26 +640,26 @@ export default {
     //this.getProjetInfo(projet);
   },
   methods: {
-//    async getProjetInfo(projet) {
+async getProjetInfo(projet) {
       // Rechercher les informations complémentaires du projet
       // Obtenir Firestore
-//      const firestore = getFirestore();
-//      // Base de données (collection)  document participant
-//      const dbProjets = collection(firestore, "Projets");
-//      // Recherche du user par son uid
-//      const q = query(dbProjets, where("ProjetId", "==", projet.ID));
-//      await onSnapshot(q, (snapshot) => {
-//        this.ProjetInfo = snapshot.docs.map((doc) => ({
-//          id: doc.id,
-//          ...doc.data(),
-//       }));
-//        console.log("ProjetInfo", this.ProjetInfo);
+      const firestore = getFirestore();
+      // Base de données (collection)  document participant
+      const dbProjets = collection(firestore, "Projets");
+      // Recherche du user par son uid
+      const q = query(dbProjets, where("ProjetId", "==", projet.ID));
+      await onSnapshot(q, (snapshot) => {
+        this.ProjetInfo = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+       }));
+        console.log("ProjetInfo", this.ProjetInfo);
         // userInfo étant un tableau, onn récupère
         // ses informations dans la 1° cellule du tableau : 0
 //        this.ProjetId = this.ProjetInfo[0].ProjetId;
 //        this.Jaime = this.ProjetInfo[0].Jaime;
- //     });
- //   },
+      });
+   },
     VoteForProjet() {
       const firestore = getFirestore();
       const dbProjets = collection(firestore, "Projets");
