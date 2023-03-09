@@ -15,18 +15,18 @@
     <div class="md:flex justify-center lg:mx-20 xl:mx-0 mt-28">
     <div class="flex items-start flex-col">
       <div class="md:flex mx-auto md:w-3/4 xl:w-2/3">
-        <div class="hidden md:flex p-3 leading-none flex-col justify-center bg-Turquoise bg-opacity-50">
+        <div class="hidden md:flex p-3 leading-none flex-col justify-center bg-Turquoise hover:bg-opacity-100 bg-opacity-50">
           <p class="font-anton text-[63px] text-white">DÉV</p>
           <p class="font-anton text-[63px] text-white">ELOP</p>
           <p class="font-anton text-[63px] text-white">PEM</p>
           <p class="font-anton text-[63px] text-white">ENT</p>
         </div>
-          <img class="w-max hidden md:block" src="../../public/Photo2.jpg" alt="Photo Julie Albini"/>
+          <img class="w-max hidden md:block hover:opacity-70" src="../../public/Photo2.jpg" alt="Photo Julie Albini"/>
           <img class="w-max md:hidden" src="../../public/photoViolet.jpg" alt=" image Julie Albini"/>
         </div>
     <!--Responsive en sm-->
         <div class="flex justify- md:hidden">
-           <div class=" flex p-3 leading-none flex-col justify-center bg-Turquoise bg-opacity-50">
+           <div class=" flex p-3 leading-none flex-col justify-center bg-Turquoise hover:bg-opacity-100 bg-opacity-50">
               <p class="font-anton text-[63px] text-white">DÉV</p>
               <p class="font-anton text-[63px] text-white">ELOP</p>
               <p class="font-anton text-[63px] text-white">PEM</p>
@@ -38,7 +38,7 @@
                     MÉTIERS DU MULTIMÉDIA
                     et de l’internet </p>
               </div>
-              <div class=" bg-Rose m-5 mb-0 bg-opacity-50 p-3">
+              <div class=" bg-Rose m-5 mb-0 bg-opacity-50 hover:opacity-0 p-3">
                   <p class="font-bold font-poppins text-white texte">Après mon stage d’observation de 3ème, j’ai su que c’était le métier d’infographiste que je 
                     voulais exercer plus tard. Je me suis renseignée sur les écoles qui me prépareraient à ce métier 
                     et je suis tombée sur l’école de MMI.
@@ -51,15 +51,15 @@
       </div>
       <div class="md:w-2/4 xl:w-1/4  gap-14 flex flex-col md:mr-10 lg-mr:0 xl:ml-20 ">
         <div class="hidden md:block xl:flex justify-center">
-          <div class="bg-violet_pastel xl:mr-20 p-10">
+          <div class="bg-violet_pastel hover:opacity-50 xl:mr-20 p-10">
             <p class="font-poppins texte font-semibold text-white">ÉTUDIANTE EN 2ÈME ANNÉE DE BUT
               MÉTIERS DU MULTIMÉDIA
               et de l’internet </p>
           </div>
           <img class="hidden XDroit xl:block" src="../../public/traits/PetitBleu.jpg" alt="ligne décoratrice"/>
         </div>
-        <div class="bg-Rose hidden md:block bg-opacity-50 p-3">
-          <p class="font-bold font-poppins text-white texte">Après mon stage d’observation de 3ème, j’ai su que c’était le métier d’infographiste que je 
+        <div class="bg-Rose hidden md:block bg-opacity-50 hover:bg-opacity-100 p-3">
+          <p class="font-bold font-poppins text-white texte ">Après mon stage d’observation de 3ème, j’ai su que c’était le métier d’infographiste que je 
             voulais exercer plus tard. Je me suis renseignée sur les écoles qui me prépareraient à ce métier 
             et je suis tombée sur l’école de MMI.
 </p>
@@ -74,8 +74,8 @@
     <div class="flex gap-10">
   <!--DECORATION BARRES-->
       <div class="lg:flex md:w-1/4 lg:w-1/3 flex-col items-center">
-        <img class="hidden lg:block relative" src="../../public/traits/PetitNoir.jpg" alt="trait décoratif"/>
-        <img class="hidden lg:block relative" src="../../public/traits/MoyenNoir.jpg" alt="barre décoratrice"/>
+        <img class="hidden lg:block relative Rot" src="../../public/traits/PetitNoir.jpg" alt="trait décoratif"/>
+        <img class="hidden lg:block relative Rot2" src="../../public/traits/MoyenNoir.jpg" alt="barre décoratrice"/>
       </div>
     <!--TEXTE-->
       <p class="relative md:w-1/2 xl:w-1/3 dark:text-white font-poppins texte">Au lycée, pour faciliter mon entrée en MMI et mettre toutes mes chances de côté, 
@@ -85,18 +85,18 @@
     </div>
     <!--ICONES-->
     <div class="w-1/3 flex flex-col gap-10 items-center mr-5 md:mr-20 lg:mr-28 xl:mr-40 ">
-      <Statistiques  class="dark:hidden"/>
-      <StatistiquesNoir  class="hidden dark:block"/>
-      <Html class="md:w-[150px] md:h-[150px] w-[100px] h-[90px]"/>
-      <Italie class="mt-8 w-[67px] h-[96px] md:w-[107px] md:h-[146px]"/>
+      <Statistiques  class="Vague1 dark:hidden"/>
+      <StatistiquesNoir  class="Vague1 hidden dark:block"/>
+      <Html class="md:w-[150px] Vague2 md:h-[150px] w-[100px] h-[90px]"/>
+      <Italie class="mt-8 w-[67px] Vague3 h-[96px] md:w-[107px] md:h-[146px]"/>
     </div>
   </div>
   <!--MMI-->
-  <h2 class="hidden md:block relative ml-10 md:ml-40 text-violet_pastel xl:text-[275px] md:text-[220px] text-[155px] font-anton">MMI</h2>
+  <h2 class="hidden md:block relative ml-10 md:ml-40 text-violet_pastel Couleur xl:text-[275px] md:text-[220px] text-[155px] font-anton">MMI</h2>
 
   <!--EXPLICATIONS 3-->
   <div class="md:flex mt-20 lg:ml-10 items-center lg:gap-10 xl:gap-0 justify-around">
-    <img class="md:hidden mb-40 w-max mx-auto" src="../../public/MMIRose.jpg" alt="Bâtiment MMI Montbéliard"/>
+    <img class="md:hidden mb-40 w-max mx-auto hover:opacity-70" src="../../public/MMIRose.jpg" alt="Bâtiment MMI Montbéliard"/>
     <div class="md:w-1/3">
       <div class=" flex justify-end">
         <img class="absolute w-2/3 md:w-1/2 lg:w-1/4  -mt-20" src="../../public/FondBleu.jpg" alt="fond décoratif"/>
@@ -107,7 +107,7 @@
         / développeuse web.</p>
     </div>
     <div class="xl:w-1/3 md:w-1/2 flex items-center flex-col">
-      <img class="hidden md:block w-max" src="../../public/MMIRose.jpg" alt="Bâtiment MMI Montbéliard"/>
+      <img class="hidden md:block w-max hover:opacity-70" src="../../public/MMIRose.jpg" alt="Bâtiment MMI Montbéliard"/>
       <img class="w-max hidden md:block -mt-10 rotate-90" src="../../public/traits/GrandViolet.jpg" alt="ligne décorative"/>
     </div>
   </div>
@@ -123,43 +123,43 @@
 
   <!--TABLEAU DE LOGOS-->
   <div class="flex justify-center items-center md:justify-start mx-2 md:mx-6 lg:mx-10 xl:mx-28 gap-10 md:gap-16 lg:gap-20 flex-wrap">
-    <Figma class=""/>
-    <htmlLogo class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Css class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <ChartJs class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Sql class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Js class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Vue class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Figma class="RS"/>
+    <htmlLogo class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Css class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <ChartJs class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Sql class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Js class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Vue class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <div class="flex flex-col items-center">
-      <Tailwind class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-      <p class="font-anton text-violet_pastel bouton">Tailwind</p>
+      <Tailwind class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+      <p class="RS font-anton text-violet_pastel bouton">Tailwind</p>
     </div>
-    <Photoshop class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Illustrator class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <Wordpress class="w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Photoshop class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Illustrator class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <Wordpress class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <div class="flex flex-col justify-center gap-5">
-      <p class="font-anton text-violet_pastel text-[25px] xl:text-[35px]">Supabase</p>
-      <p class="font-anton text-violet_pastel text-[25px] xl:text-[35px]">Firebase</p>
+      <p class="RS font-anton text-violet_pastel text-[25px] xl:text-[35px]">Supabase</p>
+      <p class="RS font-anton text-violet_pastel text-[25px] xl:text-[35px]">Firebase</p>
     </div>
       <img class="hidden md:block lg:ml-80 md:ml-40 xl:ml-80 -mt-20 rotate-90" src="../../public/traits/MoyenRose.jpg" alt="ligne décorative"/>
   </div>
 
   <!--AUTRES COMPETENCES-->
   <div class="lg:flex mt-20 items-center justify-around">
-      <div class="bg-Turquoise bg-opacity-50 xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] justify-center flex items-center ">
+      <div class="Vague1 bg-Turquoise bg-opacity-50 xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] justify-center flex items-center ">
           <p class="font-anton text-[30px] md:text-[35px] text-white">STRATÉGIE DE COMMUNICATION</p>
       </div>
     <div class="lg:block lg:mt-0 mt-10 flex justify-end">
-      <div class="bg-Rose flex items-center justify-center xl:w-[460px] xl:h-[116px] w-[420px] h-[100px]">
+      <div class="Vague2 bg-Rose flex items-center justify-center xl:w-[460px] xl:h-[116px] w-[420px] h-[100px]">
           <p class="font-anton text-[30px] md:text-[35px] text-white">TRAVAIL COLLECTIF</p>
       </div>
     </div>
   </div>
   <div class="lg:flex mt-10 items-center lg:mt-20 justify-around">
-    <div class="bg-violet_pastel bg-opacity-50 justify-center xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] flex items-center ">
+    <div class="Vague3 bg-violet_pastel bg-opacity-50 justify-center xl:w-[460px] xl:h-[116px] w-[400px] h-[100px] flex items-center ">
         <p class="font-anton text-[30px] md:text-[35px] text-white">GESTION DE BASE DE DONNÉES</p>
     </div>
-    <div class=" mt-10 lg:mt-0 lg:block flex justify-end">
+    <div class="Vague4 mt-10 lg:mt-0 lg:block flex justify-end">
       <div class="bg-Rose bg-opacity-50 xl:w-[460px] xl:h-[116px] w-[420px] h-[100px] flex justify-center items-center ">
           <p class="font-anton text-[30px] md:text-[35px] text-white">RÉALISATION DE MAQUETTES</p>
       </div>
@@ -182,15 +182,15 @@
   <!--PHOTO CHATS SM-->
   <div class="flex mt-20 md:hidden justify-between items-center">
       <coeurRouge class="mx-auto"/>
-    <img class="w-1/2" src="../../public/ChatsRose.jpg" alt="image chats"/>
+    <img class="w-1/2 hover:opacity-70" src="../../public/ChatsRose.jpg" alt="image chats"/>
   </div>
-  <div class="md:hidden bg-violet_pastel bg-opacity-50 mx-20 my-10 p-5 flex items-center justify-center">
+  <div class="md:hidden hover:bg-opacity-100 bg-violet_pastel bg-opacity-50 mx-20 my-10 p-5 flex items-center justify-center">
     <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
   </div>
 
   <!--PHOTO MANGA SM-->
   <div>
-    <img class="md:hidden" src="../../public/Mangas.jpg" alt="image manga"/>
+    <img class="md:hidden hover:opacity-70" src="../../public/Mangas.jpg" alt="image manga"/>
   </div>
   <div class="md:hidden bg-Turquoise bg-opacity-40 w-2/3 my-10 p-5 flex items-center justify-center">
     <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
@@ -199,23 +199,23 @@
   <!--PHOTO CHATS MD-->
   <div class="hidden md:mx-10 xl:mx-20 md:block lg:flex">
     <div class="flex gap-10 lg:items-start md:items-center lg:gap-0 mt-20">
-      <img class="xl:absolute xl:w-max xl:h-max w-2/5 h-1/3 lg:w-2/3 lg:h-2/3" src="../../public/Chats.jpg" alt="image chats"/>
+      <img class="xl:absolute hover:opacity-70 xl:w-max xl:h-max w-2/5 h-1/3 lg:w-2/3 lg:h-2/3" src="../../public/Chats.jpg" alt="image chats"/>
       <div class="">
-        <div class="ml-10 xl:ml-64 mt-10 lg:relative hidden md:block h-max bg-violet_pastel bg-opacity-50  p-5">
+        <div class="ml-10 xl:ml-64 hover:bg-opacity-100 mt-10 lg:relative hidden md:block h-max bg-violet_pastel bg-opacity-50  p-5">
           <p class=" text-white font-semibold font-poppins">J’aime beaucoup les animaux et j’ai d’ailleurs deux chats !</p>
         </div> 
-        <img class="mt-10 hidden md:block lg:hidden " src="../../public/Mangas.jpg" alt="image mangas"/>
+        <img class="mt-10 hidden hover:opacity-70 md:block lg:hidden " src="../../public/Mangas.jpg" alt="image mangas"/>
         <div class=" mx-20 mt-20 hidden lg:hidden md:block  bg-Rose bg-opacity-50  p-5">
           <p class=" text-white font-semibold font-poppins">J’apprécie également la lecture, et particulièrement les mangas.</p>
         </div>
       </div>
     </div>
     <div class="flex items-end">
-      <img class="lg:-ml-56 lg:w-2/3 xl:-ml-32 xl:w-2/3 md:hidden lg:block" src="../../public/Mangas.jpg" alt="image mangas"/>
+      <img class="lg:-ml-56 lg:w-2/3 hover:opacity-70 xl:-ml-32 xl:w-2/3 md:hidden lg:block" src="../../public/Mangas.jpg" alt="image mangas"/>
       <div class="mb-10 lg:mb-20">
         <div class="flex items-center">
-           <img class="hidden lg:block" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
-          <img class="hidden lg:block" src="../../public/traits/GrandRosePastel.jpg" alt="ligne décorative"/>
+           <img class="hidden lg:block RotLong" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+          <img class="hidden lg:block XDroit" src="../../public/traits/GrandRosePastel.jpg" alt="ligne décorative"/>
         </div>
         <div class=" ml-20 hidden lg:block  bg-Rose bg-opacity-50  p-5">
           <p class=" text-white font-semibold font-poppins">J’apprécie également la lecture, et particulièrement les mangas.</p>
@@ -335,6 +335,73 @@ export default {
 </script>
 
 <style>
+.Couleur{
+  animation : Couleur 8s infinite;
+}
+
+@keyframes Couleur {
+  0%{
+    color: rgb(120, 121, 241);
+  }
+  20%{
+    color: rgba(120, 121, 241, 0.8);
+  }
+  40%{
+    color: rgb(255, 143, 163);
+  }
+  60%{
+    color: rgba(255, 143, 163, 0.8);
+  }
+  80%{
+    color: rgba(0, 223, 237);
+  }
+  100%{
+    color: rgba(0, 223, 237, 0.8);
+  }
+}
+
+.Rot{
+  animation: Rot 6s infinite;
+}
+
+.RotLong{
+  animation: Rot 8s infinite;
+}
+
+@keyframes Rot{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  75%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.Rot2{
+  animation: Rot2 6s infinite;
+}
+
+@keyframes Rot2{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  75%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
 .XDroit {
   animation: XDroit 8s infinite
 }
