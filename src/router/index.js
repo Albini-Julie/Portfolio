@@ -23,7 +23,11 @@ const router = createRouter({
     {path: '/supanalyse', name: 'supanalyse', component: SupanalyseView},
     {path: '/validation', name: 'validation', component: ValidationView},
     { path: '/:catchAll(.*)', name: 'Page404', component: Page404 },
-  ]
+  ],
+
+  scrollBehavior() {
+          document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+        }
 })
 
 export default router
