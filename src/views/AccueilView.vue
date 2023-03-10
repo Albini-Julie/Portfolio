@@ -62,8 +62,8 @@
               <img class="hidden arrive xl:block" src="../../public/traits/MoyenRose.jpg" alt="ligne de décoration"/>
             </div >
             <div class="">
-                <img class=" xl:hidden object-fill w-full absolute  md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
-              <img class=" hidden xl:block w-full absolute  md:static " src="../../public/photozoom.jpg" alt="photo Julie Albini"/>
+                <img class=" xl:hidden object-fill w-full absolute hover:opacity-70 md:static " src="../../public/photo.jpg" alt="photo Julie Albini"/>
+              <img class=" hidden xl:block w-full absolute  md:static hover:opacity-70" src="../../public/photozoom.jpg" alt="photo Julie Albini"/>
             </div>
           </div>
           <div class="">
@@ -74,7 +74,7 @@
       <!--TEXTE VIOLET TRANSPARENT-->
             <div class="lg:flex items-center ">
               <div class="flex justify-end content-end md:static relative top-[333px]">
-                  <div class="w-3/4 h-max md:w-content p-3  bg-violet_pastel bg-opacity-50">
+                  <div class="w-3/4 h-max md:w-content p-3 hover:bg-opacity-100 bg-violet_pastel bg-opacity-50">
                     <p class="font-poppins text-white h3">Bonjour !</p>
                     <p class="font-poppins text-white texte">Découvrez moi professionnellement a travers les projets que j’ai réalisés !</p>
                     <p class=" flex justify-end font-poppins text-white">Julie Albini</p>
