@@ -229,10 +229,10 @@
     <div class="lg:flex justify-start items-end">
       <img class="hidden lg:block" src="../../public/traits/MoyenViolet.jpg" alt="ligne décorative"/>
       <div class="lg:flex items-start">
-        <img class="hidden lg:block mt-20" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
+        <img class="hidden lg:block XGauche mt-20" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
         <div class="flex flex-col justify-center md:w-max">
-          <img class="" src="../../public/Tennis.jpg" alt="Image balles de tennis"/>
-          <div class="bg-Rose py-5 flex justify-center items-center">
+          <img class="hover:opacity-70" src="../../public/Tennis.jpg" alt="Image balles de tennis"/>
+          <div class="bg-Rose py-5 hover:bg-Rose hover:opacity-50 flex justify-center items-center">
             <p class="text-white text-center texte font-poppins font-semibold">J’ai fait 8 années de tennis</p>
           </div>
         </div>
@@ -240,16 +240,16 @@
     </div>
     <div class="lg:flex items-start">
       <div class=" flex flex-col justify-center md:w-max">
-        <img class="" src="../../public/Synthe.jpg" alt="Image synthé"/>
-        <div class="bg-violet_pastel py-5 flex justify-center items-center">
+        <img class="hover:opacity-70" src="../../public/Synthe.jpg" alt="Image synthé"/>
+        <div class="bg-violet_pastel hover:bg-violet_pastel hover:opacity-50 py-5 flex justify-center items-center">
           <p class="text-white font-poppins font-semibold texte text-center">J’ai joué du synthé pendant 4 ans</p>
         </div>
       </div>
       <div class="lg:flex flex-col  items-center xl:items-end">
-        <img class="hidden xl:block mt-56" src="../../public/traits/HoriVioletFonce.jpg" alt="ligne décorative"/>
+        <img class="hidden xl:block XBas mt-56" src="../../public/traits/HoriVioletFonce.jpg" alt="ligne décorative"/>
         <div class="flex items-center">
-          <img class="hidden xl:block" src="../../public/traits/MoyenViolet.jpg" alt="ligne décorative"/>
-          <img class="hidden xl:block" src="../../public/traits/PetitVioletFonce.jpg" alt="ligne décorative"/>
+          <img class="hidden XHaut xl:block" src="../../public/traits/MoyenViolet.jpg" alt="ligne décorative"/>
+          <img class="hidden xl:block XDroit" src="../../public/traits/PetitVioletFonce.jpg" alt="ligne décorative"/>
         </div>
       </div>
     </div>
@@ -262,15 +262,15 @@
           <p class="font-anton text-[68px] xl:[100px]  text-white">AUJOURD'HUI</p>
         </div>
         <div class="flex justify-center items-center">
-          <img class="rotate-90" src="../../public/traits/PetitBleu.jpg" alt="ligne décorative"/>
+          <img class="rotate-90 " src="../../public/traits/PetitBleu.jpg" alt="ligne décorative"/>
         </div>
       </div>
       <div class="md:w-1/2 md:flex flex-col items-start">
         <div class="flex items-center">
-          <img class="mx-auto" src="../../public/Italie.jpg" alt="image Italie"/>
+          <img class="mx-auto hover:opacity-70" src="../../public/Italie.jpg" alt="image Italie"/>
           <img class="hidden xl:block rotate-90" src="../../public/traits/PetitRose.jpg" alt="ligne décorative"/>
         </div>
-        <div class="w-2/3 md:w-3/4 mx-auto md:mx-0 xl:w-2/3  mt-10 bg-violet_pastel ">
+        <div class="w-2/3 md:w-3/4 mx-auto md:mx-0 xl:w-2/3  mt-10 hover:bg-violet_pastel hover:opacity-50 bg-violet_pastel ">
           <p class="font-poppins text-center font-semibold texte text-white flex justify-center items-center p-3">Aujourd’hui je pratique de manière hebdomadaire 
             des cours d’italien. En effet, j’aime spécialement cette langue et ce pays.</p>
         </div>
@@ -412,6 +412,45 @@ export default {
   }
   50% {
     transform: translate(150px);
+  }
+}
+
+.XGauche {
+  animation: XGauche 8s infinite
+}
+
+@keyframes XGauche{
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-150px);
+  }
+}
+
+.XHaut {
+  animation: XHaut 8s infinite
+}
+
+@keyframes XHaut{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+}
+
+.XBas {
+  animation: XBas 8s infinite
+}
+
+@keyframes XBas{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-150px);
   }
 }
 </style>
