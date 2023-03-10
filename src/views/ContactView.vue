@@ -146,6 +146,9 @@ export default {
 .Vague3 {
   animation: vague 2s infinite 0.6s;
 }
+.Vague4 {
+  animation: vague 2s infinite 0.8s;
+}
 
 @keyframes vague {
   0%{
