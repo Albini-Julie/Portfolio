@@ -111,7 +111,7 @@
       <img class="w-max hidden md:block -mt-10 rotate-90" src="../../public/traits/GrandViolet.jpg" alt="ligne décorative"/>
     </div>
   </div>
-  <h2 class="md:hidden relative flex justify-end mr-10 md:ml-40 text-violet_pastel xl:text-[275px] md:text-[220px] text-[155px] font-anton">MMI</h2>
+  <h2 class="md:hidden relative flex justify-end mr-10 md:ml-40 Couleur text-violet_pastel xl:text-[275px] md:text-[220px] text-[155px] font-anton">MMI</h2>
 
   <!--CONNAISSANCES-->
   <div class="mt-36 md:my-28 mb-28">
