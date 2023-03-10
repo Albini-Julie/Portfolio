@@ -34,5 +34,4 @@ export default {
     transition: 0.5s;
     scale: 1.2;
 }
-
 </style>

@@ -17,18 +17,18 @@
     <!--FIGURE BLEUE-->
         <div class="hidden xl:block lg:w-1/2 xl:ml-10">
             <div class="flex justify-">
-                    <img class="" src="../../public/traits/PetitBleu.jpg"/>   
+                    <img class="XDroit" src="../../public/traits/PetitBleu.jpg"/>   
             </div>
-            <img src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
+            <img class="XHaut" src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
             <div class="flex justify-around">
-                <img class="" src="../../public/traits/PetitBleu.jpg"/>
+                <img class="XDroit" src="../../public/traits/PetitBleu.jpg"/>
             </div>
         </div>
     
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
             
-            <div class="bg-violet_pastel py-10">
+            <div class="bg-violet_pastel hover:bg-opacity-50 py-10">
                 <a href="https://www.figma.com/file/v6c2hg30cCWfdpC2tzU1e2/Maquette-SAE-303?node-id=0%3A1&t=Hp7ClcVnxdAKQmHg-0">
                     <p class="font-anton text-center text-white bouton underline">La maquette Figma</p>
                 </a>
@@ -63,9 +63,9 @@
                 de réaliser une un graphe avec une table de données permettant le filtrage.</p>
 
             <div class="flex lg:hidden flex-col items-end my-10 leading-none">
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague1 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague2 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague3 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
             </div>
             
             <div class="flex justify-end">
@@ -78,11 +78,11 @@
         </div>
         <div class="hidden lg:flex xl:w-1/3 lg:w-1/2 gap-20 flex-col items-center ">
             <div class="flex flex-col items-center leading-none">
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
-                <p class="font-anton text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague1 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague2 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
+                <p class="font-anton Vague3 text-Rose text-[65px] md:text-[75px] lg:text-[90px]">ANALYSER</p>
             </div>
-            <img src="../../public/traits/HoriVioletFonce.jpg" alt="trait décoratif"/>
+            <img class="" src="../../public/traits/HoriVioletFonce.jpg" alt="trait décoratif"/>
         </div>
     </div>
 
@@ -106,9 +106,9 @@
     <div class="flex justify-around items-center">
         <div class="lg:block hidden xl:w-1/3 lg:w-1/2">
             <div class="flex flex-col items-center leading-none">
-                <p class="font-anton text-violet_pastel opacity-50 text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
-                <p class="font-anton text-violet_pastel text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
-                <p class="font-anton dark:text-white text-Noir text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague1 text-violet_pastel opacity-50 text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague2 text-violet_pastel text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague3 dark:text-white text-Noir text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
             </div>
         </div>
         <div class="xl:w-1/3 lg:w-1/2 mx-6 mt-10 lg:mt-0 md:mx-20">
@@ -119,9 +119,9 @@
                 fait que je vais analyser l’enseignement supérieur.</p>
 
             <div class="relative flex flex-col items-center leading-none my-10 lg:hidden">
-                <p class="font-anton text-violet_pastel opacity-50 text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
-                <p class="font-anton text-violet_pastel text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
-                <p class="font-anton dark:text-white text-Noir text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague1 text-violet_pastel opacity-50 text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague2 text-violet_pastel text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
+                <p class="font-anton Vague3 dark:text-white text-Noir text-[65px] md:text-[75px] lg:text-[90px]">SUP'ANALYSE</p>
             </div>
 
             <div class="flex lg:hidden justify-start">
@@ -179,9 +179,9 @@
                 à chaque chargement de page.</p>
 
             <div class="lg:hidden my-10 flex items-center justify-center gap-10 lg:justify-between">
-                <TailwindRose class=" md:w-[120px] md:h-[60px] w-[110px] h-[50px]"/>
-                <ChartjsRose class=" md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
-                <VueRose class=" md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
+                <TailwindRose class="RS md:w-[120px] md:h-[60px] w-[110px] h-[50px]"/>
+                <ChartjsRose class="RS md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
+                <VueRose class="RS md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
             </div>
             <div>
                 <img class="lg:hidden border-2 my-10 mx-auto" src="../../public/AccueilSupanalyse.jpg" alt="image accueil du site Supanalyse"/>
@@ -198,9 +198,9 @@
         </div>
         <div class="hidden lg:w-1/2 lg:flex flex-col gap-28">
             <div class="flex items-center justify-around">
-                <TailwindRose class="w-[130px] h-[70px] xl:w-[150px] xl:h-[90px]"/>
-                <ChartjsRose class="w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
-                <VueRose class="w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
+                <TailwindRose class="RS w-[130px] h-[70px] xl:w-[150px] xl:h-[90px]"/>
+                <ChartjsRose class="RS w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
+                <VueRose class="RS w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
             </div>
             <div>
                 <img class="border-2 mx-auto" src="../../public/AccueilSupanalyse.jpg" alt="image accueil du site Supanalyse"/>
@@ -345,27 +345,27 @@
     </div>
 
     <!--RCONNAISSANCE CHARTJS-->
-    <div class="bg-Rose bg-opacity-50 w-full mt-10 md:mt-0 xl:mt-14">
+    <div class="bg-Rose bg-opacity-50 hover:bg-opacity-100 w-full mt-10 md:mt-0 xl:mt-14">
         <p class="text-[50px] text-center tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CONNAISSANCES CHARTJS</p>
     </div>
     <!--RÉDACTION WEB-->
-    <div class="bg-Turquoise mt-5 w-full ">
+    <div class="bg-Turquoise hover:bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉDACTION WEB</p>
     </div>
     <!--ANALYSE-->
-    <div class="bg-Rose mt-5 w-full ">
+    <div class="bg-Rose mt-5 w-full hover:bg-opacity-50">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ANALYSE</p>
     </div>
     <!--CRÉATIVITÉ-->
-    <div class="bg-violet_pastel bg-opacity-50 mt-5 w-full ">
+    <div class="bg-violet_pastel bg-opacity-50 hover:bg-opacity-100 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CRÉATIVITÉ</p>
     </div>
     <!--CULTURE GÉNÉRALE-->
-    <div class="bg-Turquoise bg-opacity-50 mt-5 w-full ">
+    <div class="bg-Turquoise bg-opacity-50 mt-5 w-full hover:bg-opacity-100">
         <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CULTURE GÉNÉRALE</p>
     </div>
     <!--INTÉGRATION VUEJS-->
-    <div class="bg-violet_pastel mt-5 w-full ">
+    <div class="bg-violet_pastel mt-5 w-full hover:bg-opacity-50">
         <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">INTÉGRATION VUEJS</p>
     </div>
 
@@ -395,6 +395,10 @@
 </div>
 
 </template>
+
+<style>
+
+</style>
 
 
 <script>
