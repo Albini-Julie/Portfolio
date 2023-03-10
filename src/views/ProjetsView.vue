@@ -30,7 +30,7 @@
           </div> 
         </div>
 
-          <router-link :to="projet.Lien">
+          <router-link :to="{name:projet.Lien, params:{id: projet.id}}">
           <ProjetGauche v-if="index%2 === 0" v-bind="projet"  image="/UCRose.jpg" 
         trait1="/traits/PetitRose.jpg"
         trait2="/traits/PetitRoseFonce.jpg"

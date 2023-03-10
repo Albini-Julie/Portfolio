@@ -13,16 +13,16 @@ import Page404 from "../views/404.vue"
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {path: '/', name: 'accueil', component: AccueilView},
-    {path: '/projets', name: 'projets', component: ProjetsView},
-    {path: '/legal', name: 'legal', component: LegalView},
-    {path: '/meconnaitre', name: 'meconnaitre', component: MeConnaitreView},
-    {path: '/tiktak', name: 'tiktak', component: TikTakView},
-    {path: '/contact', name: 'contact', component: ContactView},
-    {path: '/unifiedchampions', name: 'unifiedchampions', component: UnifiedChampionsView},
-    {path: '/supanalyse', name: 'supanalyse', component: SupanalyseView},
-    {path: '/validation', name: 'validation', component: ValidationView},
-    { path: '/:catchAll(.*)', name: 'Page404', component: Page404 },
+    {path: '/',                     name: 'accueil',          component: AccueilView},
+    {path: '/projets',              name: 'projets',          component: ProjetsView},
+    {path: '/legal',                name: 'legal',            component: LegalView},
+    {path: '/meconnaitre',          name: 'meconnaitre',      component: MeConnaitreView},
+    {path: '/tiktak/:id',               name: 'tiktak',           component: TikTakView},
+    {path: '/contact',              name: 'contact',          component: ContactView},
+    {path: '/unifiedchampions/:id', name: 'unifiedchampions', component: UnifiedChampionsView},
+    {path: '/supanalyse/:id',           name: 'supanalyse',       component: SupanalyseView},
+    {path: '/validation',           name: 'validation',       component: ValidationView},
+    { path: '/:catchAll(.*)',       name: 'Page404',          component: Page404 },
   ],
 
   scrollBehavior() {

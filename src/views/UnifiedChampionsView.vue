@@ -577,7 +577,7 @@
     <div class="mt-20 w-full gap-10 md:flex justify-center">
     
     <!--BOUTON JAIME-->
-        <button @submit.prevent="VoteForProjet()">
+        <button @click="VoteForProjet(ProjetId)">
             <Bouton class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
         </button>
 
@@ -596,7 +596,7 @@
 
 <script>
 
-import { query, where, collection, getFirestore, getDocs, doc, getDoc, onSnapshot} from "firebase/firestore"
+import { query, where, collection, getFirestore, getDocs, doc, getDoc, onSnapshot, updateDoc} from "firebase/firestore"
 
 import Header from "../components/Header.vue"
 import HeaderOrdi from "../components/HeaderOrdi.vue"
@@ -611,13 +611,18 @@ import Twitch from "../components/icons/Block_ReseauxSociaux/twitch.vue"
 import Tiktok from "../components/icons/Block_ReseauxSociaux/tiktok.vue"
 import Discord from "../components/icons/Block_ReseauxSociaux/discord.vue"
 import Bouton from "../components/bouton.vue"
+import { useRoute } from "vue-router"
 
 export default {
+    setup(){
+        const route = useRoute()
+    },
   data: function () {
     return {
-        ProjetId : "2",
-        ProjetInfo : null,
-        Jaime : null,
+        ProjetId : null,
+        projet: null,
+        //ProjetInfo : null,
+        //Jaime : null,
     };
   },
   components: {
@@ -637,36 +642,34 @@ export default {
   },
   mounted() {
     //const projet = this;
-    //this.getProjetInfo(projet);
+    //this.getProjet(projet);
+    const route = useRoute()
+    this.ProjetId = route.params.id;
+    this.getProjet();
   },
   methods: {
-async getProjetInfo(projet) {
-      // Rechercher les informations complémentaires du projet
-      // Obtenir Firestore
-      const firestore = getFirestore();
-      // Base de données (collection)  document participant
-      const dbProjets = collection(firestore, "Projets");
-      // Recherche du user par son uid
-      const q = query(dbProjets, where("ProjetId", "==", projet.ID));
-      await onSnapshot(q, (snapshot) => {
-        this.ProjetInfo = snapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-       }));
-        console.log("ProjetInfo", this.ProjetInfo);
-        // userInfo étant un tableau, onn récupère
-        // ses informations dans la 1° cellule du tableau : 0
-//        this.ProjetId = this.ProjetInfo[0].ProjetId;
-//        this.Jaime = this.ProjetInfo[0].Jaime;
-      });
+async getProjet() {
+    const firestore = getFirestore();
+    const docRef= doc(firestore, "Projets", this.ProjetId);
+    const RefProjet = await getDoc(docRef);
+    this.projet = RefProjet.data()
+    console.log("data projet", this.projet)
    },
-    VoteForProjet() {
+    async VoteForProjet(id) {
+   /* console.log("VoteforProjet", id)
       const firestore = getFirestore();
+      //await updateDoc (doc(firestore, "Projets", this.projet.id), this.ProjetId);
       const dbProjets = collection(firestore, "Projets");
-      const increment = firebase.firestore.FieldValue.increment(1);
-      const ProjetRef = dbProjets.collection('Projets').doc('yJgezD90tkw5mxXUr8gs')
+      const ProjetRef = dbProjets.collection('Projets').doc(ProjetId)
+      /*const increment = firebase.firestore.FieldValue.increment(1);
+      console.log("ProjetRef", ProjetRef)
       ProjetRef.update({Jaime: increment});
       console.log("JaimeUC", this.Jaime)
+      console.log("ProjetRef", ProjetRef)*/
+      this.projet.Jaime = this.projet.Jaime+1;
+      console.log("Jaime", this.projet.Jaime)
+      const firestore = getFirestore();
+      await updateDoc(doc(firestore, "Projets", this.ProjetId), this.projet);
       
     },
   },
