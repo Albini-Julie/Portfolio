@@ -27,10 +27,7 @@
         
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
-            <div class="bg-Turquoise flex justify-center xl:justify-center w-full ">
-                <p class="font-anton text-[90px] xl:text-[80px] text-white">NOTE 16</p>
-            </div>
-            <div class="bg-violet_pastel py-5">
+            <div class="bg-violet_pastel py-10">
                 <a href="https://drive.google.com/file/d/1kx-X3tGVTZAqu-v9o2NFtCckPAZK7XqD/view?usp=sharing">
                     <p class="font-anton text-center text-white bouton underline">Le dossier de communication</p>
                 </a>

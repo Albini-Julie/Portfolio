@@ -26,10 +26,7 @@
     
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
-            <div class="bg-violet_pastel  flex justify-center xl:justify-center bg-opacity-50 w-full ">
-                <p class="font-anton text-[90px] xl:text-[80px] text-white">NOTE 18</p>
-            </div>
-            <div class="bg-Rose py-5">
+            <div class="bg-Rose py-10">
                 <a href="http://sae301.albini.fr/">
                     <p class="font-anton text-center text-white bouton underline">Le site</p>
                 </a>

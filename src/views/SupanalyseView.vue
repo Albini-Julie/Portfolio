@@ -27,10 +27,8 @@
     
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
-            <div class="bg-Rose  flex justify-center xl:justify-center bg-opacity-50 w-full ">
-                <p class="font-anton text-[90px] xl:text-[80px] text-white">NOTE 18</p>
-            </div>
-            <div class="bg-violet_pastel py-5">
+            
+            <div class="bg-violet_pastel py-10">
                 <a href="https://www.figma.com/file/v6c2hg30cCWfdpC2tzU1e2/Maquette-SAE-303?node-id=0%3A1&t=Hp7ClcVnxdAKQmHg-0">
                     <p class="font-anton text-center text-white bouton underline">La maquette Figma</p>
                 </a>
