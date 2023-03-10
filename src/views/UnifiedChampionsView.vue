@@ -574,16 +574,23 @@
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ADAPTATION</p>
     </div>
 
-    <div class="mt-20 w-full gap-10 md:flex justify-center">
+    <div class="mt-20 w-full gap-10 lg:gap-20 md:flex items-center justify-center">
+
+    <div v-if = "projet != null" class="flex justify-center gap-10 items-center">
+        <p class="text-[40px] dark:text-white xl:text-[50px] font-poppins font-bold">{{ projet.Jaime }}</p>
+        <Coeur/>
+    </div>
     
     <!--BOUTON JAIME-->
+    <div class="flex justify-center items-center md:mt-0 mt-10">
         <button @click="VoteForProjet(ProjetId)">
             <Bouton class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
         </button>
+    </div>
 
     <!--BOUTON AUTRE PROJET-->
     
-        <router-link to="/the100">
+        <router-link to="/projets">
             <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
         </router-link>
     </div>
@@ -611,6 +618,7 @@ import Twitch from "../components/icons/Block_ReseauxSociaux/twitch.vue"
 import Tiktok from "../components/icons/Block_ReseauxSociaux/tiktok.vue"
 import Discord from "../components/icons/Block_ReseauxSociaux/discord.vue"
 import Bouton from "../components/bouton.vue"
+import Coeur from "../components/icons/coeur.vue"
 import { useRoute } from "vue-router"
 
 export default {
@@ -621,8 +629,6 @@ export default {
     return {
         ProjetId : null,
         projet: null,
-        //ProjetInfo : null,
-        //Jaime : null,
     };
   },
   components: {
@@ -638,7 +644,8 @@ export default {
     Twitch,
     Tiktok,
     Discord,
-    Bouton
+    Bouton,
+    Coeur
   },
   mounted() {
     //const projet = this;
@@ -652,20 +659,10 @@ async getProjet() {
     const firestore = getFirestore();
     const docRef= doc(firestore, "Projets", this.ProjetId);
     const RefProjet = await getDoc(docRef);
-    this.projet = RefProjet.data()
-    console.log("data projet", this.projet)
+    this.projet = RefProjet.data();
+    console.log("data projet", this.projet);
    },
     async VoteForProjet(id) {
-   /* console.log("VoteforProjet", id)
-      const firestore = getFirestore();
-      //await updateDoc (doc(firestore, "Projets", this.projet.id), this.ProjetId);
-      const dbProjets = collection(firestore, "Projets");
-      const ProjetRef = dbProjets.collection('Projets').doc(ProjetId)
-      /*const increment = firebase.firestore.FieldValue.increment(1);
-      console.log("ProjetRef", ProjetRef)
-      ProjetRef.update({Jaime: increment});
-      console.log("JaimeUC", this.Jaime)
-      console.log("ProjetRef", ProjetRef)*/
       this.projet.Jaime = this.projet.Jaime+1;
       console.log("Jaime", this.projet.Jaime)
       const firestore = getFirestore();

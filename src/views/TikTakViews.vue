@@ -278,13 +278,21 @@
     </div>
 
     <div class="mt-20 w-full gap-10 md:flex justify-center">
+
+    <div v-if = "projet != null" class="flex justify-center gap-10 items-center">
+        <p class="text-[40px] dark:text-white xl:text-[50px] font-poppins font-bold">{{ projet.Jaime }}</p>
+        <Coeur/>
+    </div>
     
     <!--BOUTON JAIME-->
-            <Bouton @submit.prevent="Vote" class="mx-auto md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+        <div class="flex justify-center items-center md:mt-0 mt-10">
+            <button @click="VoteForProjet(ProjetId)">
+                <Bouton class="md:mx-0 py-5 BoutonRose bg-Rose">J'aime ce projet</Bouton>
+            </button>
+        </div>
 
     <!--BOUTON AUTRE PROJET-->
-    
-        <router-link to="/unifiedchampions">
+        <router-link to="/projets">
             <Bouton class="mt-10 md:mt-0 md:mx-0 py-5 BoutonViolet m-auto bg-violet_pastel">Voir un autre projet</Bouton>
         </router-link>
     </div>
@@ -299,6 +307,7 @@
 
 <script>
 
+import { query, where, collection, getFirestore, getDocs, doc, getDoc, onSnapshot, updateDoc} from "firebase/firestore"
 
 import Header from "../components/Header.vue";
 import HeaderOrdi from "../components/HeaderOrdi.vue";
@@ -307,12 +316,17 @@ import Google from "../components/icons/google.vue"
 import Facebook from "../components/icons/facebook.vue"
 import Mail from "../components/icons/Mail2.vue"
 import Bouton from "../components/bouton.vue"
+import Coeur from "../components/icons/coeur.vue"
+import { useRoute } from "vue-router"
 
 export default {
+    setup(){
+        const route = useRoute()
+    },
   data: function () {
     return {
-      menuOuvert: false,
-      listeProjets: [],
+      ProjetId : null,
+      projet: null,
     };
   },
   components: {
@@ -323,6 +337,30 @@ export default {
     Facebook,
     Mail,
     Bouton,
-  }
+    Coeur
+  },
+  mounted() {
+    //const projet = this;
+    //this.getProjet(projet);
+    const route = useRoute()
+    this.ProjetId = route.params.id;
+    this.getProjet();
+  },
+  methods: {
+async getProjet() {
+    const firestore = getFirestore();
+    const docRef= doc(firestore, "Projets", this.ProjetId);
+    const RefProjet = await getDoc(docRef);
+    this.projet = RefProjet.data()
+    console.log("data projet", this.projet)
+   },
+async VoteForProjet(id) {
+      this.projet.Jaime = this.projet.Jaime+1;
+      console.log("Jaime", this.projet.Jaime)
+      const firestore = getFirestore();
+      await updateDoc(doc(firestore, "Projets", this.ProjetId), this.projet);
+      
+    },
+  },
 }
 </script>

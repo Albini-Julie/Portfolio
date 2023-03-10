@@ -31,14 +31,14 @@
         </div>
 
           <router-link :to="{name:projet.Lien, params:{id: projet.id}}">
-          <ProjetGauche v-if="index%2 === 0" v-bind="projet"  image="/UCRose.jpg" 
+          <ProjetGauche v-if="index%2 === 0" v-bind="projet" 
         trait1="/traits/PetitRose.jpg"
         trait2="/traits/PetitRoseFonce.jpg"
         trait3="/traits/MoyenRose.jpg"
         
          />
         
-        <ProjetDroit v-else v-bind="projet" image="/TikTakViolet.jpg" 
+        <ProjetDroit v-else v-bind="projet" 
         trait1="/traits/PetitRose.jpg"
         trait2="/traits/PetitBleu.jpg"
         trait3="/traits/MoyenViolet.jpg"

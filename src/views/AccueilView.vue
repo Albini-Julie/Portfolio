@@ -36,15 +36,15 @@
         <div class="mt-10 ">
           <img class="w-1/4 h-3/4 absolute" src="../../public/fond.jpg" alt=""/>
           <div class="flex flex-col items-center relative">
-              <p class="Vague1 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+              <p class="Vague1-1 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px] ">PROF</p>
-            <p class="Vague2 font-anton -mb-14 lg:-mb-16  text-Noir text-[100px] md:text-[110px]
+            <p class="Vague2-1 font-anton -mb-14 lg:-mb-16  text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">FESS</p>
-            <p class="Vague3 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+            <p class="Vague3-1 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">IONN</p>
-            <p class="Vague4 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
+            <p class="Vague4-1 font-anton -mb-14 lg:-mb-16 text-Noir text-[100px] md:text-[110px]
             lg:text-[120px] xl:text-[130px]">ELLE</p>
-            <p class="Vague5 font-anton -mb-14 lg:-mb-16 text-Noir text-[80px] md:text-[90px]
+            <p class="Vague5-1 font-anton -mb-14 lg:-mb-16 text-Noir text-[80px] md:text-[90px]
             lg:text-[100px] xl:text-[110px]">MENT</p>
             </div> 
           </div>
@@ -346,24 +346,24 @@ export default {
 }
 }
 
-.Vague1 {
-  animation: vague 2s infinite 0.2s;
+.Vague1-1 {
+  animation: vague-1 2s infinite 0.2s;
 }
 
-.Vague2 {
-  animation: vague 2s infinite 0.4s;
+.Vague2-1 {
+  animation: vague-1 2s infinite 0.4s;
 }
 
-.Vague3 {
-  animation: vague 2s infinite 0.6s;
+.Vague3-1 {
+  animation: vague-1 2s infinite 0.6s;
 }
 
-.Vague4 {
-  animation: vague 2s infinite 0.8s;
+.Vague4-1 {
+  animation: vague-1 2s infinite 0.8s;
 }
 
-.Vague5 {
-  animation: vague 2s infinite 1s;
+.Vague5-1 {
+  animation: vague-1 2s infinite 1s;
 }
 
 .MeDecouvrir:hover {
@@ -458,7 +458,7 @@ export default {
   }
 }
 
-@keyframes vague {
+@keyframes vague-1 {
   0%{
     transform: scale(1);
   }
