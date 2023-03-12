@@ -126,7 +126,10 @@
     <Figma class="RS"/>
     <htmlLogo class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <Css class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
-    <ChartJs class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
+    <div class="flex flex-col items-center">
+      <ChartJs class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>*
+      <p class="RS font-anton text-violet_pastel bouton">ChartJS</p>
+    </div>
     <Sql class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <Js class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
     <Vue class="RS w-[95px] h-[100px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]"/>
