@@ -115,4 +115,129 @@
             transform: translateX(0px);
         }
 
+        .XDroit {
+            animation: XDroit 8s infinite
+        }
+        
+        @keyframes XDroit {
+            0% {
+                transform: translate(0px);
+            }
+
+            50% {
+                transform: translate(150px);
+            }
+        }
+
+        .XGauche {
+            animation: XGauche 8s infinite
+        }
+
+        @keyframes XGauche {
+            0% {
+                transform: translate(0px);
+            }
+
+            50% {
+                transform: translate(-150px);
+            }
+        }
+
+        .XHaut {
+            animation: XHaut 8s infinite
+        }
+
+        @keyframes XHaut {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(150px);
+            }
+        }
+
+        .XBas {
+            animation: XBas 8s infinite
+        }
+
+        @keyframes XBas {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-150px);
+            }
+        }
+
+        .XDroit2 {
+            animation: XDroit 8s infinite
+        }
+
+        @keyframes XDroit {
+            0% {
+                transform: translate(0px);
+            }
+            25% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translate(150px);
+            }
+        }
+
+        .XGauche2 {
+            animation: XGauche 8s infinite
+        }
+
+        @keyframes XGauche {
+            0% {
+                transform: translate(0px);
+            }
+
+            25% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translate(-150px);
+            }
+        }
+
+        .XHaut2 {
+            animation: XHaut 8s infinite
+        }
+
+        @keyframes XHaut {
+            0% {
+                transform: translateY(0px);
+            }
+            25% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateY(150px);
+            }
+        }
+
+        .XBas2 {
+            animation: XBas 8s infinite
+        }
+
+        @keyframes XBas {
+            0% {
+                transform: translateY(0px);
+            }
+            25% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateY(-150px);
+            }
+            
+        }
         
