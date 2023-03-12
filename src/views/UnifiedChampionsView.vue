@@ -18,11 +18,11 @@
         <div class="flex items-center lg:ml-20 xl:ml-48">
             <div class="hidden xl:flex flex-col items-start lg:w-1/2 xl:ml-10">
                 <div class="flex flex-col items-center">
-                    <img class="" src="../../public/traits/MoyenRose.jpg"/> 
-                    <img class="" src="../../public/traits/PetitRoseFonce.jpg"/>
+                    <img class="XGauche2" src="../../public/traits/MoyenRose.jpg"/> 
+                    <img class="XDroit2" src="../../public/traits/PetitRoseFonce.jpg"/>
                 </div>  
             </div>
-            <img class="lg:block hidden" src="../../public/traits/PetitRoseFonce.jpg" alt="ligne décorative"/>
+            <img class="lg:block hidden XBas2" src="../../public/traits/PetitRoseFonce.jpg" alt="ligne décorative"/>
         </div>
         
     <!--TEXTE-->
@@ -71,15 +71,15 @@
         <!--UFC-->
         <div class="relative md:w-1/2 mt-20 md:mt-0 flex flex-col items-center">
             <div class="">
-                <div class="bg-violet_pastel">
+                <div class=" Fond-AEC">
                         <p class="text-white font-anton text-[55px] md:text-[65px] lg:text-[80px] xl:text-[90px] px-8">L'ÉQUIPE</p>
                 </div>
             </div>
-            <div class="mt-5 bg-violet_pastel flex items-center justify-center">
+            <div class="mt-5 Fond-AEC flex items-center justify-center">
                 <p class="text-white font-anton text-[55px] md:text-[65px] lg:text-[80px] xl:text-[90px] px-8">OFFICIELLE</p>
             </div>
-            <p class="font-anton text-Rose text-[100px]  xl:text[140px]">UFC</p>
-            <img src="../../public/traits/HoriVioletFonce.jpg" alt="ligne décorative"/>
+            <p class="font-anton Couleur-2 text-Rose text-[100px]  xl:text[140px]">UFC</p>
+            <img class="transDroit" src="../../public/traits/HoriVioletFonce.jpg" alt="ligne décorative"/>
         </div>
     </div>
 
@@ -125,14 +125,14 @@
         <div class="lg:w-1/3 hidden lg:block">
             <div class="flex justify-center">
                 <p class="font-anton text-[50px] md:text-[65px] lg:text-[70px] xl:text-[80px] text-violet_pastel">
-                    <span class="text-Rose text-[55px] md:text-[70px] lg:text-[75px] 
+                    <span class="Couleur-2 text-[55px] md:text-[70px] lg:text-[75px] 
                     xl:text-[85px]">U</span>ni</p><p class="font-anton text-[50px] md:text-[65px] lg:text-[70px] 
-                    xl:text-[80px] text-violet_pastel"><span class="text-Rose text-[55px] md:text-[70px] lg:text-[75px] 
+                    xl:text-[80px] text-violet_pastel"><span class="Couleur-2 text-[55px] md:text-[70px] lg:text-[75px] 
                     xl:text-[85px]">f</span>ied</p>
             </div>
             <div class="flex justify-center">
                 <p class="font-anton text-[50px] md:text-[65px] lg:text-[70px] xl:text-[80px] text-violet_pastel">
-                    <span class="text-Rose">C</span>hampions
+                    <span class="Couleur-2">C</span>hampions
                 </p>
             </div>
         </div>
@@ -597,6 +597,58 @@
 </div>
 
 </template>
+
+<style>
+.Couleur-2{
+  animation : Couleur-2 8s infinite;
+}
+
+@keyframes Couleur-2 {
+  0%{
+    color: rgb(255, 143, 163);
+  }
+  20%{
+    color: rgba(255, 143, 163, 0.8);
+  }
+  40%{
+    color: rgba(0, 223, 237, 0.8);
+  }
+  60%{
+     color: rgba(0, 223, 237);
+  }
+  80%{
+   color: rgba(255, 143, 163, 0.8);
+  }
+  100%{
+    color: rgb(255, 143, 163);
+  }
+}
+
+.Fond-AEC{
+  animation : Fond-AEC 8s infinite;
+}
+
+@keyframes Fond-AEC {
+  0%{
+    background-color: rgb(120, 121, 241);
+  }
+  20%{
+    background-color: rgba(120, 121, 241, 0.8);
+  }
+  40%{
+    background-color: rgb(255, 143, 163);
+  }
+  60%{
+    background-color: rgba(255, 143, 163, 0.8);
+  }
+  80%{
+    background-color: rgba(0, 223, 237);
+  }
+  100%{
+    background-color: rgb(120, 121, 241);
+  }
+}
+</style>
 
 <script>
 

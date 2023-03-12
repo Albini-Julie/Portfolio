@@ -24,7 +24,7 @@
         </div>
         <div class="lg:w-1/3 flex flex-col justify-center items-center">
             <p class="mx-6 md:mx-20 lg:mx-0 relative font-poppins h4 dark:text-white text-center">Votre message à bien été envoyé.</p>
-            <h4 class=" lg:mt-0 mx-6 md:mx-20 lg:mx-0 relative text-[120px] md:text-[140px] xl:text-[160px] text-Turquoise font-anton">MERCI !</h4>
+            <h4 class=" lg:mt-0 mx-6 md:mx-20 lg:mx-0 relative text-[120px] md:text-[140px] xl:text-[160px] Couleur font-anton">MERCI !</h4>
         </div>
     </div>
 
@@ -32,6 +32,10 @@
     <Footer class="mt-36 mb-16 dark:mb-0"/>
 </div>
 </template>
+
+<style>
+
+</style>
 
 <script>
 import Header from "../components/Header.vue"
