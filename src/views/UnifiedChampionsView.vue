@@ -27,7 +27,7 @@
         
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
-            <div class="bg-violet_pastel py-10">
+            <div class="bg-violet_pastel hover:bg-opacity-50 py-10">
                 <a href="https://drive.google.com/file/d/1kx-X3tGVTZAqu-v9o2NFtCckPAZK7XqD/view?usp=sharing">
                     <p class="font-anton text-center text-white bouton underline">Le dossier de communication</p>
                 </a>
