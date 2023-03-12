@@ -16,17 +16,17 @@
     <!--FIGURE BLEUE-->
         <div class="hidden xl:block lg:w-1/2 xl:ml-10">
             <div class="flex justify-">
-                    <img class="" src="../../public/traits/PetitBleu.jpg"/>   
+                    <img class="XDroit2" src="../../public/traits/PetitBleu.jpg"/>   
             </div>
-            <img src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
+            <img class="XHaut2" src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
             <div class="flex justify-around">
-                <img class="" src="../../public/traits/PetitBleu.jpg"/>
+                <img class="XDroit2" src="../../public/traits/PetitBleu.jpg"/>
             </div>
         </div>
     
     <!--TEXTE-->
         <div class="md:w-3/4 xl:w-1/2 w-full">
-            <div class="bg-Rose py-10">
+            <div class="bg-Rose py-10 hover:bg-opacity-50">
                 <a href="http://sae301.albini.fr/">
                     <p class="font-anton text-center text-white bouton underline">Le site</p>
                 </a>
@@ -67,16 +67,16 @@
         <!--SOPHISTIQUE + PERSONNALISER-->
         <div class="flex mt-10 xl:mr-10">
             <div class="w-1/2 md:hidden xl:block flex flex-col items-center justify-center bg-Rose leading-none bg-opacity-50">
-                <h3 class="dark:text-white text-[120px] lg:text-[140px]  xl:text-[140px] font-anton">SOP</h3>
-                <h3 class="dark:text-white text-[120px] lg:text-[140px] xl:text-[140px] font-anton">HIST</h3>
-                <h3 class="dark:text-white text-[120px] lg:text-[140px] xl:text-[140px] font-anton">IQUÉ</h3>
+                <h3 class="Vague1-4 dark:text-white text-[120px] lg:text-[140px]  xl:text-[140px] font-anton">SOP</h3>
+                <h3 class="Vague2-4 dark:text-white text-[120px] lg:text-[140px] xl:text-[140px] font-anton">HIST</h3>
+                <h3 class="Vague3-4 dark:text-white text-[120px] lg:text-[140px] xl:text-[140px] font-anton">IQUÉ</h3>
             </div>
             <div class="w-1/2">
                 <div class=" flex md:hidden lg:block flex-col items-center justify-center leading-none bg-violet_pastel bg-opacity-50">
-                    <h3 class="dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">PER</h3>
-                    <h3 class="dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">SON</h3>
-                    <h3 class="dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">NAL</h3>
-                    <h3 class="dark:text-white flex justify-center text-[100px] lg:text-[120px] xl:text-[140px] font-anton">ISÉ</h3>
+                    <h3 class="Vague1-3 dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">PER</h3>
+                    <h3 class="Vague2-3 dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">SON</h3>
+                    <h3 class="Vague3-3 dark:text-white flex justify-center text-[100px] lg:text-[110px] xl:text-[140px] font-anton">NAL</h3>
+                    <h3 class="Vague4-3 dark:text-white flex justify-center text-[100px] lg:text-[120px] xl:text-[140px] font-anton">ISÉ</h3>
                 </div>
                 <div class="flex justify-center">
                     <img class="md:hidden lg:block rotate-90" src="../../public/traits/PetitBleu.jpg"/>
@@ -106,7 +106,7 @@
                 également dû définir les objectifs de communication de la marque.</p>
         </div>
         <div class="lg:w-1/2">/
-            <img class="absolute flex ml-28 lg:ml-80" src="../../public/CarreViolet.jpg" alt="carre décoratif"/>
+            <img class="absolute transDroit flex ml-28 lg:ml-80" src="../../public/CarreViolet.jpg" alt="carre décoratif"/>
             <p class="dark:text-white relative font-poppins font-bold text-[20px] md:mx-10 md:text-[25px] xl:text-[30px] text-center">Le site se décompose en 3 différentes pages.</p>
         </div>
     </div>
@@ -154,9 +154,9 @@
             utilisateurs. C’est d’ailleurs ce qui permet de faire apparaître les montres créées par l’utilisateur connecté et 
             seulement lorsqu’il est connecté.</p>
         <div class="flex mx-10 md:mx-0 md:mr-10 justify-center md:justify-end gap-12 mt-10">
-            <Google class="relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
-            <Facebook class="relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
-            <Mail class="relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Google class="RS relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Facebook class="RS relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
+            <Mail class="RS relative lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]"/>
         </div>
     </div>
 
@@ -181,9 +181,9 @@
     <!--PERSONNALISER-->
     <div class="lg:flex mt-10 lg:mt-20 items-center">
         <div class="lg:w-1/2 my-10 lg:my-0 leading-none md:ml-10 lg:ml-0 flex flex-col items-center">
-            <p class="relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
-            <p class="relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
-            <p class="relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
+            <p class="Vague1 relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
+            <p class="Vague2 relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
+            <p class="Vague3 relative font-anton text-[65px] md:text-[90px] text-violet_pastel">PERSONNALISER</p>
         </div>
         <div class="lg:w-1/2">
             <img class="absolute w-1/3 h-1/3 xl:w-1/6 xl:ml-96 rotate-90" src="../../public/FondBleu.jpg" alt="décor"/>
@@ -218,9 +218,9 @@
         <img class="absolute w-6/7 md:w-1/2 xl:w-1/4 lg:w-1/3  xl:mt-20" src="../../public/FondViolet.jpg" alt="fond décoratif"/>
         <div class="lg:flex items-center mt-16">
             <div class="lg:w-1/2 my-10 xl:mt-28 leading-none md:ml-10 lg:ml-0 flex flex-col items-center">
-                    <p class="dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINALITÉ</p>
-                    <p class="dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINIALITÉ</p>
-                    <p class="dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINIALITÉ</p>
+                    <p class="Vague1 dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINALITÉ</p>
+                    <p class="Vague2 dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINIALITÉ</p>
+                    <p class="Vague3 dark:text-white relative font-anton text-[65px] md:text-[90px] text-Noir">ORIGINIALITÉ</p>
             </div>
             <div class="lg:w-1/2 flex flex-col items-center">
                 <img class=" relative lg:w-3/4" src="../../public/TIkTak/User.jpg"/>
@@ -250,27 +250,27 @@
     </div>
 
     <!--CRÉATIVITÉ-->
-    <div class="bg-Rose w-full mt-10 md:mt-0 xl:mt-14">
+    <div class="bg-Rose hover:bg-opacity-50 w-full mt-10 md:mt-0 xl:mt-14">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CRÉATIVITÉ</p>
     </div>
     <!--NOTIONS FIGMA-->
-    <div class="bg-Turquoise mt-5 bg-opacity-40 w-full ">
+    <div class="bg-Turquoise hover:bg-opacity-100 mt-5 bg-opacity-40 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">NOTIONS FIGMA</p>
     </div>
     <!--CODAGE VUE-->
-    <div class="bg-violet_pastel mt-5 w-full ">
+    <div class="bg-violet_pastel hover:bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CODAGE VUE</p>
     </div>
     <!--CODAGE VUE-->
-    <div class="bg-Rose bg-opacity-50 mt-5 w-full ">
+    <div class="bg-Rose hover:bg-opacity-100 bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉDACTION WEB</p>
     </div>
     <!--ANALYSE-->
-    <div class="bg-Turquoise mt-5 w-full ">
+    <div class="bg-Turquoise hover:bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ANALYSE</p>
     </div>
     <!--RÉFLÉXION-->
-    <div class="bg-violet_pastel bg-opacity-50 mt-5 w-full ">
+    <div class="bg-violet_pastel hover:bg-opacity-100 bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉFLÉXION</p>
     </div>
 
@@ -300,7 +300,47 @@
 
 </template>
 
+<style>
+.Vague1-3{
+    animation: vague-3 2s infinite 0.2s;
+}
+.Vague2-3{
+    animation: vague-3 2s infinite 0.4s;
+}
+.Vague3-3{
+    animation: vague-3 2s infinite 0.6s;
+}
+.Vague4-3{
+    animation: vague-3 2s infinite 0.8s;
+}
 
+@keyframes vague-3 {
+  
+  50%{
+    color: rgb(120, 121, 241);
+  }
+}
+
+.Vague1-4{
+    animation: vague-4 2s infinite 0.2s;
+}
+.Vague2-4{
+    animation: vague-4 2s infinite 0.4s;
+}
+.Vague3-4{
+    animation: vague-4 2s infinite 0.6s;
+}
+.Vague4-4{
+    animation: vague-4 2s infinite 0.8s;
+}
+
+@keyframes vague-4 {
+  
+  50%{
+    color: rgb(255, 143, 163);
+  }
+}
+</style>
 
 <script>
 
