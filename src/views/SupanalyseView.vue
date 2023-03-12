@@ -180,7 +180,10 @@
 
             <div class="lg:hidden my-10 flex items-center justify-center gap-10 lg:justify-between">
                 <TailwindRose class="RS md:w-[120px] md:h-[60px] w-[110px] h-[50px]"/>
-                <ChartjsRose class="RS md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
+                <div class="flex flex-col gap-2 items-center">
+                    <ChartjsRose class="RS md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
+                    <p class="RS font-anton text-Rose bouton">Tailwind</p>
+                </div>
                 <VueRose class="RS md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
             </div>
             <div>
@@ -199,7 +202,10 @@
         <div class="hidden lg:w-1/2 lg:flex flex-col gap-28">
             <div class="flex items-center justify-around">
                 <TailwindRose class="RS w-[130px] h-[70px] xl:w-[150px] xl:h-[90px]"/>
-                <ChartjsRose class="RS w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
+                <div class="flex flex-col gap-3 items-center">
+                    <ChartjsRose class="RS w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
+                    <p class="RS font-anton text-Rose bouton">Tailwind</p>
+                </div>
                 <VueRose class="RS w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
             </div>
             <div>
