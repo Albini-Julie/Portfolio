@@ -17,11 +17,11 @@
     <!--FIGURE BLEUE-->
         <div class="hidden xl:block lg:w-1/2 xl:ml-10">
             <div class="flex justify-">
-                    <img class="XDroit" src="../../public/traits/PetitBleu.jpg"/>   
+                    <img class="XDroit2" src="../../public/traits/PetitBleu.jpg"/>   
             </div>
-            <img class="XHaut" src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
+            <img class="XHaut2" src="../../public/traits/GrandBleu.jpg" alt="Ligne décorative"/>
             <div class="flex justify-around">
-                <img class="XDroit" src="../../public/traits/PetitBleu.jpg"/>
+                <img class="XDroit2" src="../../public/traits/PetitBleu.jpg"/>
             </div>
         </div>
     
