@@ -215,7 +215,7 @@
             <p class="dark:text-white font-poppins texte">C’est ainsi que nous avons écrit notre ciblage et créé 3 personae de nos cibles types : 
                 Mathieu 19 ans, Jean Pierre 52 ans et Manon 18 ans, qui s’y connaissent plus ou moins au E-sport. (p 20 - 22)</p>
             <div class="flex mt-10 justify-center">
-                <div class="bg-Rose w-max px-8">
+                <div class="bg-Rose w-max px-8 Vibration">
                     <p class="font-anton text-[50px] lg:text-[60px] xl:text-[70px] ">PERSONAE</p>
                 </div>
             </div>
@@ -230,16 +230,16 @@
         <!--OBJECTIFS-->
         <div class="lg:w-1/2">
             <div class="flex justify-center">
-                <p class="font-anton text-violet_pastel text-[40px] md:text-[50px] lg:text-[60px] xl:text-[80px]">COMMUNICATION</p>
+                <p class="font-anton Violet-VioletP text-violet_pastel text-[40px] md:text-[50px] lg:text-[60px] xl:text-[80px]">COMMUNICATION</p>
             </div>
             <div class="flex justify-center lg:justify-end">
-                <p class="font-anton text-Rose text-[30px] md:text-[40px] text-center lg:text-[50px] xl:text-[60px]">DÉVELOPPEMENT DES ÉQUIPES</p>
+                <p class="font-anton Rose-RoseP text-Rose text-[30px] md:text-[40px] text-center lg:text-[50px] xl:text-[60px]">DÉVELOPPEMENT DES ÉQUIPES</p>
             </div>
             <div class="flex lg:ml-5 justify-center lg:justify-start">
-                <p class="font-anton text-Turquoise text-[45px] md:text-[55px] lg:text-[65px] xl:text-[75px]">DIVERSIFICATION</p>
+                <p class="font-anton Bleu-BleuP text-Turquoise text-[45px] md:text-[55px] lg:text-[65px] xl:text-[75px]">DIVERSIFICATION</p>
             </div>
             <div class="flex justify-center">
-                <p class="font-anton text-Rose opacity-50 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[80px]">ME CONNAÎTRE</p>
+                <p class="font-anton RoseP-Rose text-Rose opacity-50 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[80px]">ME CONNAÎTRE</p>
             </div>
         </div>
         <!--TEXTES-->
@@ -274,7 +274,7 @@
     <div class="flex flex-wrap justify-evenly gap-10 items-center mt-10 mx-6 md:mx-20 lg:mx-10 lg:mt-28">
         <!--EQUIPE-->
         <div class="flex flex-col items-center justify-center w-max md:w-1/3 xl:w-1/4 mt-10">
-            <Equipe/>
+            <Equipe class="RS"/>
             <p class="dark:text-white my-5 font-poppins h4 font-bold">Équipe</p>
             <p class="dark:text-white font-poppins texte">L’utilisateur pourra lire la présentation de chaque équipe de Unified Champions, 
                 son histoire, ses prix, ses prochains matchs ou encore ses membres, avec la possibilité de cliquer sur le membre 
@@ -282,14 +282,14 @@
         </div>
         <!--ACTUALITE-->
         <div class="flex gap-5 flex-col items-center w-max md:w-1/3 xl:w-1/4 10">
-            <Actualite/>
+            <Actualite class="RS"/>
             <p class="dark:text-white h4 my-0 font-poppins font-bold">Actualités</p>
             <p class="dark:text-white font-poppins texte">Pour tenir informer les utilisateurs des news concernant Unified Champions et créer 
                 un lien d’affection entre les fans et l’association, cette rubrique va être très utile.</p>
         </div>
         <!--Agenda-->
         <div class="flex flex-col items-center w-max md:w-1/3 lg:w-1/3 xl:w-1/4 mt-10">
-            <Agenda/>
+            <Agenda class="RS"/>
             <p class="dark:text-white h4 my-5 font-poppins font-bold">Agenda</p>
             <p class="dark:text-white font-poppins texte">Pour fidéliser les fans et les tenir en halène, nous allons aussi mettre en place 
                 une page actualité, dans laquelle l’utilisateur pourra retrouver toutes les prochains événements concernant 
@@ -297,7 +297,7 @@
         </div>
         <!--Lives-->
         <div class="flex flex-col items-center w-max md:w-1/3 xl:w-1/4 mt-10">
-            <Lives/>
+            <Lives class="RS"/>
             <p class="dark:text-white h4 my-5 font-poppins font-bold">Lives</p>
             <p class="dark:text-white font-poppins texte">Pour faciliter le suivi des équipes Unified Champions et du projet en parallèle, nous 
                 avons mis en place une rubriques live permettant aux utilisateurs d’avoir un accès facile aux matchs des équipes, 
@@ -305,7 +305,7 @@
         </div>
         <!--Boutique-->
         <div class="flex flex-col items-center w-max md:w-1/3 xl:w-1/4 mt-10">
-            <Boutique/>
+            <Boutique class="RS"/>
             <p class="dark:text-white h4 my-5 font-poppins font-bold">Boutique</p>
             <p class="dark:text-white font-poppins texte">Enfin, l’utilisateur a à sa disposition une page boutique, dans laquelle il pourra 
                 retrouver tous les objets relatifs à son équipe préférée : Unified Champions et les acheter.</p>
@@ -333,7 +333,7 @@
             site web, et la planification media pour la communication de notre projet.</p>
         </div>
         <div class="md:w-1/3 flex justify-center">
-            <img class="mt-10 md:mt-0" src="../../public/traits/GrandBleu.jpg" alt="ligne décorative"/>
+            <img class="XGauche mt-10 md:mt-0" src="../../public/traits/GrandBleu.jpg" alt="ligne décorative"/>
         </div>
     </div>
 
@@ -365,10 +365,10 @@
     <!--BLOCK RESEAUX SOCIAUX-->
     <div class="flex justify-center my-20 lg:my-28">
         <div class="bg-violet_pastel flex gap-5 justify-around items-center px-8 py-5 w-full md:w-2/3 lg:w-1/2">
-            <Instagram class=" lg:w-[93px] lg:h-[93px] md:w-[83px] md:h-[83px] w-[73px] h-[73px]"/>
-            <Twitch class=" lg:w-[100px] lg:h-[100px] md:w-[90px] md:h-[90px] w-[80px] h-[80px]"/>
-            <Tiktok class=" lg:w-[120px] lg:h-[120px] md:w-[110px] md:h-[110px] w-[90px] h-[90px]"/>
-            <Discord class=" lg:w-[120px] lg:h-[92] md:w-[110px] md:h-[82px] w-[100px] h-[72px]"/>
+            <Instagram class="RS Vibration lg:w-[93px] lg:h-[93px] md:w-[83px] md:h-[83px] w-[73px] h-[73px]"/>
+            <Twitch class="RS Vibration lg:w-[100px] lg:h-[100px] md:w-[90px] md:h-[90px] w-[80px] h-[80px]"/>
+            <Tiktok class="RS Vibration lg:w-[120px] lg:h-[120px] md:w-[110px] md:h-[110px] w-[90px] h-[90px]"/>
+            <Discord class="RS Vibration lg:w-[120px] lg:h-[92] md:w-[110px] md:h-[82px] w-[100px] h-[72px]"/>
         </div>
     </div>
 
@@ -450,7 +450,7 @@
         <div class="md:w-2/3 xl:w-max w-max">
             <img class="relative" src="../../public/CharteGraphique.jpg" alt="image charte graphique Unified Champions"/>
         </div>
-        <img class="hidden lg:block" src="../../public/traits/MoyenBleu.jpg" alt="trait décoratif"/>
+        <img class="XGauche hidden lg:block" src="../../public/traits/MoyenBleu.jpg" alt="trait décoratif"/>
     </div>
 
     <!--TEXTES-->
@@ -547,27 +547,27 @@
     </div>
 
     <!--REDACTION WEB-->
-    <div class="bg-violet_pastel w-full mt-10 md:mt-0 xl:mt-14">
+    <div class="bg-violet_pastel hover:bg-opacity-50 w-full mt-10 md:mt-0 xl:mt-14">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">RÉDACTION WEB</p>
     </div>
     <!--DEVELOPPEMENT WORDPRESS-->
-    <div class="bg-Rose mt-5 bg-opacity-50 w-full ">
+    <div class="bg-Rose hover:bg-opacity-100 mt-5 bg-opacity-50 w-full ">
         <p class="text-[50px] tracking-widest text-center items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">DÉVELOPPEMENT WORDPRESS</p>
     </div>
     <!--TRAVAIL D'ÉQUIPE-->
-    <div class="bg-violet_pastel bg-opacity-50 mt-5 w-full ">
+    <div class="bg-violet_pastel hover:bg-opacity-100 bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">TRAVAIL D'ÉQUIPE</p>
     </div>
     <!--PROFESSIONNALISME-->
-    <div class="bg-Turquoise mt-5 w-full ">
+    <div class="bg-Turquoise hover:bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">PROFESSIONNALISME</p>
     </div>
     <!--CREATIVITE-->
-    <div class="bg-Rose mt-5 w-full ">
+    <div class="bg-Rose hover:bg-opacity-50 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">CRÉATIVITÉ</p>
     </div>
     <!--ADAPTATION-->
-    <div class="bg-Turquoise bg-opacity-40 mt-5 w-full ">
+    <div class="bg-Turquoise hover:bg-opacity-100 bg-opacity-40 mt-5 w-full ">
         <p class="text-[50px] tracking-widest items-center justify-center flex font-anton md:text-[65px] xl:text-[80px]">ADAPTATION</p>
     </div>
 
@@ -647,6 +647,85 @@
   100%{
     background-color: rgb(120, 121, 241);
   }
+}
+
+.Vibration {
+    animation: vibrate 0.5s infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.Violet-VioletP {
+    animation: Violet-VioletP 4s infinite;
+}
+@keyframes Violet-VioletP {
+    0%{
+        color: rgba(120, 121, 241);
+    }
+    50%{
+        color: rgb(120, 121, 241, 0.7);
+    }
+    100%{
+         color: rgba(120, 121, 241);;
+    }
+}
+
+.RoseP-Rose {
+    animation: RoseP-Rose 2s infinite;
+}
+@keyframes RoseP-Rose {
+    0%{
+        color: rgba(255, 143, 163, 0.7);
+}
+    50%{
+        color: rgb(255, 143, 163);
+    }
+    100%{
+        color: rgba(255, 143, 163, 0.7);
+    }
+}
+
+.Bleu-BleuP {
+    animation: Bleu-BleuP 4s infinite;
+}
+@keyframes Bleu-BleuP {
+    0%{
+        color: rgba(0, 223, 237)
+}
+    50%{
+        color: rgba(0, 223, 237, 0.6)
+    }
+    100%{
+        color: rgba(0, 223, 237)
+    }
+}
+
+.Rose-RoseP {
+    animation: Rose-RoseP 2s infinite;
+}
+
+@keyframes Rose-RoseP {
+    0%{
+        color: rgb(255, 143, 163);
+    }
+    50%{
+        color: rgba(255, 143, 163, 0.7);
+    }
+    100%{
+        color: rgb(255, 143, 163);
+    }
 }
 </style>
 
