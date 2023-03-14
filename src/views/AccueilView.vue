@@ -200,7 +200,7 @@
       </div>
 
 <!--TELECHARGEMENT DU CV-->
-    <a href="../../public/CV_JulieAlbini.pdf" download>
+    <a href="/CV_JulieAlbini.pdf" download>
       <div class="mt-28  bg-Turquoise AnimCV border-t-4 border-b-4 border-Turquoise border-opacity-10 bg-opacity-40 xl:w-full">
         <div class="flex justify-center items-center gap-5 md:gap-10">
           <FlecheRose class="md:w-[82px] md:h-[49px] lg:w-[102px] lg:h-[69px] xl:w-[150px] xl:h-[85px] "/>
