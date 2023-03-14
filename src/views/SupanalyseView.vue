@@ -179,10 +179,13 @@
                 à chaque chargement de page.</p>
 
             <div class="lg:hidden my-10 flex items-center justify-center gap-10 lg:justify-between">
-                <TailwindRose class="RS Vibration md:w-[120px] md:h-[60px] w-[110px] h-[50px]"/>
+                <div class="flex flex-col gap-2 items-center">
+                    <TailwindRose class="RS Vibration md:w-[120px] md:h-[60px] w-[110px] h-[50px]"/>
+                    <p class="RS font-anton Vibration text-Rose bouton">Tailwind</p>
+                </div>
                 <div class="flex flex-col gap-2 items-center">
                     <ChartjsRose class="RS Vibration md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
-                    <p class="RS font-anton Vibration text-Rose bouton">Tailwind</p>
+                    <p class="RS font-anton Vibration text-Rose bouton">ChartJS</p>
                 </div>
                 <VueRose class="RS Vibration md:w-[120px] md:h-[100px] w-[100px] h-[80px]"/>
             </div>
@@ -201,10 +204,13 @@
         </div>
         <div class="hidden lg:w-1/2 lg:flex flex-col gap-28">
             <div class="flex items-center justify-around">
-                <TailwindRose class="RS Vibration w-[130px] h-[70px] xl:w-[150px] xl:h-[90px]"/>
+                <div class="flex flex-col gap-3 items-center">
+                    <TailwindRose class="RS Vibration w-[130px] h-[70px] xl:w-[150px] xl:h-[90px]"/>
+                    <p class="RS Vibration font-anton text-Rose bouton">Tailwind</p>
+                </div>
                 <div class="flex flex-col gap-3 items-center">
                     <ChartjsRose class="RS Vibration w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
-                    <p class="RS Vibration font-anton text-Rose bouton">Tailwind</p>
+                    <p class="RS Vibration font-anton text-Rose bouton">ChartJS</p>
                 </div>
                 <VueRose class="RS Vibration w-[130px] h-[110px] xl:w-[150px] xl:h-[130px]"/>
             </div>
